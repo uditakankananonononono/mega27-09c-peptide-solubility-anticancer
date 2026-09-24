@@ -1,0 +1,78 @@
+{
+ "anticp2_main": {
+  "pos": {
+   "n": 860,
+   "len_min": 3,
+   "len_med": 18,
+   "len_max": 50
+  },
+  "neg": {
+   "n": 863,
+   "len_min": 2,
+   "len_med": 26,
+   "len_max": 50
+  }
+ },
+ "anticp2_alt": {
+  "pos": {
+   "n": 969,
+   "len_min": 3,
+   "len_med": 19,
+   "len_max": 50
+  },
+  "neg": {
+   "n": 972,
+   "len_min": 5,
+   "len_med": 28,
+   "len_max": 50
+  }
+ },
+ "cancerppd": {
+  "n": 2647,
+  "len_min": 5,
+  "len_med": 16,
+  "len_max": 63
+ },
+ "esol": {
+  "pos": {
+   "n": 1655,
+   "len_min": 46,
+   "len_med": 243,
+   "len_max": 1367
+  },
+  "neg": {
+   "n": 1003,
+   "len_min": 29,
+   "len_med": 317,
+   "len_max": 1329
+  }
+ },
+ "amylogram": {
+  "pos": {
+   "n": 420,
+   "len_min": 5,
+   "len_med": 6,
+   "len_max": 83
+  },
+  "neg": {
+   "n": 1044,
+   "len_min": 4,
+   "len_med": 6,
+   "len_max": 36
+  }
+ },
+ "apd3": {
+  "n": 3203,
+  "len_min": 5,
+  "len_med": 28,
+  "len_max": 100
+ },
+ "uniprot_panel": {
+  "n": 118,
+  "len_med": 228
+ },
+ "dbaasp": {
+  "n": 169,
+  "len_med": 15
+ }
+}

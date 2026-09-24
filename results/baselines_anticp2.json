@@ -1,0 +1,122 @@
+[
+  {
+    "model": "SVM-AAC",
+    "encoding": "aac",
+    "dataset": "anticp2_main",
+    "accuracy": 0.5755813953488372,
+    "sensitivity": 0.43859649122807015,
+    "specificity": 0.7109826589595376,
+    "mcc": 0.1554945258347451,
+    "auc": 0.5788628604265963,
+    "n_train": 1379,
+    "n_test": 344
+  },
+  {
+    "model": "SVM-DPC",
+    "encoding": "dpc",
+    "dataset": "anticp2_main",
+    "accuracy": 0.502906976744186,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "mcc": 0.0,
+    "auc": 0.40844403880607105,
+    "n_train": 1379,
+    "n_test": 344
+  },
+  {
+    "model": "RF-DPC",
+    "encoding": "dpc",
+    "dataset": "anticp2_main",
+    "accuracy": 0.6802325581395349,
+    "sensitivity": 0.7894736842105263,
+    "specificity": 0.5722543352601156,
+    "mcc": 0.3703933919508111,
+    "auc": 0.778521448128993,
+    "n_train": 1379,
+    "n_test": 344
+  },
+  {
+    "model": "ET-DPC",
+    "encoding": "dpc",
+    "dataset": "anticp2_main",
+    "accuracy": 0.7209302325581395,
+    "sensitivity": 0.7894736842105263,
+    "specificity": 0.653179190751445,
+    "mcc": 0.44665680611405995,
+    "auc": 0.7990061859851942,
+    "n_train": 1379,
+    "n_test": 344
+  },
+  {
+    "model": "RF-DESC",
+    "encoding": "desc",
+    "dataset": "anticp2_main",
+    "accuracy": 0.6627906976744186,
+    "sensitivity": 0.7485380116959064,
+    "specificity": 0.5780346820809249,
+    "mcc": 0.3313102925026179,
+    "auc": 0.7447689551431564,
+    "n_train": 1379,
+    "n_test": 344
+  },
+  {
+    "model": "SVM-AAC",
+    "encoding": "aac",
+    "dataset": "anticp2_alternate",
+    "accuracy": 0.8036175710594315,
+    "sensitivity": 0.8031088082901554,
+    "specificity": 0.8041237113402062,
+    "mcc": 0.6072325196303616,
+    "auc": 0.8585545643929279,
+    "n_train": 1554,
+    "n_test": 387
+  },
+  {
+    "model": "SVM-DPC",
+    "encoding": "dpc",
+    "dataset": "anticp2_alternate",
+    "accuracy": 0.5012919896640827,
+    "sensitivity": 0.0,
+    "specificity": 1.0,
+    "mcc": 0.0,
+    "auc": 0.25695742748784783,
+    "n_train": 1554,
+    "n_test": 387
+  },
+  {
+    "model": "RF-DPC",
+    "encoding": "dpc",
+    "dataset": "anticp2_alternate",
+    "accuracy": 0.7906976744186046,
+    "sensitivity": 0.917098445595855,
+    "specificity": 0.6649484536082474,
+    "mcc": 0.6012371607952129,
+    "auc": 0.9191683136584583,
+    "n_train": 1554,
+    "n_test": 387
+  },
+  {
+    "model": "ET-DPC",
+    "encoding": "dpc",
+    "dataset": "anticp2_alternate",
+    "accuracy": 0.8475452196382429,
+    "sensitivity": 0.9119170984455959,
+    "specificity": 0.7835051546391752,
+    "mcc": 0.7010621236654389,
+    "auc": 0.9310400085465519,
+    "n_train": 1554,
+    "n_test": 387
+  },
+  {
+    "model": "RF-DESC",
+    "encoding": "desc",
+    "dataset": "anticp2_alternate",
+    "accuracy": 0.8191214470284238,
+    "sensitivity": 0.9119170984455959,
+    "specificity": 0.7268041237113402,
+    "mcc": 0.6497474460328404,
+    "auc": 0.9191950216334597,
+    "n_train": 1554,
+    "n_test": 387
+  }
+]

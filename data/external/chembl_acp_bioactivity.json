@@ -1,0 +1,525 @@
+{
+ "molecules": {
+  "magainin": [
+   {
+    "chembl_id": "CHEMBL414933",
+    "name": "MAGAININ 2"
+   },
+   {
+    "chembl_id": "CHEMBL409372",
+    "name": "MAGAININ I"
+   },
+   {
+    "chembl_id": "CHEMBL437357",
+    "name": "MAGAININ 1"
+   }
+  ],
+  "LL-37": [],
+  "melittin": [
+   {
+    "chembl_id": "CHEMBL412927",
+    "name": "MELITTIN"
+   },
+   {
+    "chembl_id": "CHEMBL1673379",
+    "name": "MELITTIN PEPTOID F"
+   }
+  ],
+  "cecropin": [
+   {
+    "chembl_id": "CHEMBL1649725",
+    "name": "CECROPIN AD"
+   },
+   {
+    "chembl_id": "CHEMBL1673088",
+    "name": "CECROPIN B"
+   },
+   {
+    "chembl_id": "CHEMBL2252946",
+    "name": "CECROPIN A"
+   }
+  ]
+ },
+ "activities": [
+  {
+   "id": 810713,
+   "mol": "CHEMBL414933",
+   "type": "MIC",
+   "value": "40.0",
+   "units": "ug.mL-1",
+   "target": "Staphylococcus aureus"
+  },
+  {
+   "id": 810714,
+   "mol": "CHEMBL414933",
+   "type": "MIC",
+   "value": "50.0",
+   "units": "ug.mL-1",
+   "target": "NON-PROTEIN TARGET"
+  },
+  {
+   "id": 810715,
+   "mol": "CHEMBL414933",
+   "type": "MIC",
+   "value": "20.0",
+   "units": "ug.mL-1",
+   "target": "Pseudomonas aeruginosa"
+  },
+  {
+   "id": 810716,
+   "mol": "CHEMBL414933",
+   "type": "MIC",
+   "value": "20.0",
+   "units": "ug.mL-1",
+   "target": "Escherichia coli"
+  },
+  {
+   "id": 810717,
+   "mol": "CHEMBL414933",
+   "type": "MIC",
+   "value": "50.0",
+   "units": "ug.mL-1",
+   "target": "Candida albicans"
+  },
+  {
+   "id": 810718,
+   "mol": "CHEMBL414933",
+   "type": "HD50",
+   "value": null,
+   "units": null,
+   "target": "Mus musculus"
+  },
+  {
+   "id": 885607,
+   "mol": "CHEMBL414933",
+   "type": "MIC",
+   "value": "5.0",
+   "units": "ug.mL-1",
+   "target": "Unchecked"
+  },
+  {
+   "id": 2044990,
+   "mol": "CHEMBL414933",
+   "type": "MIC",
+   "value": "50.0",
+   "units": "ug.mL-1",
+   "target": "Staphylococcus aureus"
+  },
+  {
+   "id": 2044991,
+   "mol": "CHEMBL414933",
+   "type": "MIC",
+   "value": "50.0",
+   "units": "ug.mL-1",
+   "target": "Micrococcus luteus"
+  },
+  {
+   "id": 2044992,
+   "mol": "CHEMBL414933",
+   "type": "MIC",
+   "value": "25.0",
+   "units": "ug.mL-1",
+   "target": "Pseudomonas aeruginosa"
+  },
+  {
+   "id": 889299,
+   "mol": "CHEMBL409372",
+   "type": "MIC",
+   "value": "5.0",
+   "units": "ug.mL-1",
+   "target": "Unchecked"
+  },
+  {
+   "id": 2627593,
+   "mol": "CHEMBL409372",
+   "type": "Activity",
+   "value": "90.0",
+   "units": "%",
+   "target": "Candida albicans"
+  },
+  {
+   "id": 2627594,
+   "mol": "CHEMBL409372",
+   "type": "Activity",
+   "value": "90.0",
+   "units": "%",
+   "target": "Candida albicans"
+  },
+  {
+   "id": 2627595,
+   "mol": "CHEMBL409372",
+   "type": "Activity",
+   "value": "90.0",
+   "units": "%",
+   "target": "Candida albicans"
+  },
+  {
+   "id": 2627596,
+   "mol": "CHEMBL409372",
+   "type": "Activity",
+   "value": "90.0",
+   "units": "%",
+   "target": "Candida albicans"
+  },
+  {
+   "id": 1904192,
+   "mol": "CHEMBL437357",
+   "type": "MIC",
+   "value": "30000.0",
+   "units": "nM",
+   "target": "Salmonella typhimurium"
+  },
+  {
+   "id": 1904231,
+   "mol": "CHEMBL437357",
+   "type": "Activity",
+   "value": null,
+   "units": null,
+   "target": "Staphylococcus aureus"
+  },
+  {
+   "id": 1904232,
+   "mol": "CHEMBL437357",
+   "type": "MIC",
+   "value": null,
+   "units": null,
+   "target": "Mycobacterium"
+  },
+  {
+   "id": 1904233,
+   "mol": "CHEMBL437357",
+   "type": "Activity",
+   "value": null,
+   "units": null,
+   "target": "Bacillus subtilis"
+  },
+  {
+   "id": 1904234,
+   "mol": "CHEMBL437357",
+   "type": "Activity",
+   "value": null,
+   "units": null,
+   "target": "ADMET"
+  },
+  {
+   "id": 810719,
+   "mol": "CHEMBL412927",
+   "type": "MIC",
+   "value": "3.12",
+   "units": "ug.mL-1",
+   "target": "Staphylococcus aureus"
+  },
+  {
+   "id": 810720,
+   "mol": "CHEMBL412927",
+   "type": "MIC",
+   "value": "0.78",
+   "units": "ug.mL-1",
+   "target": "NON-PROTEIN TARGET"
+  },
+  {
+   "id": 810721,
+   "mol": "CHEMBL412927",
+   "type": "MIC",
+   "value": "1.56",
+   "units": "ug.mL-1",
+   "target": "Pseudomonas aeruginosa"
+  },
+  {
+   "id": 810722,
+   "mol": "CHEMBL412927",
+   "type": "MIC",
+   "value": "3.12",
+   "units": "ug.mL-1",
+   "target": "Escherichia coli"
+  },
+  {
+   "id": 810723,
+   "mol": "CHEMBL412927",
+   "type": "MIC",
+   "value": "1.56",
+   "units": "ug.mL-1",
+   "target": "Candida albicans"
+  },
+  {
+   "id": 810724,
+   "mol": "CHEMBL412927",
+   "type": "HD50",
+   "value": null,
+   "units": null,
+   "target": "Mus musculus"
+  },
+  {
+   "id": 1101245,
+   "mol": "CHEMBL412927",
+   "type": "MIC",
+   "value": "3000.0",
+   "units": "nM",
+   "target": "Escherichia coli"
+  },
+  {
+   "id": 1101246,
+   "mol": "CHEMBL412927",
+   "type": "MIC",
+   "value": "6000.0",
+   "units": "nM",
+   "target": "Pseudomonas aeruginosa"
+  },
+  {
+   "id": 1101247,
+   "mol": "CHEMBL412927",
+   "type": "MIC",
+   "value": "3000.0",
+   "units": "nM",
+   "target": "Staphylococcus aureus"
+  },
+  {
+   "id": 1101248,
+   "mol": "CHEMBL412927",
+   "type": "Concentration",
+   "value": "1.0",
+   "units": "uM",
+   "target": "Mus musculus"
+  },
+  {
+   "id": 5210951,
+   "mol": "CHEMBL1673379",
+   "type": "MIC",
+   "value": "4000.0",
+   "units": "nM",
+   "target": "Escherichia coli"
+  },
+  {
+   "id": 5210952,
+   "mol": "CHEMBL1673379",
+   "type": "MIC",
+   "value": "2000.0",
+   "units": "nM",
+   "target": "Staphylococcus aureus"
+  },
+  {
+   "id": 5210953,
+   "mol": "CHEMBL1673379",
+   "type": "MHC",
+   "value": "100.0",
+   "units": "uM",
+   "target": "ADMET"
+  },
+  {
+   "id": 5178747,
+   "mol": "CHEMBL1649725",
+   "type": "MIC",
+   "value": "1.8",
+   "units": "ug.mL-1",
+   "target": "Escherichia coli"
+  },
+  {
+   "id": 5178748,
+   "mol": "CHEMBL1649725",
+   "type": "MIC",
+   "value": "2.0",
+   "units": "ug.mL-1",
+   "target": "Escherichia coli"
+  },
+  {
+   "id": 5178749,
+   "mol": "CHEMBL1649725",
+   "type": "MIC",
+   "value": "2.0",
+   "units": "ug.mL-1",
+   "target": "Escherichia coli"
+  },
+  {
+   "id": 5178750,
+   "mol": "CHEMBL1649725",
+   "type": "MIC",
+   "value": "8.0",
+   "units": "ug.mL-1",
+   "target": "Salmonella typhimurium"
+  },
+  {
+   "id": 5178751,
+   "mol": "CHEMBL1649725",
+   "type": "MIC",
+   "value": "16.0",
+   "units": "ug.mL-1",
+   "target": "Salmonella enteritidis"
+  },
+  {
+   "id": 5178752,
+   "mol": "CHEMBL1649725",
+   "type": "MIC",
+   "value": "0.2",
+   "units": "ug.mL-1",
+   "target": "Staphylococcus aureus"
+  },
+  {
+   "id": 5178753,
+   "mol": "CHEMBL1649725",
+   "type": "MIC",
+   "value": "24.0",
+   "units": "ug.mL-1",
+   "target": "Enterococcus faecalis"
+  },
+  {
+   "id": 5178754,
+   "mol": "CHEMBL1649725",
+   "type": "GI",
+   "value": null,
+   "units": null,
+   "target": "Staphylococcus aureus"
+  },
+  {
+   "id": 5178755,
+   "mol": "CHEMBL1649725",
+   "type": "GI",
+   "value": null,
+   "units": null,
+   "target": "Staphylococcus aureus"
+  },
+  {
+   "id": 5178756,
+   "mol": "CHEMBL1649725",
+   "type": "GI",
+   "value": null,
+   "units": null,
+   "target": "Staphylococcus aureus"
+  },
+  {
+   "id": 5226062,
+   "mol": "CHEMBL1673088",
+   "type": "Activity",
+   "value": null,
+   "units": null,
+   "target": "NON-PROTEIN TARGET"
+  },
+  {
+   "id": 5226063,
+   "mol": "CHEMBL1673088",
+   "type": "Activity",
+   "value": null,
+   "units": null,
+   "target": "Vibrio vulnificus"
+  },
+  {
+   "id": 5226064,
+   "mol": "CHEMBL1673088",
+   "type": "Activity",
+   "value": null,
+   "units": null,
+   "target": "Yersinia ruckeri"
+  },
+  {
+   "id": 5226065,
+   "mol": "CHEMBL1673088",
+   "type": "Activity",
+   "value": null,
+   "units": null,
+   "target": "NON-PROTEIN TARGET"
+  },
+  {
+   "id": 5226066,
+   "mol": "CHEMBL1673088",
+   "type": "Activity",
+   "value": null,
+   "units": null,
+   "target": "NON-PROTEIN TARGET"
+  },
+  {
+   "id": 5226067,
+   "mol": "CHEMBL1673088",
+   "type": "Activity",
+   "value": null,
+   "units": null,
+   "target": "NON-PROTEIN TARGET"
+  },
+  {
+   "id": 5226068,
+   "mol": "CHEMBL1673088",
+   "type": "MIC",
+   "value": "147.0",
+   "units": "ug.mL-1",
+   "target": "NON-PROTEIN TARGET"
+  },
+  {
+   "id": 5226069,
+   "mol": "CHEMBL1673088",
+   "type": "MIC",
+   "value": "85.0",
+   "units": "ug.mL-1",
+   "target": "Vibrio vulnificus"
+  },
+  {
+   "id": 5226070,
+   "mol": "CHEMBL1673088",
+   "type": "MIC",
+   "value": "100.0",
+   "units": "ug.mL-1",
+   "target": "Yersinia ruckeri"
+  },
+  {
+   "id": 5226071,
+   "mol": "CHEMBL1673088",
+   "type": "MIC",
+   "value": "25.0",
+   "units": "ug.mL-1",
+   "target": "Pseudomonas fluorescens"
+  },
+  {
+   "id": 12448768,
+   "mol": "CHEMBL2252946",
+   "type": "HD50",
+   "value": null,
+   "units": null,
+   "target": "ADMET"
+  },
+  {
+   "id": 12448808,
+   "mol": "CHEMBL2252946",
+   "type": "ED50",
+   "value": "0.3",
+   "units": "uM",
+   "target": "Xanthomonas vesicatoria"
+  },
+  {
+   "id": 12448821,
+   "mol": "CHEMBL2252946",
+   "type": "ED50",
+   "value": "0.3",
+   "units": "uM",
+   "target": "Pseudomonas syringae pv. syringae"
+  },
+  {
+   "id": 12448834,
+   "mol": "CHEMBL2252946",
+   "type": "ED50",
+   "value": "0.3",
+   "units": "uM",
+   "target": "Erwinia amylovora"
+  },
+  {
+   "id": 12448847,
+   "mol": "CHEMBL2252946",
+   "type": "MIC",
+   "value": "1000.0",
+   "units": "nM",
+   "target": "Xanthomonas vesicatoria"
+  },
+  {
+   "id": 12448860,
+   "mol": "CHEMBL2252946",
+   "type": "MIC",
+   "value": "1000.0",
+   "units": "nM",
+   "target": "Pseudomonas syringae pv. syringae"
+  },
+  {
+   "id": 12448873,
+   "mol": "CHEMBL2252946",
+   "type": "MIC",
+   "value": "1000.0",
+   "units": "nM",
+   "target": "Erwinia amylovora"
+  }
+ ]
+}

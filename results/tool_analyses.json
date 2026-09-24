@@ -1,0 +1,54 @@
+{
+ "xgboost_anticp2_main": {
+  "auroc": 0.7487
+ },
+ "lightgbm_anticp2_main": {
+  "auroc": 0.7421
+ },
+ "statsmodels_pep424_ci": {
+  "auroc": 0.7902,
+  "foldamyloid": 0.748,
+  "wilson_ci_on_correct_classification_proxy": [
+   0.7484,
+   0.8263
+  ],
+  "n": 419
+ },
+ "statsmodels_logit_anticp2_main": {
+  "auroc": 0.6561,
+  "top_descriptor_indices": [
+   7,
+   8,
+   16
+  ],
+  "converged": true
+ },
+ "networkx_candidate_graph": {
+  "nodes": 20,
+  "edges": 41,
+  "candidate_centrality": 0.2105,
+  "components": 1
+ },
+ "propy3_ctd_hydrophobicity_spearman": {
+  "rho": -0.8358,
+  "n": 100,
+  "propy_key": "_HydrophobicityC1 (polar-group fraction; negative rho expected and observed)"
+ },
+ "pyteomics_mass_crossval": {
+  "n": 50,
+  "max_abs_diff_da": 0.0282
+ },
+ "biotite_candidate_vs_ll37core": {
+  "alignment_score": 9,
+  "alignment": [
+   [
+    "I",
+    "K"
+   ],
+   [
+    "I",
+    "K"
+   ]
+  ]
+ }
+}

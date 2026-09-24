@@ -1,0 +1,42 @@
+{
+ "2K6O": {
+  "title": "Human LL-37 Structure",
+  "method": "SOLUTION NMR",
+  "resolution": null
+ },
+ "2MAG": {
+  "title": "NMR STRUCTURE OF MAGAININ 2 IN DPC MICELLES, 10 STRUCTURES",
+  "method": "SOLUTION NMR",
+  "resolution": null
+ },
+ "1D9X": {
+  "title": "CRYSTAL STRUCTURE OF THE DNA REPAIR PROTEIN UVRB",
+  "method": "X-RAY DIFFRACTION",
+  "resolution": 2.6
+ },
+ "6MNF": {
+  "title": "Anti-HIV-1 Fab 2G12 + Man8 re-refinement",
+  "method": "X-RAY DIFFRACTION",
+  "resolution": 2.758
+ },
+ "2K7P": {
+  "title": "Filamin A Ig-like domains 16-17",
+  "method": "SOLUTION NMR",
+  "resolution": null
+ },
+ "1Z5M": {
+  "title": "Crystal Structure Of N1-[3-[[5-bromo-2-[[3-[(1-pyrrolidinylcarbonyl)amino]phenyl]amino]-4-pyrimidinyl]amino]propyl]-2,2-dimethylpropanediamide Complexed with Human PDK1",
+  "method": "X-RAY DIFFRACTION",
+  "resolution": 2.17
+ },
+ "2L24": {
+  "title": "Antimicrobial peptide",
+  "method": "SOLUTION NMR",
+  "resolution": null
+ },
+ "8F0I": {
+  "title": "Crystal structure of SARS-CoV-2 receptor binding domain in complex with human antibody COVA309-22",
+  "method": "X-RAY DIFFRACTION",
+  "resolution": 3.7
+ }
+}

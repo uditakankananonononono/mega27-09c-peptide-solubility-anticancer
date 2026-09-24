@@ -1,0 +1,366 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Hemolytik: Database of hemolytic peptides</title>
+<meta name="keywords" content="database, designing, cancer, siRNA, personalized, therapy, imtech, New Delhi" />
+<meta name="description" content="Identification of cancer specific siRNAs for personalized therapy" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="script.js"></script>
+<link href="menu_assets/styles.css" rel="stylesheet" type="text/css">
+<link href="dk.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+<!-- slider code starts-->
+<script type="text/javascript" src="translucentslideshow.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<style type="text/css">
+
+#myslideshow{ /*sample CSS for demo*/
+border:2px solid black;
+}
+
+</style>
+
+<script src="translucentslideshow.js" type="text/javascript">
+
+/***********************************************
+* Translucent slideshow- (c) Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+
+</script>
+
+<!-- slider code ends-->
+<script type="text/javascript">
+	var parentAccordion=new TINY.accordion.slider("parentAccordion");
+	parentAccordion.init("acc","h3",0,0);
+	var nestedAccordion=new TINY.accordion.slider("nestedAccordion");
+	nestedAccordion.init("nested","h3",1,-1,"acc-selected");
+</script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+
+        $("ul.subnav").parent().append("<span></span>"); //Only shows drop down trigger when js is enabled - Adds empty span tag after ul.subnav
+        
+        $("ul.topnav li span").hover(function() { //When trigger is clicked...
+                
+                //Following events are applied to the subnav itself (moving subnav up and down)
+                $(this).parent().find("ul.subnav").slideDown('fast').show(); //Drop down the subnav on click
+
+                $(this).parent().hover(function() {
+                }, function(){  
+                        $(this).parent().find("ul.subnav").slideUp('slow'); //When the mouse hovers out of the subnav, move it back up
+                });
+
+                //Following events are applied to the trigger (Hover events for the trigger)
+                }).hover(function() { 
+                        $(this).addClass("subhover"); //On hover over, add class "subhover"
+                }, function(){  //On Hover Out
+                        $(this).removeClass("subhover"); //On hover out, remove class "subhover"
+        });
+
+});
+</script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"> </script>
+<!-- newly added sud-->
+<style type="text/css">
+body {  position: absolute;}
+#cssm1 *  { padding:12; margin: -7; font: 1em arial; }
+#cssm1 { position: absolute;  z-index: 99; margin: 0 auto; float: centre; line-height: 20px; }
+#cssm1 a { display: block; border: 1px solid #fff; background: #000000;repeat-x; color: #FFFFFF; text-decoration: none; padding: 5px 8px 7px 6px;font-size:1.4em; }
+#cssm1 a:hover { background: #789; color: #FFFFFF;}
+#cssm1 ul li, #cssm1 ul li ul li  { width: 130px; list-style-type:none; }
+#cssm1 ul li { float: left; width: 142px; }
+#cssm1 ul li ul, #cssm1:hover ul li ul, #cssm1:hover ul li:hover ul li ul{
+        display:none;
+        list-style-type:none;
+        width: 151px;
+        }
+#cssm1:hover ul, #cssm1:hover ul li:hover ul, #cssm1:hover ul li:hover ul li:hover ul {
+        display:block;
+        }
+#cssm1:hover ul li:hover ul li:hover ul {
+        position: absolute;
+        margin-left: 131px;
+        margin-top: -20px;
+        }
+</style>
+<!-- newly added sud ends -->
+
+
+
+
+</head>
+<body>
+<!--div id="fb-root"></div-->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="templatemo_container">
+	<div class="templatemo_line"></div> 
+	<div id="templatemo_header">
+		<div id="templatemo_site_title"><img src="images/Hem.png" width=1280px height=200px></div>
+		<!--div id="templatemo_site_slogan">Homepage Dr. GPS Raghava</div-->
+	</div>
+	<div class="templatemo_line"></div>
+	<div id="templatemo_content">
+		<div id="templatemo_left_column">
+			<div id='cssmenu'>
+				<ul>			
+				<li class='active '><a href='about.php'><span>ABOUT</span></a></li>
+                                         <li><a href='imp.php'><span>IMPROTANT</span></a></li>
+                                        <li><a href='links.php'><span>LINKS</span></a></li>
+                                        <li><a href='submission.php'><span>SUBMISSION</span></a></li>
+                                        <li><a href='down.php'><span>DOWNLOAD</span></a></li>
+					<li><a href='stat.php'><span>STATISTICS</span></a></li>
+					<li><a href='recent.php'><span>RECENT PUBs</span></a></li>
+                                        <li><a href='team.php'><span>TEAM</span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="templatemo_right_column">
+
+
+<!-- newly added -->
+
+<div id="cssm1">
+        <ul>
+                <li><a href="index.php">HOME</a></li>
+
+                </li>
+                <li><a href="#">SEARCH</a>
+                                                <ul>
+                                                <li><a href="keyword.php">KEYWORD</a></li>
+                                                <li><a href="advanced.php">ADVANCED </a></li>
+						<li><a href="peptide.php">PEPTIDE</a></li>
+						</ul>
+                </li>
+        <li><a href="#">BROWSE</a>
+                                                <ul>
+                                              <li><a href="major.php">MAJOR FIELDS</a></li>
+                                                <li><a href="aafrequency.php">AA FREQUENCY</a></li>
+                                                <li><a href="aacomposition.php">AA COMPOSITION</a></li>
+					      <li><a href="ppfrequency.php">PP FREQUENCY </a></li>
+                                                <li><a href="ppcomposition.php">PP COMPOSITION</a></li>
+                                                <li><a href="ppvalues.php">PP VALUES</a></li>
+						</ul>
+                </li>
+
+                <li><a href="#">TOOLS</a>
+		                                <ul>
+                                                <li><a href="blastsearch.php">BLAST SEARCH</a></li>
+                                                <li><a href="smith.php">SMITH-WATERMAN ALGORITHM</a></li>
+						<li><a href="pid.php">IDENTICAL RESIDUES </a></li>
+                                                <li><a href="pep.php">PEPTIDE MAPPING</a></li>
+                                                <li><a href="prop.php">PP Values</a></li>
+						</ul>
+
+
+		</li>
+                
+                <li><a href="#">STRUCTURE</a>
+		                                <ul>
+						<li><a href="dssp_comp.php">SS COMPOSITION</a></li>
+                                                <li><a href="dssp_state.php">SS SEARCH</a></li>
+                                                <li><a href="3ds.php">3D STRUCTURES</a></li>
+						</ul>  
+						
+		</li>
+                <li><a href="help.php">DOWNLOADS</a></li>
+<li><a href="#">GUIDE</a>
+                                                <ul>
+                                                <li><a href='imp.php'><span>IMPORTANT</span></a></li>
+                                        <li><a href='submission.php'><span>SUBMISSION</span></a></li>
+                                        <li><a href='sub.php'><span>DOWNLOAD</span></a></li>
+                                        <li><a href='stat.php'><span>STATISTICS</span></a></li>
+                                        <li><a href='recent.php'><span>RECENT PUBs</span></a></li>
+                                        <li><a href='team.php'><span>TEAM</span></a></li>
+					</ul>
+
+                </li> 
+		 <li><a href="links.php">LINKS</a></li>
+
+               <li><a href="con.php">CONTACT</a>
+                                <!--ul>
+                                <li><a href="suppli.html">Supplementary Data</a></li>
+                                <li><a href="data.html">Data-set </a></li>
+                                </ul-->
+                                </li>
+
+
+        </ul>
+</div>
+
+<!-- newly added ends-->
+<br/><br/><br/><br/>
+<HTML>
+<TITLE>BLAST Search </TITLE>
+<table align=center border=1><tr><td width="99%" bgcolor="white">
+
+<table align="center" width="100%">
+<tr><td align=center>
+<table border ="1" >
+<tr bgcolor=#CACACA ><td colspan="2" width=95% align=center><font><h1>Important Links Page in Hemolytik</h1></font></td></tr>
+</table>
+</table>
+<br><br>
+
+<div class=td>
+<table align="center" table BGCOLOR="white" border="4" cellpadding="5" cellspacing="0" width="90%" padding-bottom >
+<tr bgcolor=#CACACA height=50><th><font size="+3"><strong>Links</strong></th><th><font size="+3"><strong>Description</strong></th></tr>
+
+
+<tr height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://www.broadinstitute.org/ccle/home" target="new"><font size="+1">CCLE</a></td><td><font size="+1">&nbsp;&nbsp;Cancer Cell Encyclopedia</td></tr>
+<tr bgcolor=#CACACA height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://www.sanger.ac.uk/genetics/CGP/cosmic/" target ="new"><font size="+1">COSMIC</a></td><td><font size="+1">&nbsp;&nbsp;Catalogue Of Somatic Mutations In Cancer</td></tr> 
+<tr height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://www.cancerrxgene.org/" target="new"><font size="+1">Welcome Trust</a></td><td><font size="+1">&nbsp;&nbsp;Genomics of Drug Sensitivity in Cancer</td></tr> 
+
+<tr bgcolor=#CACACA height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://dtp.nci.nih.gov/" target="new"><font size="+1">DTP</a></td><td><font size="+1">&nbsp;&nbsp;Developmental Therapeutic Programme, NCI</td></tr>
+
+<tr height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://www.sanger.ac.uk/genetics/CGP/Census/" target="new"><font size="+1">CGC</a></td><td><font size="+1">&nbsp;&nbsp;Cancer Gene Census</td></tr> 
+
+<tr bgcolor=#CACACA height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://genome-www.stanford.edu/nci60/" target="new"><font size="+1">NCI60</a></td><td><font size="+1">&nbsp;&nbsp;NCI60 Cancer Microarray Project</td></tr>
+
+<tr height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://www.coxen.org/" target="new"><font size="+1">Coxen</a></td><td><font size="+1">&nbsp;&nbsp;COXEN: Genomic Based Personalized Chemotherapeutics</td></tr>
+
+<tr bgcolor=#CACACA height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://cancergenome.nih.gov/" target="new"><font size="+1">Cancer Genome Atlas</a></td><td><font size="+1">&nbsp;&nbsp;The Cancer Genome Atlas (TCGA) Data Portal provides a platform for researchers to search, download, and analyze data sets generated by TCGA.</td></tr>
+
+<tr height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://www.icgc.org/" target="new"><font size="+1">ICGC</a></td><td><font size="+1">&nbsp;&nbsp;International Cancer Genome Consortium</td></tr>
+
+<tr bgcolor=#CACACA height=40><td valign="top"><b>&nbsp;&nbsp;<a href="https://cgwb.nci.nih.gov/" target="new"><font size="+1">CGWB</a></td><td><font size="+1">&nbsp;&nbsp;Cancer Genome Workbench</td></tr>
+
+<tr height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://www.intogen.org/home" target="new"><font size="+1">Intogen</a></td><td><font size="+1">&nbsp;&nbsp;Integrative Onco Genomics</td></tr>
+
+<tr bgcolor=#CACACA height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://bg.upf.edu/cgprio/" target="new"><font size="+1">CGPrio</a></td><td><font size="+1">&nbsp;&nbsp;CGprio is a resource for the prioritization of candidate cancer genes after genomic experiments.</td></tr>
+
+
+<tr height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://discover.nci.nih.gov/cellminer/" target="new"><font size="+1">CellMiner</a></td><td><font size="+1">&nbsp;&nbsp;CellMiner</td></tr>
+
+<tr bgcolor=#CACACA height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://www.sanger.ac.uk/genetics/CGP/Studies/" target="new"><font size="+1">CGP</a></td><td><font size="+1">&nbsp;&nbsp;CGP Resequencing Studies</td></tr> 
+
+
+
+<tr height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://www.cancer.gov/"target="new"><font size="+1">National Cancer Institute</a></td><td><font size="+1">&nbsp;&nbsp;National cancer institute is a part of National Institute of Health (NIH), where various kinds of cancer related statistics are available</td></tr> 
+
+<tr bgcolor=#CACACA height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://www.broadinstitute.org/scientific-community/science/programs/cancer/cancer" target="new"><font size="+1">Broad Institute</a></td><td><font size="+1">&nbsp;&nbsp;The Broad's Cancer Program is a scientific community focused on understanding the basic molecular mechanisms of cancer.</td></tr>
+
+<tr height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://www.who.int/"target="new"><font size="+1">WHO</a></td><td><font size="+1">&nbsp;&nbsp;World Health Organization</td></tr> 
+<tr bgcolor=#CACACA height=40><td valign="top"><b>&nbsp;&nbsp;<a href="http://webs.iiitd.edu.in/raghava/canceres/" target="new"><font size="+1">CanceRes</a></td><td><font size="+1">&nbsp;&nbsp;Site with various cancer related useful links are available</td></tr> 
+
+</table> 
+
+
+</table>
+</table></table></div></div>
+</div></div>
+<style type='text/css'>
+#button                                                                                                                                                      
+{
+background:;
+position:relative;
+width:80px;
+height:10px;
+line-height:5px;
+display:block;
+border:0px solid #dadada;                                                                                                                                    
+margin:-17px 0 0 20px;
+text-align:center;
+}
+#buttontwo                                                                                                                                                   
+{
+background: none repeat scroll 0 0 red;
+border: 0px solid #DADADA ;                                                                                                                                  
+color: white;
+width:100px;
+height: 0;
+overflow:hidden;
+left: 0;
+line-height: 30px;
+position: absolute;
+top: 40px;
+border-radius: 15px;
+}
+#button:hover > #buttontwo                                                                                                                                   
+{
+display:block;
+left:-7px;
+height:30px;
+}
+
+</style>
+
+
+<table width="1100" border="0" cellspacing="0" cellpadding="0" BORDERCOLOR=RED>
+<tr><td>
+<table width="1100" border="0" cellspacing="0" cellpadding="0" >
+
+<tr bgcolor='blue'>
+
+<td bgcolor="#000000" align="center" >
+	<div id="menu5">
+		<ul>
+		<li><a href="/raghava/hemolytik" target="_self"> Hemolytik</a></li>
+		
+	</ul>
+</div>
+
+</td>
+
+<td bgcolor="#000000" align="center" >
+	<div id="menu5">
+		<ul>
+		<li><a href="/raghava/" target="_self">Raghava's Group</a></li>
+		
+	</ul>
+</div>
+
+</td>
+
+<td bgcolor="#000000" align="center">
+	<div id="menu5">
+		<ul>
+		<li><a href="http://webs.iiitd.edu.in/" target="_self">IMTECH</a></li>
+		
+	</ul>
+</div>
+</td>
+<td bgcolor="#000000" align="center">
+	<div id="menu5">
+		<ul>
+		<li><a href="http://www.csir.res.in/" target="_self">CSIR</a></li>
+		
+	</ul>
+</div>
+
+</td><td bgcolor="#000000" align="center">
+	<div id="menu5">
+		<ul>
+		<li><a href="http://webs.iiitd.edu.in/" target="_self">CRDD</a></li>
+		
+	</ul>
+</div>
+
+</td>
+
+<td bgcolor="#000000" align="center">
+	<div id="menu5">
+		<ul>
+		<li><a href="/raghava/gpsr/" target="_self">GPSR Package</a></li>
+		
+	</ul>
+</div>
+
+</td>
+
+</tr>
+</div>
+</table>
+</td></tr>
+</table>
+<br>
+<br>

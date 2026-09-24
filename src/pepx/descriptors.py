@@ -24,11 +24,11 @@ HOPP_WOODS = dict(zip("ACDEFGHIKLMNPQRSTVWY", [-0.5, -1.0, 3.0, 3.0, 2.5, 0.0, -
 # Net charge contribution at pH 7.4 (Lehninger pKa values, Henderson-Hasselbalch midpoint approx.)
 CHARGE_PH74 = {"K": 1.0, "R": 1.0, "H": 0.1, "D": -1.0, "E": -1.0, "C": 0.0, "Y": 0.0}
 # Residue masses (average, Da) of the free amino acids; peptide mass = sum - (n-1)*18.015
-# Free amino-acid average masses (Da); verified against modlAMP GlobalDescriptor
+# Free amino-acid average masses (Da); verified against modlAMP AND pyteomics (all 20 residues)
 AA_MASS = dict(zip("ACDEFGHIKLMNPQRSTVWY", [89.094, 121.154, 133.103, 147.130, 165.192, 75.067,
                                             155.156, 131.175, 146.189, 131.175, 149.208, 132.119,
-                                            146.146, 115.132, 174.203, 105.093, 119.120, 204.228,
-                                            181.191, 117.147]))
+                                            115.131, 146.145, 174.203, 105.093, 119.120, 117.147,
+                                            204.226, 181.189]))
 # Chou-Fasman helix / sheet propensities (1978)
 CF_HELIX = dict(zip("ACDEFGHIKLMNPQRSTVWY", [1.42, 0.70, 1.01, 1.11, 1.00, 0.57, 1.51, 0.57, 1.00,
                                              1.21, 1.16, 1.14, 1.45, 0.57, 0.77, 0.83, 0.69, 1.08, 0.98, 1.06]))

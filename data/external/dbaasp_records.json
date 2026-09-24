@@ -1,0 +1,1185 @@
+[
+ {
+  "id": 36,
+  "dbaaspId": "DBAASPR_36",
+  "name": "Distinctin chain 2",
+  "sequence": "NLVSGLIEARKYLEQLHRKLKNCKV",
+  "length": 25
+ },
+ {
+  "id": 37,
+  "dbaaspId": "DBAASPR_37",
+  "name": "PGLa",
+  "sequence": "GMASKAGAIAGKIAKVALKAL",
+  "length": 21
+ },
+ {
+  "id": 38,
+  "dbaaspId": "DBAASPS_38",
+  "name": "",
+  "sequence": "KAaaKWAaKaAK",
+  "length": 12
+ },
+ {
+  "id": 51,
+  "dbaaspId": "DBAASPS_51",
+  "name": "",
+  "sequence": "KLlK",
+  "length": 4
+ },
+ {
+  "id": 52,
+  "dbaaspId": "DBAASPS_52",
+  "name": "K19Hc, K-Halocidin subunit A",
+  "sequence": "KWLNALLHHGLNCAKGVLA",
+  "length": 19
+ },
+ {
+  "id": 53,
+  "dbaaspId": "DBAASPS_53",
+  "name": "Beta-defensin 14 / mBD-14 [C11,18,23,33,41A]",
+  "sequence": "FLPKTLRKFFARIRGGRAAVLNALGKEEQIGRASNSGRKCARKKK",
+  "length": 45
+ },
+ {
+  "id": 54,
+  "dbaaspId": "DBAASPR_54",
+  "name": "Halocidin subunit B",
+  "sequence": "ALLHHGLNCAKGVLA",
+  "length": 15
+ },
+ {
+  "id": 55,
+  "dbaaspId": "DBAASPR_55",
+  "name": "Halocidin subunit A",
+  "sequence": "WLNALLHHGLNCAKGVLA",
+  "length": 18
+ },
+ {
+  "id": 56,
+  "dbaaspId": "DBAASPS_56",
+  "name": "K-Halocidin subunit A [L2K,N3K]",
+  "sequence": "KWKKALLHHGLNCAKGVLA",
+  "length": 19
+ },
+ {
+  "id": 57,
+  "dbaaspId": "DBAASPR_57",
+  "name": "Tenecin-1",
+  "sequence": "VTCDILSVEAKGVKLNDAACAAHCLFRGRSGGYCNGKRVCVCR",
+  "length": 43
+ },
+ {
+  "id": 58,
+  "dbaaspId": "DBAASPS_58",
+  "name": "",
+  "sequence": "VTC",
+  "length": 3
+ },
+ {
+  "id": 59,
+  "dbaaspId": "DBAASPS_59",
+  "name": "Tenecin-1 (17-43)",
+  "sequence": "DAACAAHCLFRGRSGGYCNGKRVCVCR",
+  "length": 27
+ },
+ {
+  "id": 72,
+  "dbaaspId": "DBAASPS_72",
+  "name": "",
+  "sequence": "kGGGkWGGkGGk",
+  "length": 12
+ },
+ {
+  "id": 73,
+  "dbaaspId": "DBAASPS_73",
+  "name": "",
+  "sequence": "kGGGkWGGkGGk",
+  "length": 12
+ },
+ {
+  "id": 74,
+  "dbaaspId": "DBAASPS_74",
+  "name": "",
+  "sequence": "KAaaKWAaKaAK",
+  "length": 12
+ },
+ {
+  "id": 75,
+  "dbaaspId": "DBAASPS_75",
+  "name": "",
+  "sequence": "KVvvKWVvKvVK",
+  "length": 12
+ },
+ {
+  "id": 77,
+  "dbaaspId": "DBAASPS_77",
+  "name": "",
+  "sequence": "KLllKWLlKlLK",
+  "length": 12
+ },
+ {
+  "id": 78,
+  "dbaaspId": "DBAASPS_78",
+  "name": "",
+  "sequence": "KLllKWLlKlLK",
+  "length": 12
+ },
+ {
+  "id": 79,
+  "dbaaspId": "DBAASPS_79",
+  "name": "Dermaseptin S4 (1-15)AMD[M4K]",
+  "sequence": "ALWKTLLKKVLKAAA",
+  "length": 15
+ },
+ {
+  "id": 80,
+  "dbaaspId": "DBAASPS_80",
+  "name": "Dermaseptin S4 (2-15)AMD[M4K]",
+  "sequence": "LWKTLLKKVLKAAA",
+  "length": 14
+ },
+ {
+  "id": 81,
+  "dbaaspId": "DBAASPS_81",
+  "name": "NC7- Dermaseptin S4 (2-15)AMD[M4K]",
+  "sequence": "XLWKTLLKKVLKAAA",
+  "length": 15
+ },
+ {
+  "id": 82,
+  "dbaaspId": "DBAASPS_82",
+  "name": "NC12- Dermaseptin S4 (2-15)AMD[M4K]",
+  "sequence": "XLWKTLLKKVLKAAA",
+  "length": 15
+ },
+ {
+  "id": 83,
+  "dbaaspId": "DBAASPS_83",
+  "name": "C7- Dermaseptin S4 (2-15)AMD[M4K]",
+  "sequence": "LWKTLLKKVLKAAA",
+  "length": 14
+ },
+ {
+  "id": 84,
+  "dbaaspId": "DBAASPS_84",
+  "name": "C12- Dermaseptin S4 (2-15)AMD[M4K]",
+  "sequence": "LWKTLLKKVLKAAA",
+  "length": 14
+ },
+ {
+  "id": 85,
+  "dbaaspId": "DBAASPS_85",
+  "name": "Dermaseptin S4 (3-15)AMD[M4K]",
+  "sequence": "WKTLLKKVLKAAA",
+  "length": 13
+ },
+ {
+  "id": 86,
+  "dbaaspId": "DBAASPS_86",
+  "name": "NC7- Dermaseptin S4 (3-15)AMD[M4K]",
+  "sequence": "XWKTLLKKVLKAAA",
+  "length": 14
+ },
+ {
+  "id": 87,
+  "dbaaspId": "DBAASPS_87",
+  "name": "NC12- Dermaseptin S4 (3-15)AMD[M4K]",
+  "sequence": "XWKTLLKKVLKAAA",
+  "length": 14
+ },
+ {
+  "id": 88,
+  "dbaaspId": "DBAASPS_88",
+  "name": "C7- Dermaseptin S4 (3-15)AMD[M4K]",
+  "sequence": "WKTLLKKVLKAAA",
+  "length": 13
+ },
+ {
+  "id": 89,
+  "dbaaspId": "DBAASPS_89",
+  "name": "C12- Dermaseptin S4 (3-15)AMD[M4K]",
+  "sequence": "WKTLLKKVLKAAA",
+  "length": 13
+ },
+ {
+  "id": 90,
+  "dbaaspId": "DBAASPS_90",
+  "name": "Dermaseptin S4 (4-15)AMD[M4K]",
+  "sequence": "KTLLKKVLKAAA",
+  "length": 12
+ },
+ {
+  "id": 91,
+  "dbaaspId": "DBAASPS_91",
+  "name": "NC7- Dermaseptin S4 (4-15)AMD[M4K]",
+  "sequence": "XKTLLKKVLKAAA",
+  "length": 13
+ },
+ {
+  "id": 92,
+  "dbaaspId": "DBAASPS_92",
+  "name": "NC12- Dermaseptin S4 (4-15)AMD[M4K]",
+  "sequence": "XKTLLKKVLKAAA",
+  "length": 13
+ },
+ {
+  "id": 93,
+  "dbaaspId": "DBAASPS_93",
+  "name": "C7- Dermaseptin S4 (4-15)AMD[M4K]",
+  "sequence": "KTLLKKVLKAAA",
+  "length": 12
+ },
+ {
+  "id": 94,
+  "dbaaspId": "DBAASPS_94",
+  "name": "C12- Dermaseptin S4 (4-15)AMD[M4K]",
+  "sequence": "KTLLKKVLKAAA",
+  "length": 12
+ },
+ {
+  "id": 95,
+  "dbaaspId": "DBAASPS_95",
+  "name": "Dermaseptin S4 (5-15)AMD",
+  "sequence": "TLLKKVLKAAA",
+  "length": 11
+ },
+ {
+  "id": 96,
+  "dbaaspId": "DBAASPS_96",
+  "name": "NC7- Dermaseptin S4 (5-15)AMD",
+  "sequence": "XTLLKKVLKAAA",
+  "length": 12
+ },
+ {
+  "id": 97,
+  "dbaaspId": "DBAASPS_97",
+  "name": "NC12- Dermaseptin S4 (5-15)AMD",
+  "sequence": "XTLLKKVLKAAA",
+  "length": 12
+ },
+ {
+  "id": 98,
+  "dbaaspId": "DBAASPS_98",
+  "name": "C7- Dermaseptin S4 (5-15)AMD",
+  "sequence": "TLLKKVLKAAA",
+  "length": 11
+ },
+ {
+  "id": 99,
+  "dbaaspId": "DBAASPS_99",
+  "name": "C12- Dermaseptin S4 (5-15)AMD",
+  "sequence": "TLLKKVLKAAA",
+  "length": 11
+ },
+ {
+  "id": 102,
+  "dbaaspId": "DBAASPS_102",
+  "name": "Dermaseptin S4 [M4K][N20K] ",
+  "sequence": "ALWKTLLKKVLKAAAKAALKAVLVGANA",
+  "length": 28
+ },
+ {
+  "id": 103,
+  "dbaaspId": "DBAASPS_103",
+  "name": "",
+  "sequence": "KLALKLALKAWKAALKLA",
+  "length": 18
+ },
+ {
+  "id": 104,
+  "dbaaspId": "DBAASPS_104",
+  "name": "",
+  "sequence": "GLRKRLRKFRNKIKEKLKKI",
+  "length": 20
+ },
+ {
+  "id": 105,
+  "dbaaspId": "DBAASPS_105",
+  "name": "",
+  "sequence": "SwFkTkSk",
+  "length": 8
+ },
+ {
+  "id": 106,
+  "dbaaspId": "DBAASPS_106",
+  "name": "",
+  "sequence": "sWfKtKsK",
+  "length": 8
+ },
+ {
+  "id": 107,
+  "dbaaspId": "DBAASPS_107",
+  "name": "Dermaseptin S4 (1-16)[M4K]",
+  "sequence": "ALWKTLLKKVLKAAAK",
+  "length": 16
+ },
+ {
+  "id": 108,
+  "dbaaspId": "DBAASPS_108",
+  "name": "Dermaseptin S4 (1-13)AMD[M4K]",
+  "sequence": "ALWKTLLKKVLKA",
+  "length": 13
+ },
+ {
+  "id": 109,
+  "dbaaspId": "DBAASPS_109",
+  "name": "",
+  "sequence": "KLALKAALKAWKAAAKLA",
+  "length": 18
+ },
+ {
+  "id": 110,
+  "dbaaspId": "DBAASPS_110",
+  "name": "",
+  "sequence": "KLALKAAAKAWKAAAKAA",
+  "length": 18
+ },
+ {
+  "id": 111,
+  "dbaaspId": "DBAASPS_111",
+  "name": "",
+  "sequence": "KAIAKSILKWIKSIAKAI",
+  "length": 18
+ },
+ {
+  "id": 112,
+  "dbaaspId": "DBAASPS_112",
+  "name": "",
+  "sequence": "KALAALLKKWAKLLAALK",
+  "length": 18
+ },
+ {
+  "id": 113,
+  "dbaaspId": "DBAASPS_113",
+  "name": "",
+  "sequence": "KLLAKAALKWLLKALKAA",
+  "length": 18
+ },
+ {
+  "id": 115,
+  "dbaaspId": "DBAASPS_115",
+  "name": "",
+  "sequence": "KALKKLLAKWLAAAKALL",
+  "length": 18
+ },
+ {
+  "id": 116,
+  "dbaaspId": "DBAASPS_116",
+  "name": "",
+  "sequence": "KITLKLAIKAWKLALKAA",
+  "length": 18
+ },
+ {
+  "id": 117,
+  "dbaaspId": "DBAASPS_117",
+  "name": "",
+  "sequence": "KALAKALAKLWKALAKAA",
+  "length": 18
+ },
+ {
+  "id": 118,
+  "dbaaspId": "DBAASPS_118",
+  "name": "Magainin-2 [F16W]",
+  "sequence": "GIGKFLHSAKKFGKAWVGEIMNS",
+  "length": 23
+ },
+ {
+  "id": 119,
+  "dbaaspId": "DBAASPS_119",
+  "name": "Magainin-2 [I2L][K11R][I20A]",
+  "sequence": "GLGKFLHSAKRFGKAFVGEAMNS",
+  "length": 23
+ },
+ {
+  "id": 120,
+  "dbaaspId": "DBAASPS_120",
+  "name": "Magainin-2 [L6I][A15L]",
+  "sequence": "GIGKFIHSAKKFGKLFVGEIMNS",
+  "length": 23
+ },
+ {
+  "id": 121,
+  "dbaaspId": "DBAASPS_121",
+  "name": "Magainin-2 [L6I][S8A][A15L][V17I]",
+  "sequence": "GIGKFIHAAKKFGKLFIGEIMNS",
+  "length": 23
+ },
+ {
+  "id": 122,
+  "dbaaspId": "DBAASPS_122",
+  "name": "Magainin-2 [L6I][K11R][F16W]",
+  "sequence": "GIGKFIHSAKRFGRAWVGEIMNS",
+  "length": 23
+ },
+ {
+  "id": 123,
+  "dbaaspId": "DBAASPS_123",
+  "name": "Magainin-2 [L6I,A9V,F12W,A15T,V17I]",
+  "sequence": "GIGKFIHSVKKWGKTFIGEIMNS",
+  "length": 23
+ },
+ {
+  "id": 124,
+  "dbaaspId": "DBAASPS_124",
+  "name": "Magainin-2 [L6G,H7K,S8A,K10A,K11H,A15K,F16W]",
+  "sequence": "GIAKFGKAAAHFGKKWVGELMNS",
+  "length": 23
+ },
+ {
+  "id": 125,
+  "dbaaspId": "DBAASPS_125",
+  "name": "Magainin-2 [S7T,A8L,K10T,F15W]",
+  "sequence": "GIGKFLHTLKTFGKKWVGEIMNS",
+  "length": 23
+ },
+ {
+  "id": 126,
+  "dbaaspId": "DBAASPS_126",
+  "name": "Magainin-2 [S8K,A9V,K11S,A15S,F16W,V17I]",
+  "sequence": "GIGHFLHKVKSFGKSWIGEIMNS",
+  "length": 23
+ },
+ {
+  "id": 127,
+  "dbaaspId": "DBAASPS_127",
+  "name": "CAP7 (1-20)[F9P,I13P]",
+  "sequence": "GLRKRLRKPRNKPKEKLKKI",
+  "length": 20
+ },
+ {
+  "id": 128,
+  "dbaaspId": "DBAASPS_128",
+  "name": "CAP7 (1-20)[L6K,I13K]",
+  "sequence": "GLRKRKRKFRNKKKEKLKKI",
+  "length": 20
+ },
+ {
+  "id": 129,
+  "dbaaspId": "DBAASPS_129",
+  "name": "CAP7 (1-20)[R5A,K16A]",
+  "sequence": "GLRKALRKFRNKIKEALKKI",
+  "length": 20
+ },
+ {
+  "id": 130,
+  "dbaaspId": "DBAASPS_130",
+  "name": "CAP7 (1-20)[F9A]",
+  "sequence": "GLRKRLRKARNKIKEKLKKI",
+  "length": 20
+ },
+ {
+  "id": 131,
+  "dbaaspId": "DBAASPS_131",
+  "name": "CAP7 (1-20)[E15Q]",
+  "sequence": "GLRKRLRKFRNKIKQKLKKI",
+  "length": 20
+ },
+ {
+  "id": 132,
+  "dbaaspId": "DBAASPS_132",
+  "name": "",
+  "sequence": "SwFkHkSk",
+  "length": 8
+ },
+ {
+  "id": 133,
+  "dbaaspId": "DBAASPS_133",
+  "name": "",
+  "sequence": "SwXkNkSk",
+  "length": 8
+ },
+ {
+  "id": 134,
+  "dbaaspId": "DBAASPS_134",
+  "name": "",
+  "sequence": "ILwHxK",
+  "length": 6
+ },
+ {
+  "id": 135,
+  "dbaaspId": "DBAASPS_135",
+  "name": "",
+  "sequence": "kKhKwLwK",
+  "length": 8
+ },
+ {
+  "id": 136,
+  "dbaaspId": "DBAASPS_136",
+  "name": "",
+  "sequence": "KLllLLKlLlLK",
+  "length": 12
+ },
+ {
+  "id": 137,
+  "dbaaspId": "DBAASPS_137",
+  "name": "",
+  "sequence": "KLllKLLlKlLK",
+  "length": 12
+ },
+ {
+  "id": 138,
+  "dbaaspId": "DBAASPS_138",
+  "name": "",
+  "sequence": "KLllKLKlKlLK",
+  "length": 12
+ },
+ {
+  "id": 139,
+  "dbaaspId": "DBAASPS_139",
+  "name": "",
+  "sequence": "KKllKLKlKlKK",
+  "length": 12
+ },
+ {
+  "id": 140,
+  "dbaaspId": "DBAASPS_140",
+  "name": "LL-37 [F5,6L]",
+  "sequence": "LLGDLLRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES",
+  "length": 37
+ },
+ {
+  "id": 141,
+  "dbaaspId": "DBAASPS_141",
+  "name": "LL-37 (1-23)[F4,5L]",
+  "sequence": "LLGDLLRKSKEKIGKEFKRIVQR",
+  "length": 23
+ },
+ {
+  "id": 142,
+  "dbaaspId": "DBAASPS_142",
+  "name": "LL-37 (18-37), KR-20",
+  "sequence": "KRIVQRIKDFLRNLVPRTES",
+  "length": 20
+ },
+ {
+  "id": 143,
+  "dbaaspId": "DBAASPS_143",
+  "name": "LL-37 (9-29)",
+  "sequence": "SKEKIGKEFKRIVQRIKDFLR",
+  "length": 21
+ },
+ {
+  "id": 144,
+  "dbaaspId": "DBAASPS_144",
+  "name": "LL-37 (17-29)",
+  "sequence": "FKRIVQRIKDFLR",
+  "length": 13
+ },
+ {
+  "id": 145,
+  "dbaaspId": "DBAASPS_145",
+  "name": "",
+  "sequence": "RLFDKIRQVIRKF",
+  "length": 13
+ },
+ {
+  "id": 146,
+  "dbaaspId": "DBAASPS_146",
+  "name": "LL-37 fragment KR-12",
+  "sequence": "KRIVQRIKDFLR",
+  "length": 12
+ },
+ {
+  "id": 147,
+  "dbaaspId": "DBAASPS_147",
+  "name": "LL-37 (16-32)[E1G], LL-37 fragment GF-17",
+  "sequence": "GFKRIVQRIKDFLRNLV",
+  "length": 17
+ },
+ {
+  "id": 148,
+  "dbaaspId": "DBAASPS_148",
+  "name": "",
+  "sequence": "GFKRIVQRiKDFLRNLV",
+  "length": 17
+ },
+ {
+  "id": 149,
+  "dbaaspId": "DBAASPS_149",
+  "name": "",
+  "sequence": "GFKRIVQRiKDFlRNLV",
+  "length": 17
+ },
+ {
+  "id": 150,
+  "dbaaspId": "DBAASPS_150",
+  "name": "LL-37 (13-32)[I13G,G14I]",
+  "sequence": "GIKEFKRIVQRIKDFLRNLV",
+  "length": 20
+ },
+ {
+  "id": 151,
+  "dbaaspId": "DBAASPS_151",
+  "name": "LL-37 (13-32)[I13G,G14I,F17Phg]",
+  "sequence": "GIKEXKRIVQRIKDFLRNLV",
+  "length": 20
+ },
+ {
+  "id": 152,
+  "dbaaspId": "DBAASPS_152",
+  "name": "LL-37 (13-32)[I13G,G14I,F17W]",
+  "sequence": "GIKEWKRIVQRIKDFLRNLV",
+  "length": 20
+ },
+ {
+  "id": 153,
+  "dbaaspId": "DBAASPS_153",
+  "name": "LL-37 (13-32)[I13G,G14I,E16Q]",
+  "sequence": "GIKQFKRIVQRIKDFLRNLV",
+  "length": 20
+ },
+ {
+  "id": 154,
+  "dbaaspId": "DBAASPS_154",
+  "name": "LL-37 (13-32)[I13G,G14I,I20E,V21F]",
+  "sequence": "GIKEFKREFQRIKDFLRNLV",
+  "length": 20
+ },
+ {
+  "id": 156,
+  "dbaaspId": "DBAASPS_156",
+  "name": "Cathelicidin-6 (1-18)[K9P,L17I]",
+  "sequence": "GRFKRFRKPFKKLFKKIS",
+  "length": 18
+ },
+ {
+  "id": 157,
+  "dbaaspId": "DBAASPS_157",
+  "name": "Cathelicidin-6 (1-18)[F6,10Phg;L17I]",
+  "sequence": "GRFKRXRKKXKKLFKKIS",
+  "length": 18
+ },
+ {
+  "id": 158,
+  "dbaaspId": "DBAASPS_158",
+  "name": "Cathelicidin-6 (1-18)[F6I,F10L, L17I]",
+  "sequence": "GRFKRIRKKLKKLFKKIS",
+  "length": 18
+ },
+ {
+  "id": 159,
+  "dbaaspId": "DBAASPS_159",
+  "name": "Cathelicidin-6 (1-15)",
+  "sequence": "GRFKRFRKKFKKLFK",
+  "length": 15
+ },
+ {
+  "id": 160,
+  "dbaaspId": "DBAASPR_160",
+  "name": "Tritrpticin",
+  "sequence": "VRRFPWWWPFLRR",
+  "length": 13
+ },
+ {
+  "id": 161,
+  "dbaaspId": "DBAASPS_161",
+  "name": "Tritrpticin [V1R,W7VC]-R",
+  "sequence": "RRRFPWVCWPFLRRR",
+  "length": 15
+ },
+ {
+  "id": 162,
+  "dbaaspId": "DBAASPS_162",
+  "name": "Tritrpticin (3-12)",
+  "sequence": "RFPWWWPFLR",
+  "length": 10
+ },
+ {
+  "id": 163,
+  "dbaaspId": "DBAASPS_163",
+  "name": "Tritrpticin (4-10)",
+  "sequence": "FPWWWPF",
+  "length": 7
+ },
+ {
+  "id": 165,
+  "dbaaspId": "DBAASPS_165",
+  "name": "CP26, MBI 26",
+  "sequence": "KWKSFIKKLTSAAKKVVTTAKPLISS",
+  "length": 26
+ },
+ {
+  "id": 166,
+  "dbaaspId": "DBAASPS_166",
+  "name": "CEME",
+  "sequence": "KWKLFKKIGIGAVLKVLTTGLPALIS",
+  "length": 26
+ },
+ {
+  "id": 167,
+  "dbaaspId": "DBAASPS_167",
+  "name": "CEMA, MBI-28",
+  "sequence": "KWKLFKKIGIGAVLKVLTTGLPALKLTK",
+  "length": 28
+ },
+ {
+  "id": 168,
+  "dbaaspId": "DBAASPS_168",
+  "name": "CP29, MBI 29",
+  "sequence": "KWKSFIKKLTTAVKKVLTTGLPALIS",
+  "length": 26
+ },
+ {
+  "id": 169,
+  "dbaaspId": "DBAASPS_169",
+  "name": "",
+  "sequence": "KWKSFIKKLTSAAKKVTTAAKPLTK",
+  "length": 25
+ },
+ {
+  "id": 170,
+  "dbaaspId": "DBAASPS_170",
+  "name": "",
+  "sequence": "KWKKFIKKIGIGAVLKVLTTGLPALKLTKK",
+  "length": 30
+ },
+ {
+  "id": 171,
+  "dbaaspId": "DBAASPS_171",
+  "name": "",
+  "sequence": "KKWKKFIKKIGIGAVLTTPGAKK",
+  "length": 23
+ },
+ {
+  "id": 172,
+  "dbaaspId": "DBAASPS_172",
+  "name": "",
+  "sequence": "KWKSFIKKLTSAAKKVVTTAKPLALIS",
+  "length": 27
+ },
+ {
+  "id": 173,
+  "dbaaspId": "DBAASPS_173",
+  "name": "",
+  "sequence": "KWKSFIKKLTKAAKKVVTTAKKPLIV",
+  "length": 26
+ },
+ {
+  "id": 174,
+  "dbaaspId": "DBAASPS_174",
+  "name": "",
+  "sequence": "KWKKFIKSLTKSAAKTVVKTAKKPLIV",
+  "length": 27
+ },
+ {
+  "id": 175,
+  "dbaaspId": "DBAASPS_175",
+  "name": "",
+  "sequence": "KWKLFKKIGIGAVLKVLTTGLPALKLTLK",
+  "length": 29
+ },
+ {
+  "id": 176,
+  "dbaaspId": "DBAASPS_176",
+  "name": "",
+  "sequence": "KLFKKIGIGAVLKVLTTGLPALKLTLK",
+  "length": 27
+ },
+ {
+  "id": 177,
+  "dbaaspId": "DBAASPS_177",
+  "name": "",
+  "sequence": "KWKFKKIGIGAVLKVLTTGLPALKLTLK",
+  "length": 28
+ },
+ {
+  "id": 178,
+  "dbaaspId": "DBAASPS_178",
+  "name": "",
+  "sequence": "KLWKLFKKIGIGAVLKVLTTGLPALKLTLK",
+  "length": 30
+ },
+ {
+  "id": 179,
+  "dbaaspId": "DBAASPS_179",
+  "name": "",
+  "sequence": "KWKSFIKNLTKGGSKILTTGLPALIS",
+  "length": 26
+ },
+ {
+  "id": 180,
+  "dbaaspId": "DBAASPS_180",
+  "name": "",
+  "sequence": "KWKKFIKNLTKGGSKILTTGLPALIS",
+  "length": 26
+ },
+ {
+  "id": 181,
+  "dbaaspId": "DBAASPS_181",
+  "name": "",
+  "sequence": "KWKSFIKKLTSAAKKVLTTGLPALIS",
+  "length": 26
+ },
+ {
+  "id": 182,
+  "dbaaspId": "DBAASPS_182",
+  "name": "",
+  "sequence": "KKWWKAQKAVNSGPNALQTLAQ",
+  "length": 22
+ },
+ {
+  "id": 183,
+  "dbaaspId": "DBAASPS_183",
+  "name": "",
+  "sequence": "KKWWKAKKFANSGPNALQTLAQ",
+  "length": 22
+ },
+ {
+  "id": 184,
+  "dbaaspId": "DBAASPS_184",
+  "name": "",
+  "sequence": "KKWWKFIKKAVNSGTTGLQTLAS",
+  "length": 23
+ },
+ {
+  "id": 185,
+  "dbaaspId": "DBAASPS_185",
+  "name": "",
+  "sequence": "KWKSFIKKLTSVLKKVVTTAKPLISS",
+  "length": 26
+ },
+ {
+  "id": 186,
+  "dbaaspId": "DBAASPS_186",
+  "name": "",
+  "sequence": "KKKSFIKLLTSAKVSVLTTAKPLISS",
+  "length": 26
+ },
+ {
+  "id": 187,
+  "dbaaspId": "DBAASPS_187",
+  "name": "",
+  "sequence": "WKVFKSFIKKASSFAQSVLD",
+  "length": 20
+ },
+ {
+  "id": 188,
+  "dbaaspId": "DBAASPS_188",
+  "name": "",
+  "sequence": "KKWRKSFFKQVGSFDNSV",
+  "length": 18
+ },
+ {
+  "id": 189,
+  "dbaaspId": "DBAASPS_189",
+  "name": "",
+  "sequence": "YVLWKRKRFIFI",
+  "length": 12
+ },
+ {
+  "id": 190,
+  "dbaaspId": "DBAASPS_190",
+  "name": "",
+  "sequence": "YVLWKRKRWIFI",
+  "length": 12
+ },
+ {
+  "id": 191,
+  "dbaaspId": "DBAASPS_191",
+  "name": "",
+  "sequence": "YVLWKRKRYIFI",
+  "length": 12
+ },
+ {
+  "id": 192,
+  "dbaaspId": "DBAASPS_192",
+  "name": "",
+  "sequence": "YVLFKRKRFIFI",
+  "length": 12
+ },
+ {
+  "id": 193,
+  "dbaaspId": "DBAASPS_193",
+  "name": "",
+  "sequence": "YVLLKRKRLIFI",
+  "length": 12
+ },
+ {
+  "id": 194,
+  "dbaaspId": "DBAASPS_194",
+  "name": "",
+  "sequence": "YVLAKRKRAIFI",
+  "length": 12
+ },
+ {
+  "id": 195,
+  "dbaaspId": "DBAASPS_195",
+  "name": "",
+  "sequence": "GWKRKRFG",
+  "length": 8
+ },
+ {
+  "id": 197,
+  "dbaaspId": "DBAASPS_197",
+  "name": "BP100",
+  "sequence": "KKLFKKILKYL",
+  "length": 11
+ },
+ {
+  "id": 198,
+  "dbaaspId": "DBAASPS_198",
+  "name": "BP138",
+  "sequence": "KKLFKKILKyL",
+  "length": 11
+ },
+ {
+  "id": 199,
+  "dbaaspId": "DBAASPS_199",
+  "name": "BP139",
+  "sequence": "KKLFKKILKYl",
+  "length": 11
+ },
+ {
+  "id": 200,
+  "dbaaspId": "DBAASPS_200",
+  "name": "BP140",
+  "sequence": "KKLFKKILkYL",
+  "length": 11
+ },
+ {
+  "id": 201,
+  "dbaaspId": "DBAASPS_201",
+  "name": "BP141",
+  "sequence": "KKLFKKIlKYL",
+  "length": 11
+ },
+ {
+  "id": 202,
+  "dbaaspId": "DBAASPS_202",
+  "name": "BP142",
+  "sequence": "KKLFkKILKYL",
+  "length": 11
+ },
+ {
+  "id": 203,
+  "dbaaspId": "DBAASPS_203",
+  "name": "BP143",
+  "sequence": "KKLfKKILKYL",
+  "length": 11
+ },
+ {
+  "id": 204,
+  "dbaaspId": "DBAASPS_204",
+  "name": "BP144",
+  "sequence": "KKlFKKILKYL",
+  "length": 11
+ },
+ {
+  "id": 205,
+  "dbaaspId": "DBAASPS_205",
+  "name": "BP145",
+  "sequence": "KkLFKKILKYL",
+  "length": 11
+ },
+ {
+  "id": 206,
+  "dbaaspId": "DBAASPS_206",
+  "name": "BP146",
+  "sequence": "KKLFKkILKYL",
+  "length": 11
+ },
+ {
+  "id": 207,
+  "dbaaspId": "DBAASPS_207",
+  "name": "BP147",
+  "sequence": "kKLFKKILKYL",
+  "length": 11
+ },
+ {
+  "id": 208,
+  "dbaaspId": "DBAASPS_208",
+  "name": "BP148, BP207",
+  "sequence": "KKLFKKiLKYL",
+  "length": 11
+ },
+ {
+  "id": 209,
+  "dbaaspId": "DBAASPS_209",
+  "name": "BP149",
+  "sequence": "KKlFKKILkYL",
+  "length": 11
+ },
+ {
+  "id": 210,
+  "dbaaspId": "DBAASPS_210",
+  "name": "BP150",
+  "sequence": "KKLFKKIlkYL",
+  "length": 11
+ },
+ {
+  "id": 211,
+  "dbaaspId": "DBAASPS_211",
+  "name": "BP151",
+  "sequence": "KKlFKkILkYL",
+  "length": 11
+ },
+ {
+  "id": 212,
+  "dbaaspId": "DBAASPS_212",
+  "name": "BP152",
+  "sequence": "KKLFKKilkYL",
+  "length": 11
+ },
+ {
+  "id": 213,
+  "dbaaspId": "DBAASPS_213",
+  "name": "BP154",
+  "sequence": "kkLfKKILKYL",
+  "length": 11
+ },
+ {
+  "id": 214,
+  "dbaaspId": "DBAASPS_214",
+  "name": "BP155",
+  "sequence": "KKLFKKIlkyl",
+  "length": 11
+ },
+ {
+  "id": 215,
+  "dbaaspId": "DBAASPS_215",
+  "name": "BP156",
+  "sequence": "KKLFKKilkyl",
+  "length": 11
+ },
+ {
+  "id": 216,
+  "dbaaspId": "DBAASPS_216",
+  "name": "BP157",
+  "sequence": "KKLFKkilkyl",
+  "length": 11
+ },
+ {
+  "id": 217,
+  "dbaaspId": "DBAASPS_217",
+  "name": "BP158",
+  "sequence": "KKLFkkilkyl",
+  "length": 11
+ },
+ {
+  "id": 218,
+  "dbaaspId": "DBAASPS_218",
+  "name": "BP159",
+  "sequence": "KKLfkkilkyl",
+  "length": 11
+ },
+ {
+  "id": 219,
+  "dbaaspId": "DBAASPS_219",
+  "name": "BP160",
+  "sequence": "KKlfkkilkyl",
+  "length": 11
+ },
+ {
+  "id": 220,
+  "dbaaspId": "DBAASPS_220",
+  "name": "BP161",
+  "sequence": "Kklfkkilkyl",
+  "length": 11
+ },
+ {
+  "id": 221,
+  "dbaaspId": "DBAASPS_221",
+  "name": "BP162",
+  "sequence": "kklfKKILKYL",
+  "length": 11
+ },
+ {
+  "id": 222,
+  "dbaaspId": "DBAASPS_222",
+  "name": "BP163",
+  "sequence": "kklfkKILKYL",
+  "length": 11
+ },
+ {
+  "id": 223,
+  "dbaaspId": "DBAASPS_223",
+  "name": "BP164",
+  "sequence": "kklfkkILKYL",
+  "length": 11
+ },
+ {
+  "id": 224,
+  "dbaaspId": "DBAASPS_224",
+  "name": "BP165",
+  "sequence": "kklfkkiLKYL",
+  "length": 11
+ },
+ {
+  "id": 225,
+  "dbaaspId": "DBAASPS_225",
+  "name": "BP166",
+  "sequence": "kklfkkilKYL",
+  "length": 11
+ },
+ {
+  "id": 226,
+  "dbaaspId": "DBAASPS_226",
+  "name": "BP167",
+  "sequence": "kklfkkilkYL",
+  "length": 11
+ },
+ {
+  "id": 227,
+  "dbaaspId": "DBAASPS_227",
+  "name": "BP168",
+  "sequence": "kklfkkilkyL",
+  "length": 11
+ },
+ {
+  "id": 228,
+  "dbaaspId": "DBAASPS_228",
+  "name": "BP153",
+  "sequence": "kklfkkilkyl",
+  "length": 11
+ },
+ {
+  "id": 230,
+  "dbaaspId": "DBAASPS_230",
+  "name": "P18",
+  "sequence": "KWKLFKKIPKFLHLAKKF",
+  "length": 18
+ },
+ {
+  "id": 231,
+  "dbaaspId": "DBAASPS_231",
+  "name": "",
+  "sequence": "KWKSFIKKLTSKFLHLAKKF",
+  "length": 20
+ },
+ {
+  "id": 232,
+  "dbaaspId": "DBAASPS_232",
+  "name": "",
+  "sequence": "KWKSFIKKLTSKFLHSAKKF",
+  "length": 20
+ },
+ {
+  "id": 233,
+  "dbaaspId": "DBAASPS_233",
+  "name": "",
+  "sequence": "KFKSFIKKLTSKFLHSAKKF",
+  "length": 20
+ },
+ {
+  "id": 234,
+  "dbaaspId": "DBAASPS_234",
+  "name": "",
+  "sequence": "KWNSFIKKLTSKFLHSAKKF",
+  "length": 20
+ },
+ {
+  "id": 235,
+  "dbaaspId": "DBAASPS_235",
+  "name": "",
+  "sequence": "KWKSFKKKLTSKFLHSAKKF",
+  "length": 20
+ },
+ {
+  "id": 236,
+  "dbaaspId": "DBAASPS_236",
+  "name": "",
+  "sequence": "KWKSFINKLTSKFLHSAKKF",
+  "length": 20
+ }
+]

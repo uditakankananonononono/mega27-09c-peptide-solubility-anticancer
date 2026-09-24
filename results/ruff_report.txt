@@ -1,0 +1,206 @@
+runs/accession_panels.py:6:1: I001 [*] Import block is un-sorted or un-formatted
+runs/accession_panels.py:8:1: I001 [*] Import block is un-sorted or un-formatted
+runs/accession_panels.py:13:19: SIM115 Use a context manager for opening files
+runs/accession_panels.py:35:17: SIM115 Use a context manager for opening files
+runs/accession_panels.py:38:1: I001 [*] Import block is un-sorted or un-formatted
+runs/fetch_dbaasp_novelty.py:3:1: I001 [*] Import block is un-sorted or un-formatted
+runs/fetch_dbaasp_novelty.py:3:36: F401 [*] `ssl` imported but unused
+runs/fetch_dbaasp_novelty.py:24:12: BLE001 Do not catch blind exception: `Exception`
+runs/fetch_dbaasp_novelty.py:27:20: SIM115 Use a context manager for opening files
+runs/fetch_dbaasp_novelty.py:33:19: SIM115 Use a context manager for opening files
+runs/fetch_dbaasp_novelty.py:35:1: S110 `try`-`except`-`pass` detected, consider logging the exception
+runs/fetch_dbaasp_novelty.py:35:8: BLE001 Do not catch blind exception: `Exception`
+runs/fetch_dbaasp_novelty.py:38:20: SIM115 Use a context manager for opening files
+runs/fetch_dbaasp_novelty.py:42:1: S110 `try`-`except`-`pass` detected, consider logging the exception
+runs/fetch_dbaasp_novelty.py:42:8: BLE001 Do not catch blind exception: `Exception`
+runs/fetch_dbaasp_novelty.py:49:11: SIM115 Use a context manager for opening files
+runs/fetch_external_dbs.py:5:1: I001 [*] Import block is un-sorted or un-formatted
+runs/fetch_external_dbs.py:5:50: F401 [*] `os` imported but unused
+runs/fetch_external_dbs.py:5:54: F401 [*] `sys` imported but unused
+runs/fetch_external_dbs.py:34:56: SIM115 Use a context manager for opening files
+runs/fetch_external_dbs.py:36:8: BLE001 Do not catch blind exception: `Exception`
+runs/fetch_external_dbs.py:49:16: BLE001 Do not catch blind exception: `Exception`
+runs/fetch_external_dbs.py:51:21: SIM115 Use a context manager for opening files
+runs/fetch_external_dbs.py:54:8: BLE001 Do not catch blind exception: `Exception`
+runs/fetch_external_dbs.py:60:5: SIM115 Use a context manager for opening files
+runs/fetch_external_dbs.py:62:83: FURB167 [*] Use of regular expression alias `re.I`
+runs/fetch_external_dbs.py:64:8: BLE001 Do not catch blind exception: `Exception`
+runs/fetch_external_dbs.py:70:5: SIM115 Use a context manager for opening files
+runs/fetch_external_dbs.py:72:8: BLE001 Do not catch blind exception: `Exception`
+runs/fetch_external_dbs.py:78:5: SIM115 Use a context manager for opening files
+runs/fetch_external_dbs.py:80:8: BLE001 Do not catch blind exception: `Exception`
+runs/fetch_uniprot_accessions.py:7:1: I001 [*] Import block is un-sorted or un-formatted
+runs/fetch_uniprot_accessions.py:52:19: SIM115 Use a context manager for opening files
+runs/fetch_uniprot_accessions.py:54:12: BLE001 Do not catch blind exception: `Exception`
+runs/run_acp_v3.py:3:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_acp_v3.py:5:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_acp_v3.py:6:8: F401 [*] `torch` imported but unused
+runs/run_acp_v3.py:7:8: PLR0402 [*] Use `from torch import nn` in lieu of alias
+runs/run_acp_v3.py:7:20: F401 [*] `torch.nn` imported but unused
+runs/run_acp_v3.py:8:29: F401 [*] `sklearn.metrics.roc_auc_score` imported but unused
+runs/run_acp_v3.py:8:44: F401 [*] `sklearn.metrics.accuracy_score` imported but unused
+runs/run_acp_v3.py:8:60: F401 [*] `sklearn.metrics.matthews_corrcoef` imported but unused
+runs/run_acp_v3.py:8:79: F401 [*] `sklearn.metrics.confusion_matrix` imported but unused
+runs/run_acp_v3.py:9:30: F401 [*] `torch.utils.data.DataLoader` imported but unused
+runs/run_acp_v3.py:9:42: F401 [*] `torch.utils.data.TensorDataset` imported but unused
+runs/run_acp_v3.py:10:62: F401 [*] `pepx.datasets.load_esol` imported but unused
+runs/run_acp_v3.py:10:73: F401 [*] `pepx.datasets.load_amylogram` imported but unused
+runs/run_acp_v3.py:11:39: F401 [*] `pepx.models.TriNet` imported but unused
+runs/run_acp_v3.py:12:45: F401 [*] `pepx.trainer.to_tensors` imported but unused
+runs/run_acp_v3.py:12:57: F401 [*] `pepx.trainer.standardize` imported but unused
+runs/run_acp_v3.py:12:70: F401 [*] `pepx.trainer.set_seed` imported but unused
+runs/run_acp_v3.py:20:13: C408 Unnecessary `dict()` call (rewrite as a literal)
+runs/run_acp_v3.py:20:52: C408 Unnecessary `dict()` call (rewrite as a literal)
+runs/run_acp_v3.py:28:29: SIM115 Use a context manager for opening files
+runs/run_acp_v4_multiseed.py:3:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_acp_v4_multiseed.py:5:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_acp_v4_multiseed.py:26:7: C408 Unnecessary `dict()` call (rewrite as a literal)
+runs/run_acp_v4_multiseed.py:31:16: SIM115 Use a context manager for opening files
+runs/run_acp_v5_big.py:4:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_acp_v5_big.py:6:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_acp_v5_big.py:26:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_acp_v5_big.py:26:8: PLR0402 [*] Use `from torch import nn` in lieu of alias
+runs/run_acp_v5_big.py:26:20: F401 [*] `torch.nn` imported but unused
+runs/run_acp_v5_big.py:34:7: C408 Unnecessary `dict()` call (rewrite as a literal)
+runs/run_acp_v5_big.py:39:30: C408 Unnecessary `dict()` call (rewrite as a literal)
+runs/run_acp_v5_big.py:41:16: SIM115 Use a context manager for opening files
+runs/run_aggregation.py:3:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_aggregation.py:3:13: F401 [*] `json` imported but unused
+runs/run_aggregation.py:5:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_aggregation.py:5:17: F401 [*] `numpy` imported but unused
+runs/run_cnnv2_acp.py:1:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_cnnv2_acp.py:4:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_discovery.py:8:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_discovery.py:10:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_discovery.py:12:8: PLR0402 [*] Use `from torch import nn` in lieu of alias
+runs/run_discovery.py:14:30: F401 [*] `torch.utils.data.DataLoader` imported but unused
+runs/run_discovery.py:14:42: F401 [*] `torch.utils.data.TensorDataset` imported but unused
+runs/run_discovery.py:29:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_discovery.py:111:22: C408 Unnecessary `dict()` call (rewrite as a literal)
+runs/run_discovery.py:121:16: SIM115 Use a context manager for opening files
+runs/run_discovery_scaled.py:3:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_discovery_scaled.py:5:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_discovery_scaled.py:7:8: PLR0402 [*] Use `from torch import nn` in lieu of alias
+runs/run_discovery_scaled.py:112:16: C408 Unnecessary `dict()` call (rewrite as a literal)
+runs/run_discovery_scaled.py:116:16: SIM115 Use a context manager for opening files
+runs/run_ensemble_acp.py:3:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_ensemble_acp.py:5:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_ensemble_acp.py:11:45: F401 [*] `pepx.trainer.to_tensors` imported but unused
+runs/run_ensemble_acp.py:11:57: F401 [*] `pepx.trainer.standardize` imported but unused
+runs/run_ensemble_acp.py:41:7: C408 Unnecessary `dict()` call (rewrite as a literal)
+runs/run_ensemble_acp.py:48:11: SIM115 Use a context manager for opening files
+runs/run_pep424_headtohead.py:4:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_pep424_headtohead.py:6:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_pep424_headtohead.py:8:44: F401 [*] `sklearn.metrics.matthews_corrcoef` imported but unused
+runs/run_pep424_headtohead.py:8:63: F401 [*] `sklearn.metrics.accuracy_score` imported but unused
+runs/run_pep424_headtohead.py:10:37: F401 [*] `pepx.models.PeptideCNNv2` imported but unused
+runs/run_pep424_headtohead.py:11:57: F401 [*] `pepx.trainer.standardize` imported but unused
+runs/run_pep424_headtohead.py:17:13: SIM115 Use a context manager for opening files
+runs/run_pep424_headtohead.py:27:13: SIM115 Use a context manager for opening files
+runs/run_pep424_headtohead.py:48:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_pep424_headtohead.py:53:39: PIE808 [*] Unnecessary `start` argument in `range`
+runs/run_pep424_headtohead.py:77:7: C408 Unnecessary `dict()` call (rewrite as a literal)
+runs/run_pep424_headtohead.py:77:32: RUF046 [*] Value being cast to `int` is already an integer
+runs/run_pep424_headtohead.py:81:16: SIM115 Use a context manager for opening files
+runs/run_pep424_v2.py:7:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_pep424_v2.py:9:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_pep424_v2.py:13:43: F401 [*] `pepx.datasets.LabeledPeptide` imported but unused
+runs/run_pep424_v2.py:15:57: F401 [*] `pepx.trainer.set_seed` imported but unused
+runs/run_pep424_v2.py:21:13: SIM115 Use a context manager for opening files
+runs/run_pep424_v2.py:30:13: SIM115 Use a context manager for opening files
+runs/run_pep424_v2.py:86:7: C408 Unnecessary `dict()` call (rewrite as a literal)
+runs/run_pep424_v2.py:86:32: RUF046 [*] Value being cast to `int` is already an integer
+runs/run_pep424_v2.py:93:16: SIM115 Use a context manager for opening files
+runs/run_pep424_v3.py:7:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_pep424_v3.py:9:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_pep424_v3.py:22:13: SIM115 Use a context manager for opening files
+runs/run_pep424_v3.py:32:13: SIM115 Use a context manager for opening files
+runs/run_pep424_v3.py:93:7: C408 Unnecessary `dict()` call (rewrite as a literal)
+runs/run_pep424_v3.py:99:16: SIM115 Use a context manager for opening files
+runs/run_solubility.py:4:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_solubility.py:6:1: I001 [*] Import block is un-sorted or un-formatted
+runs/run_solubility.py:21:11: SIM115 Use a context manager for opening files
+runs/tool_analyses.py:4:1: I001 [*] Import block is un-sorted or un-formatted
+runs/tool_analyses.py:6:1: I001 [*] Import block is un-sorted or un-formatted
+runs/tool_analyses.py:18:1: I001 [*] Import block is un-sorted or un-formatted
+runs/tool_analyses.py:32:1: I001 [*] Import block is un-sorted or un-formatted
+runs/tool_analyses.py:34:16: SIM115 Use a context manager for opening files
+runs/tool_analyses.py:36:25: RUF046 Value being cast to `int` is already an integer
+runs/tool_analyses.py:49:1: I001 [*] Import block is un-sorted or un-formatted
+runs/tool_analyses.py:53:47: SIM115 Use a context manager for opening files
+runs/tool_analyses.py:54:1: S110 `try`-`except`-`pass` detected, consider logging the exception
+runs/tool_analyses.py:54:8: BLE001 Do not catch blind exception: `Exception`
+runs/tool_analyses.py:72:1: I001 [*] Import block is un-sorted or un-formatted
+runs/tool_analyses.py:79:15: RUF015 Prefer `next(k for k in ctd if k.startswith("_Hydrophobicity"))` over single element slice
+runs/tool_analyses.py:81:5: S110 `try`-`except`-`pass` detected, consider logging the exception
+runs/tool_analyses.py:81:12: BLE001 Do not catch blind exception: `Exception`
+runs/tool_analyses.py:82:1: I001 [*] Import block is un-sorted or un-formatted
+runs/tool_analyses.py:88:1: I001 [*] Import block is un-sorted or un-formatted
+runs/tool_analyses.py:95:5: S110 `try`-`except`-`pass` detected, consider logging the exception
+runs/tool_analyses.py:95:12: BLE001 Do not catch blind exception: `Exception`
+runs/tool_analyses.py:100:1: I001 [*] Import block is un-sorted or un-formatted
+runs/tool_analyses.py:110:16: SIM115 Use a context manager for opening files
+src/pepx/baselines.py:4:1: I001 [*] Import block is un-sorted or un-formatted
+src/pepx/baselines.py:7:1: UP035 [*] Import from `collections.abc` instead: `Callable`
+src/pepx/baselines.py:7:1: UP035 `typing.Dict` is deprecated, use `dict` instead
+src/pepx/baselines.py:7:1: UP035 `typing.List` is deprecated, use `list` instead
+src/pepx/baselines.py:7:1: UP035 `typing.Tuple` is deprecated, use `tuple` instead
+src/pepx/baselines.py:33:22: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/baselines.py:38:26: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/baselines.py:38:54: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/baselines.py:39:36: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/baselines.py:49:13: UP006 [*] Use `dict` instead of `Dict` for type annotation
+src/pepx/baselines.py:49:23: UP006 [*] Use `tuple` instead of `Tuple` for type annotation
+src/pepx/baselines.py:56:10: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/datasets.py:9:1: UP035 `typing.Dict` is deprecated, use `dict` instead
+src/pepx/datasets.py:9:1: UP035 `typing.List` is deprecated, use `list` instead
+src/pepx/datasets.py:9:32: F401 [*] `typing.Optional` imported but unused
+src/pepx/datasets.py:25:33: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/datasets.py:34:42: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/datasets.py:39:11: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/datasets.py:48:61: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/datasets.py:51:11: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/datasets.py:67:47: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/datasets.py:72:11: UP006 [*] Use `dict` instead of `Dict` for type annotation
+src/pepx/datasets.py:81:11: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/datasets.py:97:43: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/datasets.py:103:11: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/datasets.py:113:38: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/datasets.py:127:49: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/descriptors.py:9:8: F401 [*] `math` imported but unused
+src/pepx/descriptors.py:11:1: UP035 `typing.Dict` is deprecated, use `dict` instead
+src/pepx/descriptors.py:13:23: F401 [*] `.alphabet.AA_STANDARD` imported but unused
+src/pepx/descriptors.py:57:33: UP006 [*] Use `dict` instead of `Dict` for type annotation
+src/pepx/descriptors.py:113:14: UP006 [*] Use `dict` instead of `Dict` for type annotation
+src/pepx/descriptors.py:116:16: UP006 [*] Use `dict` instead of `Dict` for type annotation
+src/pepx/descriptors.py:121:16: UP006 [*] Use `dict` instead of `Dict` for type annotation
+src/pepx/descriptors.py:147:36: UP006 [*] Use `dict` instead of `Dict` for type annotation
+src/pepx/fasta.py:5:1: UP035 [*] Import from `collections.abc` instead: `Iterator`
+src/pepx/fasta.py:5:1: UP035 `typing.Tuple` is deprecated, use `tuple` instead
+src/pepx/fasta.py:8:46: UP006 [*] Use `tuple` instead of `Tuple` for type annotation
+src/pepx/fasta.py:33:35: UP006 [*] Use `tuple` instead of `Tuple` for type annotation
+src/pepx/fasta.py:39:13: FURB122 [*] Use of `fh.write` in a for loop
+src/pepx/models.py:6:1: UP035 `typing.Dict` is deprecated, use `dict` instead
+src/pepx/models.py:6:1: UP035 `typing.List` is deprecated, use `list` instead
+src/pepx/models.py:6:26: F401 [*] `typing.List` imported but unused
+src/pepx/models.py:6:32: F401 [*] `typing.Optional` imported but unused
+src/pepx/models.py:9:8: PLR0402 [*] Use `from torch import nn` in lieu of alias
+src/pepx/models.py:50:9: RUF059 Unpacked variable `b` is never used
+src/pepx/models.py:63:5: RUF059 Unpacked variable `b` is never used
+src/pepx/models.py:124:67: UP006 [*] Use `dict` instead of `Dict` for type annotation
+src/pepx/trainer.py:3:1: I001 [*] Import block is un-sorted or un-formatted
+src/pepx/trainer.py:6:36: F401 [*] `dataclasses.asdict` imported but unused
+src/pepx/trainer.py:7:1: UP035 `typing.Dict` is deprecated, use `dict` instead
+src/pepx/trainer.py:7:1: UP035 `typing.List` is deprecated, use `list` instead
+src/pepx/trainer.py:7:1: UP035 `typing.Tuple` is deprecated, use `tuple` instead
+src/pepx/trainer.py:11:8: PLR0402 [*] Use `from torch import nn` in lieu of alias
+src/pepx/trainer.py:30:22: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/trainer.py:30:81: UP006 [*] Use `tuple` instead of `Tuple` for type annotation
+src/pepx/trainer.py:51:69: UP006 [*] Use `tuple` instead of `Tuple` for type annotation
+src/pepx/trainer.py:71:55: UP006 [*] Use `dict` instead of `Dict` for type annotation
+src/pepx/trainer.py:74:12: C408 Unnecessary `dict()` call (rewrite as a literal)
+src/pepx/trainer.py:81:48: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/trainer.py:82:29: UP006 [*] Use `list` instead of `List` for type annotation
+src/pepx/trainer.py:86:51: UP006 [*] Use `tuple` instead of `Tuple` for type annotation
+Found 204 errors.
+[*] 127 fixable with the `--fix` option (16 hidden fixes can be enabled with the `--unsafe-fixes` option).

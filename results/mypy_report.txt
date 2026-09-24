@@ -1,0 +1,7 @@
+src/pepx/descriptors.py:161: error: Argument 2 to "mean_scale" has incompatible type "dict[str, int]"; expected "dict[str, float]"  [arg-type]
+src/pepx/descriptors.py:161: note: "dict" is invariant -- see https://mypy.readthedocs.io/en/stable/common_issues.html#variance
+src/pepx/descriptors.py:161: note: Consider using "Mapping" instead, which is covariant in the value type
+src/pepx/baselines.py:58: error: "object" has no attribute "fit"  [attr-defined]
+src/pepx/baselines.py:59: error: "object" has no attribute "predict"  [attr-defined]
+src/pepx/baselines.py:60: error: "object" has no attribute "predict_proba"  [attr-defined]
+src/pepx/cli.py:49: error: Argument 1 to "to_tensors" has incompatible type "list[_Rec]"; expected "list[LabeledPeptide]"  [arg-type]

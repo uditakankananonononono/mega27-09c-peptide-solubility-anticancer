@@ -1,0 +1,38 @@
+{
+ "best_params": {
+  "emb_dim": 32,
+  "ch": 96,
+  "blocks": 2,
+  "dropout": 0.2780616350232075,
+  "lr": 0.0017286476459924243
+ },
+ "best_val_auc": 0.8779,
+ "final_test": {
+  "model": "cnnv2-hpo-best",
+  "dataset": "anticp2_main",
+  "accuracy": 0.7296511627906976,
+  "sensitivity": 0.6549707602339181,
+  "specificity": 0.8034682080924855,
+  "mcc": 0.46376034480234535,
+  "auc": 0.8028597505324003,
+  "epochs_run": 18,
+  "best_val_auc": 0.8785936469035724
+ },
+ "n_trials": 12,
+ "trial_test_aucs": [
+  0.7309,
+  0.7339,
+  0.7352,
+  0.7453,
+  0.7529,
+  0.753,
+  0.7617,
+  0.7725,
+  0.7772,
+  0.7813,
+  0.7815,
+  0.7883
+ ],
+ "elapsed_s": 109.6,
+ "note": "objective was validation AUC; test reported once for the chosen config"
+}

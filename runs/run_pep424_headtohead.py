@@ -45,11 +45,15 @@ tr = [r for r in full if r.sequence not in bseqs]
 class Rec:
     def __init__(s, seq, label=0, meta=''): s.sequence, s.label, s.meta = seq, label, meta
 
+from pepx.alphabet import AA_STANDARD as _AA_SET
 def window_score(model, seq, max_len, wide, mu=None, sd=None):
-    wins = [seq[i:i+6] for i in range(0, max(len(seq) - 5, 1))] or [seq]
-    wins = [w for w in wins if len(w) >= 6]
+    canon = set(_AA_SET)
+    if not set(seq.upper()) <= canon:
+        return np.nan  # non-canonical residues (e.g. O, U) - excluded, counted
+    wins = [seq[i:i+6] for i in range(0, max(len(seq) - 5, 1))]
+    wins = [w for w in wins if len(w) >= 6 and set(w) <= canon]
     if not wins:
-        wins = [seq[:6].ljust(6, 'A')]
+        return np.nan
     recs = [Rec(w) for w in wins]
     i, d, _ = to_tensors(recs, 6, wide)
     if mu is not None:
@@ -66,11 +70,12 @@ model = PeptideGNN()
 res_gnn, _ = train_single_task(model, tr, bench, 'amylogram', 'GNN-agg', max_len=32, epochs=20)
 print(res_gnn, flush=True)
 my_scores = np.array([window_score(model, s, 6, False) for s in seqs])
-my_auc = roc_auc_score(y, my_scores)
-print(f"pepx-GNN(hex-window) on pep424: AUC={my_auc:.4f}", flush=True)
+ok2 = ~np.isnan(my_scores)
+my_auc = roc_auc_score(y[ok2], my_scores[ok2])
+print(f"pepx-GNN(hex-window) on pep424: n={ok2.sum()} AUC={my_auc:.4f} (excluded {(~ok2).sum()} non-canonical)", flush=True)
 
 out = dict(dataset='pep424', n=int(len(y)), positives=int(y.sum()),
-           foldamyloid_auc=float(fa_auc), pepx_gnn_auc=float(my_auc),
+           foldamyloid_auc=float(fa_auc), pepx_gnn_auc=float(my_auc), n_scored=int(ok2.sum()), n_excluded_noncanonical=int((~ok2).sum()),
            beat_foldamyloid=bool(my_auc > fa_auc),
            source='FoldAmyloid predictions: michbur/AmyloGramAnalysis benchmark/FoldAmyloid_pred.txt; labels: pep424_evaluation.txt')
 json.dump(out, open('results/pep424_headtohead.json', 'w'), indent=2)

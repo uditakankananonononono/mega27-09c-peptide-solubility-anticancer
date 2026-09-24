@@ -1,0 +1,11 @@
+{
+  "dataset": "pep424",
+  "n": 424,
+  "positives": 149,
+  "foldamyloid_auc": 0.5688318530784284,
+  "pepx_gnn_auc": 0.5,
+  "n_scored": 261,
+  "n_excluded_noncanonical": 163,
+  "beat_foldamyloid": false,
+  "source": "FoldAmyloid predictions: michbur/AmyloGramAnalysis benchmark/FoldAmyloid_pred.txt; labels: pep424_evaluation.txt"
+}

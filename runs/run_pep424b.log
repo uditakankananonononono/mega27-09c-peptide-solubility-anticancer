@@ -1,0 +1,6 @@
+pep424 labels: 424 (149 pos)
+FoldAmyloid on pep424: n=419 AUC=0.5688
+EvalResult(model='GNN-agg', dataset='amylogram', accuracy=0.6735700197238659, sensitivity=0.746268656716418, specificity=0.6474530831099196, mcc=0.3485458461800662, auc=0.7616041775039014, epochs_run=19, best_val_auc=0.8915289256198347)
+pepx-GNN(hex-window) on pep424: n=261 AUC=0.5000 (excluded 163 non-canonical)
+{'dataset': 'pep424', 'n': 424, 'positives': 149, 'foldamyloid_auc': 0.5688318530784284, 'pepx_gnn_auc': 0.5, 'n_scored': 261, 'n_excluded_noncanonical': 163, 'beat_foldamyloid': False, 'source': 'FoldAmyloid predictions: michbur/AmyloGramAnalysis benchmark/FoldAmyloid_pred.txt; labels: pep424_evaluation.txt'}
+elapsed 3.4 s

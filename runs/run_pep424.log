@@ -1,0 +1,19 @@
+pep424 labels: 424 (149 pos)
+FoldAmyloid on pep424: n=419 AUC=0.5688
+EvalResult(model='GNN-agg', dataset='amylogram', accuracy=0.6499013806706114, sensitivity=0.7723880597014925, specificity=0.6058981233243967, mcc=0.33364125347905166, auc=0.7565173462446482, epochs_run=18, best_val_auc=0.8760330578512396)
+Traceback (most recent call last):
+  File "/home/sandbox/mega27/mega27-09c-peptide-solubility-anticancer/runs/run_pep424_headtohead.py", line 68, in <module>
+    my_scores = np.array([window_score(model, s, 6, False) for s in seqs])
+  File "/home/sandbox/mega27/mega27-09c-peptide-solubility-anticancer/runs/run_pep424_headtohead.py", line 68, in <listcomp>
+    my_scores = np.array([window_score(model, s, 6, False) for s in seqs])
+  File "/home/sandbox/mega27/mega27-09c-peptide-solubility-anticancer/runs/run_pep424_headtohead.py", line 54, in window_score
+    i, d, _ = to_tensors(recs, 6, wide)
+  File "/home/sandbox/mega27/mega27-09c-peptide-solubility-anticancer/src/pepx/trainer.py", line 44, in to_tensors
+    desc[i] = torch.from_numpy(descriptor_array(r.sequence))
+  File "/home/sandbox/mega27/mega27-09c-peptide-solubility-anticancer/src/pepx/encoders.py", line 22, in descriptor_array
+    v = descriptor_vector(seq)
+  File "/home/sandbox/mega27/mega27-09c-peptide-solubility-anticancer/src/pepx/descriptors.py", line 147, in descriptor_vector
+    s = validate_sequence(seq)
+  File "/home/sandbox/mega27/mega27-09c-peptide-solubility-anticancer/src/pepx/alphabet.py", line 29, in validate_sequence
+    raise InvalidSequenceError(f"invalid residues {bad} in sequence of length {len(s)}")
+pepx.alphabet.InvalidSequenceError: invalid residues ['O'] in sequence of length 6

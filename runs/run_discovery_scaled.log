@@ -1,0 +1,41 @@
+ep 1: acp=0.6596 sol=0.7611 agg=0.7134
+ep 2: acp=0.7358 sol=0.7761 agg=0.7746
+ep 3: acp=0.7352 sol=0.7684 agg=0.7748
+ep 4: acp=0.7369 sol=0.7783 agg=0.7917
+ep 5: acp=0.7774 sol=0.7911 agg=0.7949
+ep 6: acp=0.7619 sol=0.7874 agg=0.7976
+ep 7: acp=0.7228 sol=0.7847 agg=0.7907
+ep 8: acp=0.7770 sol=0.7845 agg=0.7878
+ep 9: acp=0.7537 sol=0.7874 agg=0.7759
+ep 10: acp=0.7672 sol=0.7931 agg=0.7795
+ep 11: acp=0.7854 sol=0.7872 agg=0.7827
+ep 12: acp=0.7743 sol=0.7930 agg=0.7859
+ep 13: acp=0.7705 sol=0.7971 agg=0.7870
+ep 14: acp=0.7932 sol=0.7952 agg=0.7800
+ep 15: acp=0.7065 sol=0.7897 agg=0.7849
+ep 16: acp=0.7693 sol=0.7893 agg=0.7878
+ep 17: acp=0.7700 sol=0.7923 agg=0.7580
+ep 18: acp=0.7774 sol=0.7940 agg=0.7770
+ep 19: acp=0.7673 sol=0.8000 agg=0.7608
+ep 20: acp=0.7870 sol=0.7912 agg=0.7748
+ep 21: acp=0.7892 sol=0.7944 agg=0.7801
+ep 22: acp=0.7843 sol=0.8014 agg=0.7538
+ep 23: acp=0.7756 sol=0.8026 agg=0.7863
+ep 24: acp=0.7544 sol=0.7973 agg=0.7720
+ep 25: acp=0.7703 sol=0.8042 agg=0.7669
+saved trinet.pt, mean heldout AUC 0.7895
+step 0: median S 0.327
+step 20: median S 0.545
+step 40: median S 0.688
+step 60: median S 0.795
+step 80: median S 0.848
+unique candidates: 100, passing all gates: 4
+CANRVEPEDEFDS 0.968 acp 0.984 sol 0.99 agg 0.006 GATES False
+FAKLDRDTACDES 0.964 acp 0.984 sol 0.984 agg 0.004 GATES False
+DDEEFCHNRTDSYKEFVGEYEED 0.96 acp 0.975 sol 0.989 agg 0.004 GATES False
+GEGAGEDRATRRAEADFKDIDNW 0.954 acp 0.989 sol 0.976 agg 0.011 GATES False
+FKAFVFDKLIDEWPEDLADPNEDP 0.95 acp 0.977 sol 0.983 agg 0.011 GATES False
+DDKDPLQHPHTYE 0.949 acp 0.969 sol 0.985 agg 0.005 GATES False
+RRLEKKYEGDDPNDEAWPNLM 0.945 acp 0.979 sol 0.976 agg 0.011 GATES False
+FKEAVPCIGEDPT 0.944 acp 0.972 sol 0.98 agg 0.009 GATES False
+elapsed 138.3 s

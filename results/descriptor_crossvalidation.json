@@ -1,0 +1,54 @@
+[
+  {
+    "seq": "KLAKLAKKLAKLAK",
+    "mw_mine": 1433.87,
+    "mw_modlamp": 1524.0,
+    "pi_mine": 10.7,
+    "pi_modlamp": 13.23,
+    "inst_mine": -14.97,
+    "inst_modlamp": -14.97,
+    "gravy_mine": 0.586,
+    "gravy_peptidespy": -0.071,
+    "boman_mine": 2.561,
+    "boman_peptidespy": 0.456
+  },
+  {
+    "seq": "FEKEAKKIEIKRH",
+    "mw_mine": 1538.58,
+    "mw_modlamp": 1655.94,
+    "pi_mine": 9.53,
+    "pi_modlamp": 10.68,
+    "inst_mine": 84.68,
+    "inst_modlamp": 84.68,
+    "gravy_mine": -0.608,
+    "gravy_peptidespy": -1.554,
+    "boman_mine": 1.637,
+    "boman_peptidespy": 3.66
+  },
+  {
+    "seq": "GIGAVLKVLTTGLPALISWIKRKRQQ",
+    "mw_mine": 2720.02,
+    "mw_modlamp": 2847.46,
+    "pi_mine": 12.02,
+    "pi_modlamp": 13.72,
+    "inst_mine": 44.73,
+    "inst_modlamp": 44.73,
+    "gravy_mine": -0.354,
+    "gravy_peptidespy": 0.273,
+    "boman_mine": 1.701,
+    "boman_peptidespy": 0.57
+  },
+  {
+    "seq": "EEEEEEEE",
+    "mw_mine": 930.86,
+    "mw_modlamp": 1050.93,
+    "pi_mine": 3.36,
+    "pi_modlamp": 3.3,
+    "inst_mine": 294.0,
+    "inst_modlamp": 294.0,
+    "gravy_mine": -1.6,
+    "gravy_peptidespy": -3.5,
+    "boman_mine": -0.72,
+    "boman_peptidespy": 6.81
+  }
+]

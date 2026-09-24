@@ -46,3 +46,9 @@ def test_boman_and_instability_ranges():
 def test_instability_unstable_dipeptide():
     # P-P pair has DIWV 20.26; long poly-P should score unstable-ish vs poly-G.
     assert instability_index("PPPPPPPPPP") > instability_index("GGGGGGGGGG")
+
+
+def test_molecular_weight_matches_modlamp():
+    # Cross-validated against modlAMP GlobalDescriptor.calculate_MW (2026-09-24):
+    # KLAKLAKKLAKLAK -> 1524.0 Da. Locks the fixed free-AA mass table.
+    assert molecular_weight(KLA) == pytest.approx(1524.0, abs=1.0)

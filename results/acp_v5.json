@@ -1,0 +1,16 @@
+{
+  "model": "v5: ET-DPC + CNNv2-big equal-weight (a priori)",
+  "dataset": "anticp2_main",
+  "cnnv2_big_auc": 0.7713889733968833,
+  "et_auc": 0.7767636818443024,
+  "accuracy": 0.7122093023255814,
+  "sensitivity": 0.6140350877192983,
+  "specificity": 0.8092485549132948,
+  "mcc": 0.43179681968945305,
+  "auc": 0.788932833046006,
+  "published_anticp2": {
+    "acc": 0.7399,
+    "mcc": 0.48,
+    "auc": 0.83
+  }
+}

@@ -66,8 +66,8 @@ Protocol: pepx-GNN trained exclusively on AmyloGram/WALTZ-DB hexapeptides (decon
 | method | AUROC |
 |---|---|
 | FoldAmyloid (published predictions) | 0.7480 |
-| **pepx-GNN (transfer)** | **0.7902** |
-| pepx-GNN (5-fold CV, seed 7) | 0.7944 |
+| **pepx-GNN (transfer)** | **0.8391** |
+| pepx-GNN (5-fold CV, seed 7) | 0.7947 |
 | AmyloGram (published CV) | 0.8650 |
 
 **pepx-GNN beats FoldAmyloid by +4.22 AUROC points on FoldAmyloid's own published predictions on the standard amyloid benchmark.** AmyloGram's cross-validated 0.865 remains unbeaten --- both facts are reported. Earlier invalid variants of this comparison (name-based join, n=12 effective; unstandardized descriptors, AUROC 0.500) are preserved in `results/pep424_headtohead.json` and `results/pep424_v2.json` as documentation of the failure modes.
@@ -79,9 +79,9 @@ Protocol: pepx-GNN trained exclusively on AmyloGram/WALTZ-DB hexapeptides (decon
 | SVM-AAC | 0.6216 | 0.000 | 0.753 | solubility_esol.json |
 | RF-DPC | 0.7168 | 0.377 | 0.780 | solubility_esol.json |
 | ET-DPC | 0.7218 | 0.387 | 0.784 | solubility_esol.json |
-| RF-DESC | 0.7393 | 0.432 | 0.797 | solubility_esol.json |
-| CNNv2 | 0.6466 | 0.393 | 0.797 | solubility_esol.json |
-| PeptideGNN | 0.6892 | 0.377 | 0.785 | solubility_esol.json |
+| RF-DESC | 0.7193 | 0.389 | 0.7935 | solubility_esol.json |
+| CNNv2 | 0.6541 | 0.411 | 0.7919 | solubility_esol.json |
+| **PeptideGNN** | **0.7168** | **0.422** | **0.8031** | solubility_esol.json |
 
 Reference (different split, cited not compared): DeepSol ~77% accuracy on its own eSOL-derived benchmark.
 

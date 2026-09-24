@@ -13,12 +13,12 @@ Every training run executed during this project, in execution order, with its co
 | 7 | run_ensemble_acp.py | anticp2_main | 4-arm ens | 0.796 AUC | ensemble negative |
 | 8 | run_acp_v4_multiseed.py | anticp2_main | seed-ens x3 | 0.773 AUC | negative |
 | 9 | run_acp_v5_big.py | anticp2_main | CNNv2-big | 0.771 AUC | negative |
-| 10 | run_solubility.py | esol | RF-DESC | 0.797 AUC | sol best |
-| 11 | run_solubility.py | esol | PeptideGNN | 0.785 AUC | - |
+| 10 | run_solubility.py | esol | RF-DESC | 0.7935 AUC | mass-fix re-run |
+| 11 | run_solubility.py | esol | PeptideGNN | 0.8031 AUC | sol best |
 | 12 | run_aggregation.py | amylogram | PeptideGNN | 0.769 AUC | - |
 | 13 | run_pep424_headtohead.py | pep424 | GNN transfer | invalid (parse) | documented |
 | 14 | run_pep424_v2.py | pep424 | GNN transfer | invalid (normalization) | documented |
-| 15 | run_pep424_v3.py | pep424 | GNN transfer | 0.790 AUC | **break vs FoldAmyloid 0.748** |
+| 15 | run_pep424_v3.py | pep424 | GNN transfer | 0.839 AUC | **break vs FoldAmyloid 0.748** |
 | 16 | run_pep424_v3.py | pep424 | GNN 5-fold CV | 0.794 AUC | below AmyloGram 0.865 |
 | 17 | run_discovery.py | multi | TriNet 6ep | saturated | bug found+fixed |
 | 18 | run_discovery.py (fixed) | multi | TriNet 6ep | 1 gated candidate | v0.1 |

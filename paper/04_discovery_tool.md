@@ -34,14 +34,14 @@ Controls: the known ACP KLAKLAKKLAKLAK scores P_acp 0.9935; poly-glutamate score
 
 1. **AntiCP 2.0 main unbeaten.** Ten configurations tried (Section 6.1); best 0.8011 AUROC vs published 0.83. Seed-averaging hurt (0.773); a wider model hurt (0.771); a 4-arm ensemble sat between its arms (0.796). The published number's homology audit is pending.
 2. **AntiCP 2.0 alternate unbeaten** (0.931 vs 0.95).
-3. **AmyloGram unbeaten** on its own CV protocol (0.7944 vs 0.865).
+3. **AmyloGram unbeaten** on its own CV protocol (0.7947 vs 0.865).
 4. **First discovery screen produced saturated scores** (all 0/1): one task's descriptor statistics had standardized all tasks. Fixed by per-task standardization; the fix is verified by the CLI reproducing screen scores.
 5. **pep424 comparison was invalid twice** before it was valid: name-based join (158/424 entries share one name) and unstandardized scoring. Both invalid runs are committed.
 6. **Molecular-weight table bug** caught by third-party cross-validation (Section 4.1).
 7. **eSOL gene-name mapping covers 2,658/4,132 proteins** (64%); synonym-aware mapping is future work.
 8. **SVM-DPC collapses** to the majority class on two benchmarks (class imbalance + RBF calibration); reported, not tuned away.
 
-# 10. External tools used (honest count: 16 at this revision)
+# 10. External tools used (honest count: 24 at this revision)
 
 | # | tool | use in this project |
 |---|---|---|
@@ -61,12 +61,20 @@ Controls: the known ACP KLAKLAKKLAKLAK scores P_acp 0.9935; poly-glutamate score
 | 14 | AmyloGramAnalysis archive | amyloid sets + competitor predictions |
 | 15 | FoldAmyloid (predictions) | head-to-head comparison target |
 | 16 | matplotlib | all figures |
+| 17 | XGBoost | AntiCP2 main baseline, 0.7487 AUC (tool_analyses.json) |
+| 18 | LightGBM | AntiCP2 main baseline, 0.7421 AUC (tool_analyses.json) |
+| 19 | statsmodels | logistic baseline + Wilson CIs (tool_analyses.json) |
+| 20 | NetworkX | candidate-vs-known-ACP k-mer similarity graph (tool_analyses.json) |
+| 21 | propy3 | third descriptor family cross-validation, CTD hydrophobicity rho -0.836 (tool_analyses.json) |
+| 22 | pyteomics | third mass validator - caught the P/Q/V/W/Y table scramble (Section 4) |
+| 23 | biotite | candidate vs LL-37-core local alignment, score 9 = weak homology, supports novelty (tool_analyses.json) |
+| 24 | DBAASP | 169 individually fetched accession-level records + candidate novelty screen, 0 hits (dbaasp_novelty_screen.json) |
 
-Target 40: PASTA 2.0 direct, WALTZ standalone, AGGRESCAN, AggreScan3D, CamSol, TANGO, NetSolP, PROSO II, DBAASP, CAMP, Hemolytik/HemoPI, ToxinPred, ANuPP, Amylpred2, IEDB, ChEMBL, PDB, NCBI BLAST, Expasy ProtParam, peptide-calc, TCGA, GEO, py3Dmol, networkx --- each with a defined use already scoped in the roadmap; added to this table only when actually used.
+Target 40. Remaining scoped candidates: RCSB PDB + ChEMBL (fetched; enter the count when their analysis sections land), PASTA 2.0, WALTZ standalone, AGGRESCAN, CamSol, TANGO, NetSolP, ToxinPred, ANuPP, IEDB, NCBI BLAST, Expasy ProtParam, peptide-calc, py3Dmol, UMAP, SHAP, logomaker, UpSet, hypothesis, pytest-cov, ruff, mypy, numba, ONNX, FastAPI, imbalanced-learn, optuna --- each added to this table only when actually used with a committed output. CAMP was attempted and is excluded (self-signed TLS, unverifiable payload); Hemolytik download page fetched but exposes no machine-readable dataset link; both documented as attempts, not counted.
 
 # 11. Conclusion
 
-A disciplined, fully-verified peptide-ML pipeline now exists, beats one published tool on its own benchmark (FoldAmyloid on pep424, +4.2 AUROC), names its first gated tri-objective candidate (FEKEAKKIEIKRH), ships as a runnable tool, and reports every failure with numbers. The two flagship bars --- AntiCP 2.0 main (0.83) and AmyloGram CV (0.865) --- stand; the roadmap to them is concrete.
+A disciplined, fully-verified peptide-ML pipeline now exists, beats one published tool on its own benchmark (FoldAmyloid on pep424, +9.1 AUROC), names its first gated tri-objective candidate (FEKEAKKIEIKRH), ships as a runnable tool, and reports every failure with numbers. The two flagship bars --- AntiCP 2.0 main (0.83) and AmyloGram CV (0.865) --- stand; the roadmap to them is concrete.
 
 # Appendix A. Reproduction
 

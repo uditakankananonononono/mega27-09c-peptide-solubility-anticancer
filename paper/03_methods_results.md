@@ -94,3 +94,8 @@ Reference (different split, cited not compared): DeepSol ~77% accuracy on its ow
 ![Descriptor separation between ACPs and non-ACP AMPs in the training pool.](figures/fig4_descriptor_panels.png)
 
 \newpage
+
+
+## Hyperparameter search on the hardest bar (AntiCP 2.0 main)
+
+A 12-trial TPE search (Optuna, seed 7) over CNNv2's embedding width, channels, depth, dropout and learning rate, optimizing **validation** AUROC only (test never enters the objective; each trial's test-at-best-val is recorded for transparency). Best validation 0.8779 (emb 32, ch 96, 2 blocks, dropout 0.278, lr 1.7e-3); the chosen config retrained for 40 epochs scores **test 0.8029** (`results/optuna_cnnv2_anticp2.json`). The 0.83 published bar therefore stands after architecture search as well: the gap is not a tuning artifact. Combined with the seed-ensemble and capacity negatives, the evidence now points to label/noise ceiling on this split rather than model class - the test-at-best-val spread across trials (0.731-0.788) shows how large the selection bias would have been had we picked the lucky trial instead: 0.788 would have looked like progress and would have been false.

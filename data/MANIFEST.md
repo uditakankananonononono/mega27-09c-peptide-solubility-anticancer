@@ -13,3 +13,11 @@
 | FoldAmyloid predictions on pep424 | published-tool head-to-head | same repo (benchmark/FoldAmyloid_pred.txt) | 419 |
 | PASTA 2.0 predictions on pep424 | published-tool head-to-head | same repo (benchmark/pasta2_preds/) | per-protein profiles |
 | Guruprasad DIWV scale | instability index | via Biopython Bio.SeqUtils.ProtParamData.DIWV (Guruprasad et al. 1990) | 400 dipeptides |
+
+## UniProt accession panel (128 entries, fetched live 2026-09-24 via rest.uniprot.org/uniprotkb/{ACC}.json)
+Per-entry JSON in data/uniprot_accessions/<ACC>.json; accession list in runs/fetch_uniprot_accessions.py (ACCESSIONS).
+Spans: host-defense peptides, conotoxins, scorpion/snake toxins, transporters, enzymes, cytokines,
+amyloid controls (P05067 APP, P10997 IAPP, apolipoproteins), bacteriocins, viral fusion peptides,
+ribosomal proteins, cyclotides, fish/amphibian AMPs. 118/128 passed strict validation (10 excluded:
+length<30 or non-standard residues, logged in runs/accession_panels.py output). Each entry
+individually analyzed -> results/accession_panels.json.

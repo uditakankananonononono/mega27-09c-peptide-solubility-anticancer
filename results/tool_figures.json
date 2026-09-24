@@ -1,0 +1,32 @@
+{
+ "umap": {
+  "n": 420,
+  "keys": [
+   "mw",
+   "charge",
+   "gravy",
+   "boman",
+   "aromaticity",
+   "instability"
+  ]
+ },
+ "shap": {
+  "top": [
+   "pI",
+   "mw",
+   "aromaticity",
+   "frac_anionic",
+   "length"
+  ]
+ },
+ "logomaker": {
+  "pos": 400,
+  "neg": 400
+ },
+ "upset": {
+  "APD3": 2269,
+  "AntiCP2_pos": 385,
+  "CancerPPD": 117,
+  "DBAASP": 55
+ }
+}

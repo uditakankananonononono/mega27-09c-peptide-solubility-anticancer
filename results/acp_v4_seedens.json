@@ -1,0 +1,9 @@
+{
+  "model": "CNNv2-seedens(7,17,27)",
+  "dataset": "anticp2_main",
+  "accuracy": 0.7209302325581395,
+  "sensitivity": 0.6257309941520468,
+  "specificity": 0.815028901734104,
+  "mcc": 0.44909564944437963,
+  "auc": 0.7726396917148362
+}

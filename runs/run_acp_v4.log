@@ -1,0 +1,5 @@
+EvalResult(model='CNNv2-s7', dataset='anticp2_main', accuracy=0.6802325581395349, sensitivity=0.5380116959064327, specificity=0.8208092485549133, mcc=0.37432617731027723, auc=0.765473413784944, epochs_run=16, best_val_auc=0.8470822149319017)
+EvalResult(model='CNNv2-s17', dataset='anticp2_main', accuracy=0.7122093023255814, sensitivity=0.631578947368421, specificity=0.791907514450867, mcc=0.4292046258970077, auc=0.7936314775377751, epochs_run=30, best_val_auc=0.8350134208171787)
+EvalResult(model='CNNv2-s27', dataset='anticp2_main', accuracy=0.6482558139534884, sensitivity=0.6549707602339181, specificity=0.6416184971098265, mcc=0.2966042969856166, auc=0.7298786465199608, epochs_run=14, best_val_auc=0.8052490307187592)
+{'model': 'CNNv2-seedens(7,17,27)', 'dataset': 'anticp2_main', 'accuracy': 0.7209302325581395, 'sensitivity': 0.6257309941520468, 'specificity': 0.815028901734104, 'mcc': 0.44909564944437963, 'auc': 0.7726396917148362}
+elapsed 181.2 s

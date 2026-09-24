@@ -1,0 +1,23 @@
+# Extended related work: the field as it stands
+
+This section maps every published system our work touches, what it reports, and how our numbers sit against it. Where we did not run the competitor ourselves, its number is quoted from its paper and marked (published); where we did, the comparison is on our aligned data and marked (aligned).
+
+## Anticancer peptide prediction
+
+**AntiCP 2.0** (Agrawal et al., *Briefings in Bioinformatics* 2021) is the field's reference point: SVM over compositional features, reporting 73.99% accuracy / 0.48 MCC / 0.83 AUROC on the main split and 88.18% / 0.76 / 0.95 on the alternate (published). Our best main-split model reaches 0.8029 (aligned, locked test) and our alternate-split classical baseline reaches 0.931 - both below the published bars, reported unbeaten after ten-plus configurations, ensembling, capacity scaling, seed ensembling and a 12-trial Bayesian HPO sweep. We additionally document (Section 18) why the published 0.83 may include protocol details not recoverable from the manuscript. **AntiCP** (v1, Tyagi et al. 2013) and **ACPP** (Santhosh et al. 2012) are the earlier SVM generation our classical grid reproduces in spirit. **ACPred** (Schaduangrat et al. 2019), **iACP** (Chen et al. 2016), **ACP-DL** (Yi et al. 2019, deep features) and **CSM-peptides** (Rodrigues et al. 2022) report results on partially overlapping data (published; their splits differ from ours, so we quote no numbers and cite them as context, not bars). The honest summary: sequence-only ACP classification has been a 0.80-0.83 problem for a decade, and the field's residual is label noise plus negative-pool construction - our convergence evidence (Section 5) supports that reading.
+
+## Solubility prediction
+
+**SoluProt** (Hon et al. 2021, *Bioinformatics*) is the strongest published eSOL-family model: gradient boosting over sequence embeddings, reporting 58.5% accuracy / 0.62 AUC on the NESG balanced independent test (published; abstract verified at pubmed 33416864). Our eSOL task uses the PURE percentage threshold with a locked random split - a deliberately different, peptide-transfer-oriented formulation - on which our PeptideGNN reaches 0.8031 (aligned, seed-7 split). The two numbers are not comparable point-to-point (different split hardness); the honest statement is that our split is easier and our number is correspondingly higher, which is why Section 2 fixes the split construction in the repo. **NetSolP** (2022, *Bioinformatics* 38(4):941; ESM-1b fine-tune) reports improvements over SoluProt on language-model features (published; we did not re-verify the exact figure, so none is quoted) - transformer-scale compute we do not have. **PROSO II** and **CamSol** (Sormanni et al. 2015) are the physics-flavored alternatives; CamSol's per-residue profile is the correct comparator for any future per-residue version of our tool.
+
+## Aggregation prediction
+
+**AmyloGram** (Burdukiewicz et al. 2020) holds our unbeaten bar: 0.865 CV (published) vs our 0.7947 (aligned 5-fold). **FoldAmyloid** (Garbuzynskiy et al. 2010) is the packing-density method we beat on its own benchmark file: 0.7480 vs our 0.8391 (aligned, identical 419 sequences, their published predictions). **WALTZ 2.0** and **PASTA 2.0** are the energy-based generation; **AGGRESCAN** (Conchillo-Solé et al. 2007) the original aggregation-scale method from which the field's per-residue scales descend; **TANGO** (Fernandez-Escamilla et al. 2004) the statistical-mechanics model. Our `aggregation_zz` descriptor derives from the AGGRESCAN lineage (Section 2), and Section 6 quantifies how far a learned model outruns any single scale on aligned data.
+
+## Multi-task peptide design
+
+Joint activity/developability screening is standard in industrial pipelines but thin in public peptide ML: **PeptideBERT** (2023) fine-tunes a transformer per property (single-task); **CPL-Diff** and **PepDiff**-class generative models optimize activity with post-hoc filters rather than joint scores. TriNet's contribution here is modest and stated as such: one shared encoder, three heads, a documented failure mode (annealing drift, Section 15), and a falsifiability protocol - the field's published multi-task peptide screens rarely publish their failure modes, which is precisely the gap this project tries to close in style even where it loses in scale.
+
+## Embedding baselines we did not run
+
+ESM-2, ProtT5 and ProtBERT embeddings would likely add 1-3 AUROC points on all three tasks (published, on comparable tasks). On 2 CPU / 1.9 GB this was infeasible; it is the first item on the compute roadmap, and its absence is declared in Limitations rather than hidden behind "future work" boilerplate.

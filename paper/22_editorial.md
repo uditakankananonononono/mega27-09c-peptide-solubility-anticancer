@@ -1,0 +1,15 @@
+# Editorial: what a benchmark number is worth
+
+This project began with three published numbers - 0.83, 0.865, 0.7480 - and ended with one of them beaten, two of them standing, and a long paper about why. Some of what we learned about benchmark numbers themselves:
+
+**A published number is a claim about a protocol, not a property of the world.** FoldAmyloid's 0.7480 on pep424 was computed by us, from the authors' own prediction file, on the authors' own benchmark - it is as solid as a number gets. It still fell by 9.1 points to a transfer model that simply had more relevant training signal. The number was never wrong; what it *meant* ("this is how well aggregation can be predicted from sequence") was wrong, and it took an exactly aligned comparison - same 419 sequences, same order, same labels - to show it. Most published comparisons are not aligned, and most "state of the art" claims inherit that looseness.
+
+**Beaten bars are cheaper to move than standing ones are to interpret.** The two bars we did not beat taught us more. AntiCP 2.0's 0.83 survived architecture search, ensembling, capacity scaling, seed averaging and Bayesian HPO - and then the leakage audit showed 16.6% of its test set sitting within 0.7 4-mer-Jaccard of the training pool, which reframes the question from "why can't we reach 0.83" to "what does any number on this split estimate". AmyloGram's 0.865 stands with a similar asterisk: cross-validation on hexapeptides shares near-identical sequences across folds by construction. The honest sentence is: *we do not know what these numbers are worth, and after this project, neither does anyone who cites them without the audit.*
+
+**Failures compound in silence and cancel in public.** Every negative in this paper - the saturated descriptors, the anionic drift, the overwritten weights, the scrambled mass table, the five ensemble/tuning losses - was one git commit away from disappearing. Keeping them was not virtue; it was instrumentation. The mass-table scramble survived a passing test suite for weeks because the lock peptide happened to contain only correct residues; what caught it was a third independent validator, added for an unrelated reason, disagreeing by exactly 87.1 daltons per valine. Cross-validation of *everything* - descriptors, joins, splits, weights paths - is the only technique here that caught real bugs, and it caught two.
+
+**The unit of progress is the falsifiable artifact.** This paper's claims are deliberately structured so each can die in public: the break dies if the pep424 join is shown wrong (Appendix G documents the collision that makes naive joins corrupt); the discovery family dies in a wet lab (Appendix F names the assays); the tool dies if its smoke test stops reproducing the paper's four control numbers (Section 16.5 showed that tripwire firing once already). A result that cannot be killed cannot be believed.
+
+# Final note
+
+The repository, this PDF, and the Drive results pack are the complete state of the work at the commit named on the title page. Nothing in this paper is rounded up.

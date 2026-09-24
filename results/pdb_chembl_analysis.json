@@ -1,0 +1,151 @@
+{
+ "2K6O": {
+  "n_res": 37,
+  "radius_of_gyration_A": 16.21,
+  "mean_ca_ca_A": 3.8,
+  "chain_ids": [
+   "A"
+  ]
+ },
+ "2MAG": {
+  "n_res": 23,
+  "radius_of_gyration_A": 9.93,
+  "mean_ca_ca_A": 3.76,
+  "chain_ids": [
+   "A"
+  ]
+ },
+ "chembl_table": {
+  "CHEMBL414933": {
+   "n_records": 9,
+   "potency_range": [
+    5.0,
+    50.0
+   ],
+   "units_seen": [
+    "ug.mL-1"
+   ],
+   "targets": [
+    "Candida albicans",
+    "Escherichia coli",
+    "Micrococcus luteus",
+    "NON-PROTEIN TARGET",
+    "Pseudomonas aeruginosa",
+    "Staphylococcus aureus"
+   ]
+  },
+  "CHEMBL409372": {
+   "n_records": 5,
+   "potency_range": [
+    5.0,
+    90.0
+   ],
+   "units_seen": [
+    "%",
+    "ug.mL-1"
+   ],
+   "targets": [
+    "Candida albicans",
+    "Unchecked"
+   ]
+  },
+  "CHEMBL437357": {
+   "n_records": 1,
+   "potency_range": [
+    30000.0,
+    30000.0
+   ],
+   "units_seen": [
+    "nM"
+   ],
+   "targets": [
+    "Salmonella typhimurium"
+   ]
+  },
+  "CHEMBL412927": {
+   "n_records": 9,
+   "potency_range": [
+    0.78,
+    6000.0
+   ],
+   "units_seen": [
+    "nM",
+    "uM",
+    "ug.mL-1"
+   ],
+   "targets": [
+    "Candida albicans",
+    "Escherichia coli",
+    "Mus musculus",
+    "NON-PROTEIN TARGET",
+    "Pseudomonas aeruginosa",
+    "Staphylococcus aureus"
+   ]
+  },
+  "CHEMBL1673379": {
+   "n_records": 3,
+   "potency_range": [
+    100.0,
+    4000.0
+   ],
+   "units_seen": [
+    "nM",
+    "uM"
+   ],
+   "targets": [
+    "ADMET",
+    "Escherichia coli",
+    "Staphylococcus aureus"
+   ]
+  },
+  "CHEMBL1649725": {
+   "n_records": 7,
+   "potency_range": [
+    0.2,
+    24.0
+   ],
+   "units_seen": [
+    "ug.mL-1"
+   ],
+   "targets": [
+    "Enterococcus faecalis",
+    "Escherichia coli",
+    "Salmonella enteritidis",
+    "Salmonella typhimurium",
+    "Staphylococcus aureus"
+   ]
+  },
+  "CHEMBL1673088": {
+   "n_records": 4,
+   "potency_range": [
+    25.0,
+    147.0
+   ],
+   "units_seen": [
+    "ug.mL-1"
+   ],
+   "targets": [
+    "NON-PROTEIN TARGET",
+    "Pseudomonas fluorescens",
+    "Vibrio vulnificus",
+    "Yersinia ruckeri"
+   ]
+  },
+  "CHEMBL2252946": {
+   "n_records": 6,
+   "potency_range": [
+    0.3,
+    1000.0
+   ],
+   "units_seen": [
+    "nM",
+    "uM"
+   ],
+   "targets": [
+    "Erwinia amylovora",
+    "Pseudomonas syringae pv. syringae",
+    "Xanthomonas vesicatoria"
+   ]
+  }
+ }
+}

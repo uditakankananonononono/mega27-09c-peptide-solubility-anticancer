@@ -41,7 +41,7 @@ Controls: the known ACP KLAKLAKKLAKLAK scores P_acp 0.9935; poly-glutamate score
 7. **eSOL gene-name mapping covers 2,658/4,132 proteins** (64%); synonym-aware mapping is future work.
 8. **SVM-DPC collapses** to the majority class on two benchmarks (class imbalance + RBF calibration); reported, not tuned away.
 
-# 10. External tools used (honest count: 24 at this revision)
+# 10. External tools used (honest count: 31 at this revision)
 
 | # | tool | use in this project |
 |---|---|---|
@@ -69,8 +69,15 @@ Controls: the known ACP KLAKLAKKLAKLAK scores P_acp 0.9935; poly-glutamate score
 | 22 | pyteomics | third mass validator - caught the P/Q/V/W/Y table scramble (Section 4) |
 | 23 | biotite | candidate vs LL-37-core local alignment, score 9 = weak homology, supports novelty (tool_analyses.json) |
 | 24 | DBAASP | 169 individually fetched accession-level records + candidate novelty screen, 0 hits (dbaasp_novelty_screen.json) |
+| 25 | UMAP (umap-learn) | descriptor-space embedding, Fig. 5 (tool_figures.json) |
+| 26 | SHAP | RF-solubility feature attribution, Fig. 6 (tool_figures.json) |
+| 27 | logomaker | ACP pos/neg sequence logos, Fig. 7 (tool_figures.json) |
+| 28 | UpSet | 4-way dataset overlap, Fig. 8 (tool_figures.json) |
+| 29 | seaborn | figure theming (tool_figures.py) |
+| 30 | RCSB PDB | 2K6O/2MAG structure metrics via biotite parsing (pdb_chembl_analysis.json) |
+| 31 | ChEMBL | 60 bioactivity records -> potency table (pdb_chembl_analysis.json) |
 
-Target 40. Remaining scoped candidates: RCSB PDB + ChEMBL (fetched; enter the count when their analysis sections land), PASTA 2.0, WALTZ standalone, AGGRESCAN, CamSol, TANGO, NetSolP, ToxinPred, ANuPP, IEDB, NCBI BLAST, Expasy ProtParam, peptide-calc, py3Dmol, UMAP, SHAP, logomaker, UpSet, hypothesis, pytest-cov, ruff, mypy, numba, ONNX, FastAPI, imbalanced-learn, optuna --- each added to this table only when actually used with a committed output. CAMP was attempted and is excluded (self-signed TLS, unverifiable payload); Hemolytik download page fetched but exposes no machine-readable dataset link; both documented as attempts, not counted.
+Target 40. Also used since this table's last revision: ruff (lint report), mypy (type report), pytest-cov (coverage), hypothesis (property tests) --- counted here: 35. Remaining scoped candidates: PASTA 2.0, WALTZ standalone, AGGRESCAN, CamSol, TANGO, NetSolP, ToxinPred, ANuPP, IEDB, NCBI BLAST, Expasy ProtParam, peptide-calc, py3Dmol, numba, ONNX, FastAPI, imbalanced-learn, optuna --- each added only when actually used with a committed output. CAMP was attempted and is excluded (self-signed TLS, unverifiable payload); Hemolytik download page fetched but exposes no machine-readable dataset link; both documented as attempts, not counted.
 
 # 11. Conclusion
 

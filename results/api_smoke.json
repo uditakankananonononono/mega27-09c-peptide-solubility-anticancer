@@ -1,0 +1,26 @@
+{
+ "health": {
+  "status": "ok",
+  "model": "trinet-v0.1"
+ },
+ "score": {
+  "results": [
+   {
+    "sequence": "FEKEAKKIEIKRH",
+    "p_anticancer": 0.9033,
+    "p_soluble": 0.8667,
+    "p_aggregation": 0.055
+   },
+   {
+    "sequence": "KLAKLAKLAKLAK",
+    "p_anticancer": 0.9899,
+    "p_soluble": 0.6385,
+    "p_aggregation": 0.462
+   }
+  ]
+ },
+ "invalid_handling": {
+  "error": "invalid residues ['*', 'X', 'Z'] in sequence of length 5"
+ },
+ "cli_agreement": 0.9033
+}

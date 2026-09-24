@@ -1,0 +1,25 @@
+{
+ "numba_anneal_kernel": {
+  "steps": 2000000,
+  "numba_s": 0.0039,
+  "python_s": 0.3129,
+  "speedup": 80.4
+ },
+ "onnx_trinet_parity": {
+  "max_abs_logit_diff": 4.76837158203125e-07,
+  "opset": 17,
+  "file": "results/trinet.onnx",
+  "bytes": 443721,
+  "sigmoid_probs_torch": [
+   0.315,
+   0.9558,
+   0.0083
+  ],
+  "note": "desc standardized with results/trinet_norm.npz (train stats), as in the shipped CLI"
+ },
+ "imblearn_smote_anticp2": {
+  "smote_auc": 0.6339,
+  "plain_auc": 0.6337,
+  "note": "main split is already balanced; SMOTE expected neutral - honest check"
+ }
+}

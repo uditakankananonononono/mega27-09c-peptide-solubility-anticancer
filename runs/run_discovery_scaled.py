@@ -33,7 +33,7 @@ A_i, A_d, A_y = prep(acp_tr, 'acp'); A_te_i, A_te_d, A_te_y = prep(acp_te, 'acp'
 S_i, S_d, S_y = prep(sol_tr, 'sol'); S_te_i, S_te_d, S_te_y = prep(sol_te, 'sol')
 G_i, G_d, G_y = prep(agg_tr, 'agg'); G_te_i, G_te_d, G_te_y = prep(agg_bench, 'agg')
 MU, SD = A_d.mean(0, keepdim=True), A_d.std(0, keepdim=True).clamp(min=1e-6)
-np.savez('results/trinet_norm.npz', mu=MU.numpy().ravel(), sd=SD.numpy().ravel())
+np.savez('results/trinet_norm_25ep.npz', mu=MU.numpy().ravel(), sd=SD.numpy().ravel())
 A_d, A_te_d = standardize(A_d, A_te_d)
 S_d, S_te_d = standardize(S_d, S_te_d)
 G_d, G_te_d = standardize(G_d, G_te_d)
@@ -67,8 +67,8 @@ for ep in range(1, EPOCHS + 1):
         best_auc, best_state = m, {k: v.clone() for k, v in model.state_dict().items()}
     print(f"ep {ep}: " + " ".join(f"{k}={v:.4f}" for k, v in aucs.items()), flush=True)
 model.load_state_dict(best_state)
-torch.save(model.state_dict(), 'results/trinet.pt')
-print('saved trinet.pt, mean heldout AUC', round(best_auc, 4), flush=True)
+torch.save(model.state_dict(), 'results/trinet_25ep.pt')
+print('saved trinet_25ep.pt, mean heldout AUC', round(best_auc, 4), flush=True)
 
 # ---- batched annealing screen ----
 class R:

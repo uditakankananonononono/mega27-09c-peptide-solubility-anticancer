@@ -1,0 +1,6 @@
+ET-DPC   acc=0.7093 mcc=0.4476 auc=0.7768
+CNNv2    acc=0.7238 mcc=0.4495 auc=0.8011
+GNN      acc=0.6424 mcc=0.2867 auc=0.7235
+CNN      acc=0.6977 mcc=0.3982 auc=0.7826
+{'model': 'ENSEMBLE(ET+CNNv2+GNN+CNN)', 'dataset': 'anticp2_main', 'accuracy': 0.7151162790697675, 'sensitivity': 0.6374269005847953, 'specificity': 0.791907514450867, 'mcc': 0.4347166455985105, 'auc': 0.7957610789980731}
+elapsed 98.3 s

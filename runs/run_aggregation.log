@@ -1,0 +1,9 @@
+train=445 test=1014 (decontaminated)
+SVM-AAC  acc=0.7357 mcc=0.0000 auc=0.7146
+SVM-DPC  acc=0.7357 mcc=0.0000 auc=0.7157
+RF-DPC   acc=0.7101 mcc=0.2616 auc=0.7187
+ET-DPC   acc=0.6824 mcc=0.2555 auc=0.7191
+RF-DESC  acc=0.6647 mcc=0.2379 auc=0.7004
+EvalResult(model='CNNv2', dataset='amylogram', accuracy=0.6932938856015779, sensitivity=0.6231343283582089, specificity=0.7184986595174263, mcc=0.31171393581022777, auc=0.727301828658317, epochs_run=14, best_val_auc=0.871900826446281)
+EvalResult(model='GNN', dataset='amylogram', accuracy=0.7071005917159763, sensitivity=0.6977611940298507, specificity=0.710455764075067, mcc=0.36783641795998007, auc=0.7685816894081869, epochs_run=17, best_val_auc=0.868801652892562)
+elapsed 8.1 s

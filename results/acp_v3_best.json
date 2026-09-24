@@ -1,0 +1,11 @@
+{
+  "model": "CNNv2-d0.25-lr0.001",
+  "dataset": "anticp2_main",
+  "accuracy": 0.7209302325581395,
+  "sensitivity": 0.6491228070175439,
+  "specificity": 0.791907514450867,
+  "mcc": 0.4457565928009328,
+  "auc": 0.7881215562992259,
+  "epochs_run": 31,
+  "best_val_auc": 0.8374788746396262
+}

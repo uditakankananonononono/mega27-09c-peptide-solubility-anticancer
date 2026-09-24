@@ -3,5 +3,7 @@ SVM-AAC  acc=0.6216 mcc=0.0000 auc=0.7528
 SVM-DPC  acc=0.6216 mcc=0.0000 auc=0.7397
 RF-DPC   acc=0.7168 mcc=0.3771 auc=0.7798
 ET-DPC   acc=0.7218 mcc=0.3873 auc=0.7841
-RF-DESC  acc=0.7393 mcc=0.4320 auc=0.7971
-EvalResult(model='CNNv2', dataset='esol', accuracy=0.6466165413533834, sensitivity=0.5, specificity=0.8874172185430463, mcc=0.39307355226370927, auc=0.796611301004059, epochs_run=11, best_val_auc=0.8079635780124641)
+RF-DESC  acc=0.7193 mcc=0.3887 auc=0.7935
+EvalResult(model='CNNv2', dataset='esol', accuracy=0.6541353383458647, sensitivity=0.5040322580645161, specificity=0.9006622516556292, mcc=0.4112706587373406, auc=0.7918847468489639, epochs_run=11, best_val_auc=0.7996790685524499)
+EvalResult(model='GNN', dataset='esol', accuracy=0.7167919799498746, sensitivity=0.717741935483871, specificity=0.7152317880794702, mcc=0.42244455488105237, auc=0.8031002990813928, epochs_run=12, best_val_auc=0.8107623987759823)
+elapsed 231.2 s

@@ -1,0 +1,11 @@
+{
+  "dataset": "pep424",
+  "n": 424,
+  "positives": 149,
+  "foldamyloid_auc": 0.5,
+  "transfer_pepx_gnn_auc": 0.81156802928615,
+  "transfer_beats_foldamyloid": true,
+  "cv5_pepx_gnn_auc": 0.8251738865161684,
+  "amylogram_published_cv_auc": 0.865,
+  "protocol": "transfer: train on AmyloGram hexapeptides, score pep424; cv: 5-fold stratified seed 7"
+}

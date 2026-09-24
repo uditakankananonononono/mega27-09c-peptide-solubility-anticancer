@@ -1,0 +1,12 @@
+pep424: 424 sequences, 149 positives
+FoldAmyloid (published preds): n=12 AUC=0.5000
+EvalResult(model='GNN-agg', dataset='amylogram', accuracy=0.6203155818540433, sensitivity=0.7238805970149254, specificity=0.5831099195710456, mcc=0.2707429708997525, auc=0.7135568804769717, epochs_run=20, best_val_auc=0.8997933884297521)
+TRANSFER pepx-GNN: AUC=0.8116 (bar: FoldAmyloid 0.5000)
+fold 0 done
+fold 1 done
+fold 2 done
+fold 3 done
+fold 4 done
+CV pepx-GNN on pep424: AUC=0.8252 (AmyloGram published CV ~0.865)
+{'dataset': 'pep424', 'n': 424, 'positives': 149, 'foldamyloid_auc': 0.5, 'transfer_pepx_gnn_auc': 0.81156802928615, 'transfer_beats_foldamyloid': True, 'cv5_pepx_gnn_auc': 0.8251738865161684, 'amylogram_published_cv_auc': 0.865, 'protocol': 'transfer: train on AmyloGram hexapeptides, score pep424; cv: 5-fold stratified seed 7'}
+elapsed 5.4 s

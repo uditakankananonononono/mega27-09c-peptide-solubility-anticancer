@@ -1,7 +1,7 @@
 aligned: 419 of 419 with labels (149 pos)
 FoldAmyloid published preds: AUC=0.7480
-EvalResult(model='GNN-agg', dataset='amylogram', accuracy=0.6834319526627219, sensitivity=0.7388059701492538, specificity=0.6635388739946381, mcc=0.3571805953030137, auc=0.7672412068344603, epochs_run=19, best_val_auc=0.8853305785123966)
-TRANSFER pepx-GNN AUC=0.7902 vs FoldAmyloid 0.7480
-CV5 pepx-GNN AUC=0.7944 vs AmyloGram published 0.865
-{'dataset': 'pep424', 'aligned_n': 419, 'positives': 149, 'foldamyloid_auc': 0.7479617201093711, 'transfer_pepx_gnn_auc': 0.7901565995525727, 'transfer_beats_foldamyloid': True, 'cv5_pepx_gnn_auc': 0.7943823017648521, 'amylogram_published_cv_auc': 0.865, 'join': 'order-aligned fasta<->foldamyloid preds; labels by sequence', 'sources': 'michbur/AmyloGramAnalysis benchmark/{pep424.fasta,FoldAmyloid_pred.txt,pep424_evaluation.txt}'}
-elapsed 5.0 s
+EvalResult(model='GNN-agg', dataset='amylogram', accuracy=0.6153846153846154, sensitivity=0.7873134328358209, specificity=0.5536193029490617, mcc=0.3014790481282218, auc=0.7557570725461167, epochs_run=20, best_val_auc=0.8688016528925621)
+TRANSFER pepx-GNN AUC=0.8391 vs FoldAmyloid 0.7480
+CV5 pepx-GNN AUC=0.7947 vs AmyloGram published 0.865
+{'dataset': 'pep424', 'aligned_n': 419, 'positives': 149, 'foldamyloid_auc': 0.7479617201093711, 'transfer_pepx_gnn_auc': 0.8391001739995029, 'transfer_beats_foldamyloid': True, 'cv5_pepx_gnn_auc': 0.7947303007705693, 'amylogram_published_cv_auc': 0.865, 'join': 'order-aligned fasta<->foldamyloid preds; labels by sequence', 'sources': 'michbur/AmyloGramAnalysis benchmark/{pep424.fasta,FoldAmyloid_pred.txt,pep424_evaluation.txt}'}
+elapsed 5.1 s

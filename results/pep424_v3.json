@@ -3,9 +3,9 @@
   "aligned_n": 419,
   "positives": 149,
   "foldamyloid_auc": 0.7479617201093711,
-  "transfer_pepx_gnn_auc": 0.7901565995525727,
+  "transfer_pepx_gnn_auc": 0.8391001739995029,
   "transfer_beats_foldamyloid": true,
-  "cv5_pepx_gnn_auc": 0.7943823017648521,
+  "cv5_pepx_gnn_auc": 0.7947303007705693,
   "amylogram_published_cv_auc": 0.865,
   "join": "order-aligned fasta<->foldamyloid preds; labels by sequence",
   "sources": "michbur/AmyloGramAnalysis benchmark/{pep424.fasta,FoldAmyloid_pred.txt,pep424_evaluation.txt}"

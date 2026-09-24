@@ -36,7 +36,7 @@ agg_bseqs = {r.sequence for r in agg_bench}
 agg_tr = [r for r in agg_full if r.sequence not in agg_bseqs]
 agg_te = agg_bench
 
-MAXL = {'acp': 60, 'sol': 512, 'agg': 32}
+MAXL = {'acp': 60, 'sol': 300, 'agg': 32}
 def prep(recs, task):
     i, d, y = to_tensors(recs, MAXL[task])
     return i, d, y
@@ -44,7 +44,10 @@ def prep(recs, task):
 A_i, A_d, A_y = prep(acp_tr, 'acp'); A_te_i, A_te_d, A_te_y = prep(acp_te, 'acp')
 S_i, S_d, S_y = prep(sol_tr, 'sol'); S_te_i, S_te_d, S_te_y = prep(sol_te, 'sol')
 G_i, G_d, G_y = prep(agg_tr, 'agg'); G_te_i, G_te_d, G_te_y = prep(agg_te, 'agg')
-A_d, A_te_d, S_d, S_te_d, G_d, G_te_d = standardize(A_d, A_te_d, S_d, S_te_d, G_d, G_te_d)
+MU, SD = A_d.mean(0, keepdim=True), A_d.std(0, keepdim=True).clamp(min=1e-6)
+A_d, A_te_d = standardize(A_d, A_te_d)
+S_d, S_te_d = standardize(S_d, S_te_d)
+G_d, G_te_d = standardize(G_d, G_te_d)
 
 model = TriNet()
 opt = torch.optim.Adam(model.parameters(), lr=1e-3, weight_decay=1e-4)
@@ -57,7 +60,7 @@ def batch_iter(i, d, y, bs):
         j = perm[s:s+bs]
         yield i[j], d[j], y[j]
 
-EPOCHS = 12
+EPOCHS = 6
 for ep in range(1, EPOCHS + 1):
     model.train()
     for task, (I, D, Y) in (('acp', (A_i, A_d, A_y)), ('sol', (S_i, S_d, S_y)), ('agg', (G_i, G_d, G_y))):
@@ -81,7 +84,7 @@ torch.save(model.state_dict(), 'results/trinet.pt')
 known = set(load_cancerppd()) | {r.sequence for r in load_anticp2('main')} | {r.sequence for r in load_anticp2('alternate')}
 def tri_score(seq):
     i, d, _ = to_tensors([type('R', (), {'sequence': seq, 'label': 0, 'meta': ''})()], 60)
-    d, = standardize(A_d.clone(), d)[:1] if False else ( (d - A_d.mean(0)) / A_d.std(0).clamp(min=1e-6), )
+    d = (d - MU) / SD
     with torch.no_grad():
         s = model.score_all(i, d)
     pa, ps, pg = float(s['acp'][0]), float(s['sol'][0]), float(s['agg'][0])
@@ -89,11 +92,11 @@ def tri_score(seq):
 
 rng = np.random.RandomState(11)
 cands = {}
-seeds = [s for s in load_cancerppd() if 10 <= len(s) <= 30][:40]
+seeds = [s for s in load_cancerppd() if 10 <= len(s) <= 30][:24]
 for seed in seeds:
     cur = list(seed)
     cur_s, *_ = tri_score(''.join(cur))
-    for step in range(60):
+    for step in range(36):
         pos = rng.randint(len(cur))
         mut = cur.copy()
         mut[pos] = AA_STANDARD[rng.randint(20)]

@@ -1,0 +1,46 @@
+[
+  {
+    "model": "SVM-AAC",
+    "dataset": "esol",
+    "accuracy": 0.6216,
+    "mcc": 0.0,
+    "auc": 0.7528
+  },
+  {
+    "model": "SVM-DPC",
+    "dataset": "esol",
+    "accuracy": 0.6216,
+    "mcc": 0.0,
+    "auc": 0.7397
+  },
+  {
+    "model": "RF-DPC",
+    "dataset": "esol",
+    "accuracy": 0.7168,
+    "mcc": 0.3771,
+    "auc": 0.7798
+  },
+  {
+    "model": "ET-DPC",
+    "dataset": "esol",
+    "accuracy": 0.7218,
+    "mcc": 0.3873,
+    "auc": 0.7841
+  },
+  {
+    "model": "RF-DESC",
+    "dataset": "esol",
+    "accuracy": 0.7393,
+    "mcc": 0.432,
+    "auc": 0.7971
+  },
+  {
+    "model": "CNNv2",
+    "dataset": "esol",
+    "accuracy": 0.6466165413533834,
+    "sensitivity": 0.5,
+    "specificity": 0.8874172185430463,
+    "mcc": 0.39307355226370927,
+    "auc": 0.796611301004059
+  }
+]

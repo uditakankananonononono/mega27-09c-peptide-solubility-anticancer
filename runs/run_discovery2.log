@@ -1,0 +1,18 @@
+ep 1: acp=0.6501 sol=0.7598 agg=0.7422
+ep 2: acp=0.7317 sol=0.7661 agg=0.8078
+ep 3: acp=0.7224 sol=0.7601 agg=0.7843
+ep 4: acp=0.7268 sol=0.7883 agg=0.7959
+ep 5: acp=0.7746 sol=0.7857 agg=0.7957
+ep 6: acp=0.7537 sol=0.7856 agg=0.7936
+candidates: 24, passing all gates: 1
+EDKKEAAHFKHKA 0.7825 acp 0.927 sol 0.905 agg 0.067 GATES False
+FEKEAKKIEIKRH 0.7412 acp 0.904 sol 0.867 agg 0.055 GATES True
+DEKLKEDFTKGFA 0.7197 acp 0.856 sol 0.903 agg 0.069 GATES False
+SEKLRRISKDKVE 0.6919 acp 0.868 sol 0.852 agg 0.064 GATES False
+CDKSSPDDAEKLF 0.6865 acp 0.817 sol 0.906 agg 0.072 GATES False
+ELEPIDKKEARAM 0.6756 acp 0.776 sol 0.924 agg 0.058 GATES False
+DLKAMYHEGEMKL 0.6395 acp 0.852 sol 0.871 agg 0.139 GATES False
+EFDNATNIIEPSIHKCEGKC 0.6374 acp 0.839 sol 0.859 agg 0.116 GATES False
+ALKDDAGPALQHD 0.6348 acp 0.825 sol 0.894 agg 0.139 GATES False
+CVGAEERAHVKDP 0.61 acp 0.726 sol 0.918 agg 0.084 GATES False
+elapsed 45.4 s

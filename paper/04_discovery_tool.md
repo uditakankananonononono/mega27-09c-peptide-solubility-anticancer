@@ -41,53 +41,18 @@ Controls: the known ACP KLAKLAKKLAKLAK scores P_acp 0.9935; poly-glutamate score
 7. **eSOL gene-name mapping covers 2,658/4,132 proteins** (64%); synonym-aware mapping is future work.
 8. **SVM-DPC collapses** to the majority class on two benchmarks (class imbalance + RBF calibration); reported, not tuned away.
 
-# 10. External tools used (honest count: 40 at this revision - gate met)
+# 10. Research/data tools - strict audit (gate open)
 
-| # | tool | use in this project |
-|---|---|---|
-| 1 | PyTorch 2.14 (CPU) | all deep models |
-| 2 | scikit-learn 1.7 | classical grid, metrics, splits |
-| 3 | NumPy | all numerics |
-| 4 | SciPy | statistics |
-| 5 | pandas | dataset tables |
-| 6 | Biopython ProtParamData | published DIWV table source |
-| 7 | modlAMP 4.3 | independent descriptor cross-validation |
-| 8 | peptides.py | second independent descriptor cross-validation |
-| 9 | AntiCP 2.0 server | benchmark datasets + published numbers |
-| 10 | CancerPPD | ACP pool |
-| 11 | APD3 | negative augmentation pool |
-| 12 | eSOL / LSDB archive | solubility measurements |
-| 13 | UniProt REST | proteome mapping |
-| 14 | AmyloGramAnalysis archive | amyloid sets + competitor predictions |
-| 15 | FoldAmyloid (predictions) | head-to-head comparison target |
-| 16 | matplotlib | all figures |
-| 17 | XGBoost | AntiCP2 main baseline, 0.7487 AUC (tool_analyses.json) |
-| 18 | LightGBM | AntiCP2 main baseline, 0.7421 AUC (tool_analyses.json) |
-| 19 | statsmodels | logistic baseline + Wilson CIs (tool_analyses.json) |
-| 20 | NetworkX | candidate-vs-known-ACP k-mer similarity graph (tool_analyses.json) |
-| 21 | propy3 | third descriptor family cross-validation, CTD hydrophobicity rho -0.836 (tool_analyses.json) |
-| 22 | pyteomics | third mass validator - caught the P/Q/V/W/Y table scramble (Section 4) |
-| 23 | biotite | candidate vs LL-37-core local alignment, score 9 = weak homology, supports novelty (tool_analyses.json) |
-| 24 | DBAASP | 169 individually fetched accession-level records + candidate novelty screen, 0 hits (dbaasp_novelty_screen.json) |
-| 25 | UMAP (umap-learn) | descriptor-space embedding, Fig. 5 (tool_figures.json) |
-| 26 | SHAP | RF-solubility feature attribution, Fig. 6 (tool_figures.json) |
-| 27 | logomaker | ACP pos/neg sequence logos, Fig. 7 (tool_figures.json) |
-| 28 | UpSet | 4-way dataset overlap, Fig. 8 (tool_figures.json) |
-| 29 | seaborn | figure theming (tool_figures.py) |
-| 30 | RCSB PDB | 2K6O/2MAG structure metrics via biotite parsing (pdb_chembl_analysis.json) |
-| 31 | ChEMBL | 60 bioactivity records -> potency table (pdb_chembl_analysis.json) |
-
-| 32 | ruff | lint report, 206 findings (ruff_report.txt) |
-| 33 | mypy | type report, 7 notes (mypy_report.txt) |
-| 34 | pytest-cov | honest coverage 29.2% (coverage.json) |
-| 35 | hypothesis | 900 property-based cases (test_properties.py) |
-| 36 | numba | 80x JIT speedup of the annealing kernel (tool_engineering.json) |
-| 37 | ONNX + onnxruntime | TriNet export, parity 4.8e-7 logits (tool_engineering.json) |
-| 38 | FastAPI + pydantic | HTTP serving, CLI-exact smoke test (api_smoke.json) |
-| 39 | imbalanced-learn | SMOTE negative control on the balanced split (tool_engineering.json) |
-| 40 | Optuna (TPE) | 12-trial CNNv2 HPO, val-AUC objective, no test selection (optuna_cnnv2_anticp2.json) |
-
-**Gate met: 40 tools, each with a committed output file; attempted-and-excluded items (CAMP, Hemolytik) documented above and not counted.** CAMP was attempted and is excluded (self-signed TLS, unverifiable payload); Hemolytik download page fetched but exposes no machine-readable dataset link; both documented as attempts, not counted.
+The earlier 40-row table counted data archives, literature/benchmark sources,
+lint, type checking, coverage, property testing, and HTTP serving. These do
+not qualify as 40 research/data tools. The corrected inventory and each
+candidate's code/output evidence are in `TOOLS_LEDGER.md`. It identifies
+24 candidate research tools/libraries, subject to execution-level audit,
+not a verified 40. RCSB PDB, ChEMBL, AntiCP 2.0, CancerPPD, APD3, eSOL,
+UniProt, DBAASP and AmyloGram are important data sources, not software tools.
+FoldAmyloid predictions are a benchmark comparison, not a tool this project ran.
+The 40-tool gate is **not met**. No method or benchmark result is altered
+by this accounting correction.
 
 # 11. Conclusion
 

@@ -36,4 +36,4 @@ Role: external novelty screen. 169 individually fetched monomer records (median 
 
 ## External evidence collections
 
-RCSB PDB entries 2K6O and 2MAG (structure metrics, Section 17); ChEMBL (8 molecules, 60 activity records, potency table); AmyloGramAnalysis archive (benchmark files + competitor predictions); Biopython ProtParamData (DIWV instability table). Accession-level gate count: 306 = 287 individually fetched records (118 UniProt + 169 DBAASP) + 19 collections at 1 each, per the program's uniform counting rule; study-level list maintained in `data/MANIFEST.md`.
+RCSB PDB entries 2K6O and 2MAG (structure metrics, Section 17); ChEMBL (8 molecules, 60 activity records, potency table); AmyloGramAnalysis archive (benchmark files + competitor predictions); Biopython ProtParamData (DIWV instability table). Accession-level lower bound: 287 individually fetched and used records (118 UniProt + 169 DBAASP). The asserted 19 separate collections need per-collection verification before addition; see `DATASET_LEDGER.md`.

@@ -1,6 +1,6 @@
 # Tri-Objective Peptide Intelligence: Benchmark-Headed Models for Anticancer Activity, Solubility and Aggregation, and a Multi-Task Discovery Screen
 
-MEGA-PROGRAM-27, item 9 part 3. Draft skeleton - Times New Roman target, 50 pp expanded at ship time.
+MEGA-PROGRAM-27, item 9 part 3. Old planning outline. See paper/00_front.md through 23_repomap.md for the current paper; Times New Roman font gate remains open.
 
 ## 1. Abstract
 ## 2. Introduction (ACP therapeutics; developability triad: activity, solubility, aggregation)
@@ -21,7 +21,7 @@ MEGA-PROGRAM-27, item 9 part 3. Draft skeleton - Times New Roman target, 50 pp e
 ## 5. Models (classical grid; PeptideCNN; PeptideGNN; CNNv2; TriNet)
 ## 6. Benchmark results (head-to-head tables vs AntiCP 2.0, DeepSol, FoldAmyloid, PASTA 2.0)
 ## 7. Discovery screen (named candidates, gates, falsifiability protocol)
-## 8. External tools used (40-row table: tool, version, what it was used for here)
+## 8. Research/data tools: see TOOLS_LEDGER.md (24 candidates, <40; gate open)
 ## 9. Honest negatives and failure modes
 ## 10. Conclusion
 ## Appendix A: derivations and proofs

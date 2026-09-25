@@ -14,7 +14,7 @@ The scaled annealing run (100 seeds x 100 steps against the 25-epoch TriNet, `re
 
 ## Dataset ledger update
 
-With the accession panel, the project uses 19 dataset collections + 118 accession-level entries = **137 distinct datasets**, each fetched from its live source and individually consumed by committed code.
+The accession panel has **118 analyzed UniProt records**. Across UniProt and DBAASP, the strict ledger counts **287 individually fetched and used accession records**. The additional collection inventory has not been independently checked for unique dataset counting, so it is not added here; see `DATASET_LEDGER.md` and `ACCESSION_LEDGER.csv`. These records are not independent studies.
 
 
 ## The fix works: gate-constrained annealing recovers the screen

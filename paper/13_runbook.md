@@ -64,3 +64,9 @@ cd paper && pandoc 00_front.md 01_math.md 02_data.md 03_methods_results.md \
 ```
 
 Page counts in all external reports come from `pdfinfo` on the built artifact - never from source-length estimates.
+
+## September 25 Times New Roman rebuild
+
+The updated paper PDF uses locally installed user-owned Times New Roman TTFs via a pdfTeX font map for regular, bold, italic, and bold italic text; the font binaries and map/metrics are not committed or redistributed. The mathematical and symbol fonts remain Computer Modern. A clean build must install its own licensed Times New Roman before compiling. The minimal LaTeX build used to avoid unavailable template packages retains the same authored Markdown section order; this PDF is 47 pages.
+
+To regenerate this exact PDF, combine `paper/00_front.md` through `paper/23_repomap.md` in numeric order with Pandoc to standalone LaTeX using a 12-point article template, 1-inch margins, `amsmath`, `amssymb`, `graphicx`, `longtable`, and the local T1 font family `tnr`; then compile from the `paper/` directory with pdfLaTeX. Fit Appendix D and the final four-column AntiCP table with locally scoped `\scriptsize` and 2pt column padding. The private Times New Roman font map (`tnr.map`), `.fd`, `.tfm`, and TTF binaries must be supplied by the licensed font holder on their own computer, not obtained from this repository. The rest of the Markdown remains the editable source; a fallback `mathptmx` build would not meet the requested actual-font check.

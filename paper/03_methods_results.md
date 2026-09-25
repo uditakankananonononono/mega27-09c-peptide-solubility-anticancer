@@ -70,7 +70,7 @@ Protocol: pepx-GNN trained exclusively on AmyloGram/WALTZ-DB hexapeptides (decon
 | pepx-GNN (5-fold CV, seed 7) | 0.7947 |
 | AmyloGram (published CV) | 0.8650 |
 
-**pepx-GNN beats FoldAmyloid by +4.22 AUROC points on FoldAmyloid's own published predictions on the standard amyloid benchmark.** AmyloGram's cross-validated 0.865 remains unbeaten --- both facts are reported. Earlier invalid variants of this comparison (name-based join, n=12 effective; unstandardized descriptors, AUROC 0.500) are preserved in `results/pep424_headtohead.json` and `results/pep424_v2.json` as documentation of the failure modes.
+**pepx-GNN beats FoldAmyloid by +9.11 AUROC points on FoldAmyloid's own published predictions on the standard amyloid benchmark.** AmyloGram's cross-validated 0.865 remains unbeaten --- both facts are reported. Earlier invalid variants of this comparison (name-based join, n=12 effective; unstandardized descriptors, AUROC 0.500) are preserved in `results/pep424_headtohead.json` and `results/pep424_v2.json` as documentation of the failure modes.
 
 ## 6.4 eSOL solubility (locked seed-7 split: 2,259 train / 399 test)
 
@@ -87,7 +87,7 @@ Reference (different split, cited not compared): DeepSol ~77% accuracy on its ow
 
 ![AntiCP 2.0 main benchmark: pepx models vs the published bar.](figures/fig1_acp_benchmark.png)
 
-![pep424 head-to-head: the verified break over FoldAmyloid's published predictions; AmyloGram unbeaten.](figures/fig2_pep424_headtohead.png)
+![pep424 aligned head-to-head: transfer GNN 0.839 versus FoldAmyloid published predictions 0.748 on 419 identical sequences; separate CV results 0.795 and 0.865 are not the same-split comparison.](figures/fig2_pep424_headtohead.png)
 
 ![eSOL solubility benchmark on the locked seed-7 split.](figures/fig3_esol.png)
 

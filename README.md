@@ -12,3 +12,7 @@ Part of the MEGA-PROGRAM-27 computational-biology program (item 9, part 3).
 - Hermetic pytest suite; no network at test time.
 - CNN + GNN core architectures (PyTorch, CPU).
 - All claims verified against locked splits; honest negatives preserved in results/.
+
+## September 25 evidence audit
+
+See `TOOLS_LEDGER.md` and `DATASET_LEDGER.md`. The old 40-tool claim was inflated: 24 research/data tool candidates remain, fewer than the 40 gate; 287 individual accession records are counted with exclusions, URLs and hashes in `ACCESSION_LEDGER.csv`. The paper PDF begins with a correction notice but the original body remains Nimbus Roman, not Times New Roman. The 40-tool and font gates are open.

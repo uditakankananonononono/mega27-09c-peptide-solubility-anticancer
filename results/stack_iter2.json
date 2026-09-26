@@ -1,0 +1,20 @@
+{
+ "model": "iter2-ii_cnn7_et",
+ "dataset": "anticp2_main OFFICIAL validation (n=344)",
+ "addendum": "PREREG_ADDENDUM_2026-09-27.md iteration-2",
+ "selection_oof_aucs": {
+  "i_cnn7": 0.8528386024694474,
+  "ii_cnn7_et": 0.8589617382890559,
+  "iii_cnn7_et_lg": 0.8570076355146083
+ },
+ "test_auc": 0.8120880235270257,
+ "test_mcc": 0.4886860308165977,
+ "published_auc": 0.83,
+ "published_mcc": 0.51,
+ "bootstrap_diff_auc_minus_published_ci95": [
+  -0.06396761166697858,
+  0.024794948631290097
+ ],
+ "beat": false,
+ "elapsed_s": 840.5
+}

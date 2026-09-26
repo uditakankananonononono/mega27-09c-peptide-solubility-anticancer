@@ -27,3 +27,19 @@ Stacked generalization, train-side only:
   recoverable from the paper - disclosed limitation).
 - All artifacts (OOF predictions, test predictions, bootstrap output)
   committed under results/ with this addendum referenced.
+
+## Locked iteration-2 protocol (appended 2026-09-27, before any iter-2 scoring)
+Iteration-1 failed by meta-learner overfit (OOF 0.853 vs test 0.788). Locked
+fix: NO learned combiner.
+- Candidates (a priori equal-weight probability averages only):
+  (i)  7-seed mean of CNNv2 at the committed HPO config (seeds 2709+0..6);
+  (ii) 7-seed CNN mean + ET-DPC(400), equal weight (0.5/0.5);
+  (iii) 7-seed CNN mean + ET-DPC + AAC-logistic, equal weight (1/3 each).
+- Selection among (i)-(iii) by VALIDATION-carve AUC inside the official train
+  split only (5-fold CV of the combination rule, no test contact). The chosen
+  single candidate is then scored ONCE on the official validation set.
+- Beat gate unchanged: AUROC > 0.83 AND MCC > 0.51 on the official validation
+  set with 10,000-replicate bootstrap CI of (ours - 0.83) excluding 0.
+- Honest-negative clause: if the chosen candidate loses to cnnv2-hpo-best
+  (0.80286), that is reported as negative iteration-2 and the arm goes to a
+  rule-6 redirection consult rather than silent further tuning.

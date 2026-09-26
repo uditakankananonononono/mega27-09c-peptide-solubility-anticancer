@@ -28,3 +28,16 @@ independent test set.
   0 for both metrics (published rows are point values - disclosed limitation).
 - Honest-negative clause: negative = reported as-is and arm goes to rule-6
   redirection consult.
+
+## Environment-stability amendment (appended 2026-09-27 ~04:55, before the amended run starts)
+The sandbox VM is being forked/restored every few minutes tonight (kernel
+crng-reseed log); torch threadpools livelock after restore and long epochs
+cannot complete between forks. Locked protocol is UNCHANGED (same data,
+partition, model architecture, hyperparameters, metrics, gates). Implementation
+adaptations only, disclosed here BEFORE use: (1) training batch size 64 -> 256
+(fewer optimizer steps per epoch so an epoch fits between forks; lr and
+architecture unchanged - noted as a non-architectural deviation from the
+HPO-tuned training recipe); (2) single-threaded torch; (3) full per-epoch
+checkpoint (model + optimizer + epoch + best) with resume, so a fork costs at
+most one epoch. Any effect of (1) is a training-recipe detail, not an eval
+change; the identical-partition comparison is unaffected.

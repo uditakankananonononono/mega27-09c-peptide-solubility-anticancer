@@ -1,0 +1,45 @@
+\newpage
+
+\pandoclink{evidence-audit-benchmark-alignment-and-candidate-limits}{%
+\section{Evidence audit: benchmark alignment and candidate limits}\label{evidence-audit-benchmark-alignment-and-candidate-limits}}
+
+\pandoclink{locked-comparisons}{%
+\subsection{Locked comparisons}\label{locked-comparisons}}
+
+The three predictive endpoints ask different questions. The anticancer-peptide (ACP) benchmark tests activity labels on the AntiCP 2.0 main and alternate splits; the eSOL benchmark predicts a solubility label from a sequence-mapped PURE-system measurement; the pep424 aggregation comparison evaluates the same 419 peptide rows against FoldAmyloid's archived predictions. These are not interchangeable populations. A model that wins on one endpoint does not prove a three-way therapeutic advantage. The current manuscript reports ACP AUROC 0.8011 against the published 0.83, eSOL's best AUROC 0.803 on its own locked split, and a same-row pep424 AUROC of 0.8391 against FoldAmyloid 0.7480. The AmyloGram cross-validation figure 0.865 remains numerically higher, but it uses a different validation design. The source for the aligned comparison is the committed results and analysis detailed in Sections 5 and 6; no new experiment is claimed here.
+
+The phrase \emph{benchmark break} is therefore restricted to the aligned FoldAmyloid comparison. It does not denote a universal aggregation-prediction record. The benchmark selection, model search and transfer-trained representation create selection pressure, and the use of one locked evaluation set cannot estimate deployment behavior on unseen peptide families. An independent dataset with a source-grouped split is needed. {[}PENDING: a locked independent aggregation cohort with family-held-out testing.{]}
+
+\pandoclink{discovery-gates-and-their-interpretation}{%
+\subsection{Discovery gates and their interpretation}\label{discovery-gates-and-their-interpretation}}
+
+The committed \texttt{results/constrained\_novelty.json} has a reference pool of 9,683 sequences, ten passing sequences, and an empty \texttt{hits} list under its implemented matching definition. The ten passing sequences in that file are: DDKKFRKHCKWKEQKK, IDKMFKKIGKKHE, CDMKKEKFRHKAIKE, LLKERKDLPKHAEKTI, QKKIGKFAKLQEPE, QWKVKEKHAKQKKK, RDQKCVDKAFQLATKK, KSSTKDFAKKQLHD, CKERKIVKFDLPALKF, and PLRKKILNSGKSAKKQ. ``No hits'' here means no matches under the saved reference-set and matching procedure; it does not prove biological novelty, absence from every sequence database, or low host toxicity. The paper's first unconstrained screen did not yield a passing family. The later constrained annealing is a methodological response to that failure, not a prospective independent validation of ten therapeutic leads.
+
+The leading candidate IDKMFKKIGKKHE is a \emph{computational} tri-objective nomination. Its model scores do not establish selectivity for cancer cells over healthy cells, solubility under a specified formulation, or lack of amyloid formation at relevant concentrations. An activity assay should include matched noncancer-cell cytotoxicity and hemolysis controls; solubility should be measured at defined pH, ionic strength and concentration; aggregation requires orthogonal readouts rather than model output alone. No such experiment is reported. {[}PENDING: sequence synthesis and three endpoint assays, with predeclared controls and acceptance criteria.{]}
+
+\pandoclink{leakage-and-implementation-checks}{%
+\subsection{Leakage and implementation checks}\label{leakage-and-implementation-checks}}
+
+Sequence similarity between training and evaluation items, sharing of assay provenance, duplicates across source exports, and alignment mistakes in external prediction files are distinct threats. A same-row external comparison answers only what it actually tested: the archived labels and prediction vectors after a verified join. It does not certify that both methods saw the same training information. For the anticancer benchmark, the manuscript reports a near-neighbor overlap audit; this weakens naive generalization claims even when the held-out test set was fixed. For pep424, reproducing a numeric gap is insufficient if the join silently changes row identities. The primary paper describes the verified order and collision analysis; this appendix preserves the dependency of the headline result on that check.
+
+The descriptor engine's independent validators caught mass-table mistakes. A passing test suite alone is not a guarantee of chemical correctness if tests reuse the same assumptions as the implementation. The paper's tool contribution is therefore conditional on the exact code, reference scales, and archived outputs. A separate laboratory could falsify it by reproducing the sequence descriptors and the held-out scores from the committed inputs. {[}PENDING: an independently executed reproduction outside this repository and a protocol-controlled prospective external peptide dataset.{]}
+
+\pandoclink{claim-ledger}{%
+\subsection{Claim ledger}\label{claim-ledger}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Aligned aggregation comparator win.} Source: the pep424 result and order/alignment audit in Section 6. Scope: FoldAmyloid comparison only, on 419 rows; not a universal record.
+\item
+  \textbf{ACP does not beat the published main-split AUROC.} Source: locked AntiCP 2.0 evaluation in Section 5. Scope: the published and current training/tuning procedures differ, so the gap is descriptive rather than a causal test of architecture.
+\item
+  \textbf{Solubility AUROC 0.803.} Source: the eSOL evaluation in Section 5. Scope: defined sequence mapping and split; not independent clinical solubility validation.
+\item
+  \textbf{Ten constrained nominations.} Source: \texttt{results/constrained\_novelty.json}. Scope: computational screening pass, with zero hits in the 9,683-sequence reference pool under this matching procedure, not experimentally proven novel or active peptides.
+\item
+  \textbf{Best-in-world clinical therapeutic tool.} {[}PENDING: independent multi-cohort and wet-lab evaluation.{]} This claim is not established.
+\end{enumerate}
+
+The paper should not count a planned study as executed, a registry accession as a distinct analyzed cohort, or a literature citation as a used external tool. These distinctions matter as much as the model numbers because they decide what a reviewer can reproduce. The output remains an exploratory research report rather than a therapeutic validation report.

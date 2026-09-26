@@ -23,8 +23,8 @@ Table 9 (existing-method comparison on the main validation set):
 Abstract best: "MCC of 0.51 and 0.83 AUROC on the training dataset" (main).
 
 ## Our committed numbers on the IDENTICAL official validation set (n=344)
-- PeptideCNNv2+aug (results/cnnv2_aug_anticp2_main.json, commit history):
-  AUC 0.8029, MCC 0.4638
+- cnnv2-hpo-best (results/optuna_cnnv2_anticp2.json, final_test row):
+  AUC 0.80286, MCC 0.4638 (objective was validation AUC, test scored once)
 - ENSEMBLE(ET+CNNv2+GNN+CNN) (results/ensemble_anticp2_main.json):
   AUC 0.7958, MCC 0.4347
 - ET-DPC in-house replication of the paper's best model

@@ -1,0 +1,16 @@
+{
+ "model": "iter1-stack(CNNv2-hpo + ET-DPC + motif-logreg, OOF meta-logreg)",
+ "dataset": "anticp2_main OFFICIAL validation (n=344)",
+ "addendum": "PREREG_ADDENDUM_2026-09-27.md",
+ "oof_stack_auc": 0.8532193264760943,
+ "test_auc": 0.7883581786837034,
+ "test_mcc": 0.41922080383242893,
+ "published_auc": 0.83,
+ "published_mcc": 0.51,
+ "bootstrap_diff_auc_minus_published_ci95": [
+  -0.09033653669064065,
+  0.0035872693414591484
+ ],
+ "beat": false,
+ "elapsed_s": 134.2
+}

@@ -1,0 +1,34 @@
+{
+ "addendum": "PREREG_ADDENDUM_2026-09-27_SOLARM.md",
+ "partition": "DeepSol official (Zenodo 10.5281/zenodo.1162886), test n=1999",
+ "published": {
+  "acc": 0.77,
+  "mcc": 0.55
+ },
+ "val_auc_et": 0.6269,
+ "val_auc_cnn": 0.8364,
+ "results": {
+  "ET-DPC": {
+   "acc": 0.5328,
+   "mcc": 0.092,
+   "auc": 0.6327,
+   "beat": false
+  },
+  "CNNv2": {
+   "acc": 0.7304,
+   "mcc": 0.4771,
+   "auc": 0.8347,
+   "beat": false
+  },
+  "MEAN(ET+CNN)": {
+   "acc": 0.6993,
+   "mcc": 0.4273,
+   "auc": 0.8076,
+   "beat": false
+  }
+ },
+ "elapsed_s": 1422.3,
+ "run_provenance": "Executed on the user's own Windows laptop (her machine, her time) via the deepsol_handoff package (Drive, 2026-09-27), resuming from the sandbox epoch-4/5 checkpoint (sha256 c58dfd5a148ff617c0b5012f8f599818f4a05abb80363f559a325df1b6e34e97), locked seed 2709, scoring-identical script. JSON fields pasted verbatim by the user via WhatsApp 2026-09-27 ~1:24 PM IST. Raw file requested for the complete record (bootstrap CI fields not included in the paste).",
+ "verification": "ET val AUC 0.6269 exactly matches the sandbox ET stage (deterministic same-seed run); test n=1999 matches the official partition; val_auc_cnn 0.8364 equals the sandbox epoch-3 best (her run resumed from the pre-epoch-5 checkpoint and early-stopped per protocol). Run-to-run note: checkpoint does not store RNG state, so her epoch trajectory differed slightly from the paused sandbox trajectory (which saw epoch-5 val 0.8381); both trajectories terminate far below the gate, verdict unaffected.",
+ "verdict": "NEGATIVE - published DeepSol baseline stands. All three arms beat=false: CNNv2 acc 0.7304 vs 0.77, MCC 0.4771 vs 0.55. Locked per prereg addendum; reported as-is."
+}

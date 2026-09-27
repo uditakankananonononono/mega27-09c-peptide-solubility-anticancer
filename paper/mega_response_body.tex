@@ -1,0 +1,73 @@
+\hypertarget{owner-verdict-response-the-narrow-win-and-a-bounded-screen}{%
+\section{Owner-verdict response: the narrow win and a bounded
+screen}\label{owner-verdict-response-the-narrow-win-and-a-bounded-screen}}
+
+The central computational result is an aligned aggregation comparison on
+pep424, not a three-task victory. The committed
+\texttt{results/pep424\_v3.json} has 419 aligned examples: transferred
+pepx-GNN AUROC 0.8391 and FoldAmyloid predictions 0.7480 on those rows,
+a difference of 0.0911. The internal five-fold pepx-GNN AUROC 0.7947 is
+below AmyloGram's separately published CV 0.865, which is a different
+comparison. AntiCP 2.0 main and alternate published bars remain
+unbeaten, including the two subsequently locked official-test attempts
+(0.7884 and 0.8121 AUROC against the 0.83 main benchmark). The claim
+should be \emph{one same-row comparator advantage under the named
+protocol}, not a general superiority over peptide methods.
+
+\hypertarget{data-alignment-and-integrity-are-part-of-the-scientific-result}{%
+\subsection{Data alignment and integrity are part of the scientific
+result}\label{data-alignment-and-integrity-are-part-of-the-scientific-result}}
+
+A name-based pep424 join was invalid because a generic header name
+covered many rows. The corrected v3 comparison aligns the evaluation and
+published prediction order, excludes noncanonical sequences and uses its
+recorded 419 examples. The sequence and score alignment are necessary
+conditions for the comparator claim; they do not create an independent
+training split or prove transfer to a new aggregation cohort. AntiCP 2.0
+test peptides include near-homologs to training, and strong composition
+descriptors limit what a learned architecture can be credited with. A
+five-fold average without multiple model seeds does not measure seed
+variance.
+
+The molecular-weight table passed a narrow A/K/L lock while P/Q and
+V/W/Y were wrong. A third independent validator exposed the errors, and
+a full-residue regression test now covers the corrected table. The
+repair changed the pep424 transfer AUROC from the previously invalid
+0.7902 to the committed 0.8391; earlier numbers must not be compared as
+though only the model had improved. Separately, the 25-epoch
+scaled-screen checkpoint was nearly written over the shipped
+\texttt{trinet.pt}. The ONNX parity check exposed changed scoring; the
+old shipped weights were restored from git before committing the drifted
+checkpoint under a distinct filename. No claim that the drifted model
+was shipped is made. These incidents delimit the provenance of the
+usable artifact, not evidence for peptide activity.
+
+\hypertarget{constrained-screening-not-discovery}{%
+\subsection{Constrained screening, not
+discovery}\label{constrained-screening-not-discovery}}
+
+The tri-objective score multiplies model outputs for anticancer,
+solubility and low aggregation. That objective and the hand-set
+charge/hydropathy gates define a search procedure. They are not
+calibrated probabilities of clinical success. The initial constrained
+candidate and later anionic drift from longer training show that model
+selection and screen thresholds can move the searched chemical space. A
+high score from the same model that guided annealing is not an
+independent assessment. The candidate set is limited to the searched
+10-30-residue regime, and neither membrane structure nor disulfide
+topology is resolved by the current representation. No cancer-cell
+selectivity, hemolysis, bioavailability or toxicity experiment validates
+a nomination.
+
+A future screen must lock its checkpoint hash, source-database versions,
+allowed mutations, charge/hydropathy bounds, novelty metric, toxicity
+and disulfide handling, and assay plan before scoring new candidates. It
+should report all excluded sequences and failures, use an independent
+predictor as a stress test, and keep experimental verification separate
+from score ranking. HemoPI-class hemolysis modeling, ESM-2/ProtT5
+embeddings, per-residue solubility, disulfide-aware gating, BLAST
+novelty, and a 60\% test-coverage target are {[}PENDING{]}; none is an
+observed improvement. The strict tools ledger currently lists 24
+candidate research/data tools, not a verified 40. Accession records are
+not independent cohorts. This response adds methods interpretation and
+limitations, not a slide presentation.

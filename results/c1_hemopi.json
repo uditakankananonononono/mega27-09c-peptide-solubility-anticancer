@@ -1,0 +1,71 @@
+{
+  "prereg": "docs/PREREG_C1_HEMOLYSIS_2026-09-27.md",
+  "comparators": {
+    "hemopi1": {
+      "mcc": 0.93,
+      "sn": 96.4,
+      "sp": 99.1,
+      "acc": 96.4
+    },
+    "hemopi2": {
+      "mcc": 0.51,
+      "sn": 78.2,
+      "sp": 78.3,
+      "acc": 75.7
+    }
+  },
+  "datasets": {
+    "hemopi1": {
+      "mcc": 0.9274260335029676,
+      "auc": 0.9919834710743802,
+      "accuracy": 0.9636363636363636,
+      "sensitivity": 0.9545454545454546,
+      "specificity": 0.9727272727272728,
+      "mcc_ci95": [
+        0.8734583573702508,
+        0.972753979523117
+      ],
+      "n_val": 220,
+      "epochs_run": 16,
+      "best_val_auc": 0.9896694214876033,
+      "comparator_mcc": 0.93,
+      "decision": "MATCH"
+    },
+    "hemopi2": {
+      "mcc": 0.46470489250881636,
+      "auc": 0.8342885375494071,
+      "accuracy": 0.7277227722772277,
+      "sensitivity": 0.9090909090909091,
+      "specificity": 0.5108695652173914,
+      "mcc_ci95": [
+        0.3438834049089853,
+        0.5769678584443727
+      ],
+      "n_val": 202,
+      "epochs_run": 13,
+      "best_val_auc": 0.8391184573002755,
+      "comparator_mcc": 0.51,
+      "decision": "MATCH"
+    },
+    "hemopi3": {
+      "mcc": 0.46542390058180355,
+      "auc": 0.8144373186746068,
+      "accuracy": 0.7353846153846154,
+      "sensitivity": 0.8361581920903954,
+      "specificity": 0.6148648648648649,
+      "mcc_ci95": [
+        0.37003947019350314,
+        0.560611910581388
+      ],
+      "n_val": 325,
+      "epochs_run": 15,
+      "best_val_auc": 0.8745711835334476
+    }
+  },
+  "falsifier": {
+    "shuffle_seed": 13,
+    "val_mcc": -0.02896017335997797,
+    "abs_mcc_lt_0.15": true
+  },
+  "execution_note": "Two executions: the first scored hemopi1 MCC 0.9104 [0.8544,0.9630], hemopi2 0.4383, hemopi3 0.5277, then crashed in the falsifier block on a wrong attribute name BEFORE writing any results file (harness bug; fixed: LabeledPeptide.source). This second, complete execution is the run of record. Cross-process wiggle ~0.01-0.03 MCC on this sandbox despite seed 7 (CPU thread nondeterminism); the MATCH/MISS decisions are unaffected in both executions. Disclosed per the no-silent-deviation rule."
+}

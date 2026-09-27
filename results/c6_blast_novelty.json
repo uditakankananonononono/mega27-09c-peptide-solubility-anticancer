@@ -1,0 +1,447 @@
+{
+ "prereg": "docs/PREREG_C6_BLAST_NOVELTY_2026-09-27.md",
+ "novelty_rule": "NOVEL = no hit >=90% identity over >=80% length (identical both arms); NEAR = best hit 70-90%",
+ "arms": {
+  "primary": "NCBI blastp vs nr (URL API, one RID per candidate)",
+  "cross_check": "mmseqs2 easy-search -s 7.5 vs UniProtKB/Swiss-Prot, e<=10"
+ },
+ "screen": {
+  "n_candidates": 32,
+  "n_novel": 32,
+  "n_near": 0,
+  "n_not_novel": 0,
+  "by_group": {
+   "c7_confirmatory_prereg_64c88d7": {
+    "n": 10,
+    "all_novel": true
+   },
+   "c3_disulfide_prereg_bbd590e": {
+    "n": 12,
+    "all_novel": true
+   },
+   "pilot_disclosed_separately": {
+    "n": 10,
+    "all_novel": true
+   }
+  },
+  "note": "zero alignments at the reporting floor in BOTH arms (NCBI: top_hit null for all 32; mmseqs: zero hits at e<=10) - no NEAR-band cases arose"
+ },
+ "candidates": {
+  "c3:ADKLKPKLRKAWEE": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNXAF6Z014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c3:AEKKAEKFMLKTDKL": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNYS1PW014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c3:DAKKAQDHKRFKP": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNWM640014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c3:EYKKDIKKHLKKEH": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNW9UYZ014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c3:FKLAHKNRGLADKE": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNY08EC014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c3:FMKKLKMDHDDKKI": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNWZP9J014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c3:KDNKHQPKAFRMAKKF": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNZEBWS014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c3:KESKQGKIVKLLKDTH": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNYDC3H014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c3:KLHEKWRKLADSRNTK": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNZSX3E014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c3:LFKKTKDFDHDFKKP": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNXNA06014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c3:LHKRIDEKLAPAKKI": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNZ2K2V014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c3:MWKKFDKFRLHEERKI": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJP035Y6014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c7:AEKKLKKDRHLVGKGE": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNTHB2T014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c7:AKDKEKVHRKDGLKKA": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNT7ZR2014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c7:DHKWKKKISDFWHQEK": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNV86CU014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c7:DLGLFNKCHKKEKRAL": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNVKGEJ014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c7:DRLHVMRKRSEKLF": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNVY8MZ014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c7:KDEKKMQMKTCLWPKD": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNUJDE3014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c7:KERTTSDAMKHWKQAK": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNUXM2D014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c7:KLFKKICRQAEKDKDS": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNSW5H6014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c7:KWIKKRCKECADAKAD": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNTWBHJ014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "c7:KWKCQKKISKGEK": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJNU76YX014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "pilot:CDMKKEKFRHKAIKE": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJP14UVN014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "pilot:CKERKIVKFDLPALKF": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJP356UV014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "pilot:DDKKFRKHCKWKEQKK": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJP0EGPF016",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "pilot:IDKMFKKIGKKHE": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJP0TASY014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "pilot:KSSTKDFAKKQLHD": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJP2UYR1014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "pilot:LLKERKDLPKHAEKTI": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJP1F873014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "pilot:PLRKKILNSGKSAKKQ": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJP3G6A5014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "pilot:QKKIGKFAKLQEPE": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJP1T79B014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "pilot:QWKVKEKHAKQKKK": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJP242E0014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  },
+  "pilot:RDQKCVDKAFQLATKK": {
+   "ncbi_blastp_nr": {
+    "status": "done",
+    "rid": "BJP2FAMP014",
+    "top_hit": null,
+    "novel": true
+   },
+   "mmseqs_sprot_s7.5_e10": {
+    "any_hit": false,
+    "novel": true
+   },
+   "verdict": "NOVEL"
+  }
+ }
+}

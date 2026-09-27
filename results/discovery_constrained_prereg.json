@@ -1,0 +1,1066 @@
+{
+  "prereg": "docs/PREREG_C7_CONSTRAINED_SCREEN_2026-09-27.md",
+  "rng_seed": 101,
+  "proposals": 2100,
+  "gate_rejected": 595,
+  "candidates": [
+    {
+      "sequence": "KLFKKICRQAEKDKDS",
+      "score": 0.7632856968835506,
+      "p_acp": 0.9611945152282715,
+      "p_sol": 0.8627537488937378,
+      "p_agg": 0.07957377284765244,
+      "charge": 3.0,
+      "gravy": -1.25,
+      "boman": 1.6787500000000004,
+      "passes_all_gates": true
+    },
+    {
+      "sequence": "AKDKEKVHRKDGLKKA",
+      "score": 0.7587796632439947,
+      "p_acp": 0.9200947880744934,
+      "p_sol": 0.8873573541641235,
+      "p_agg": 0.0706387534737587,
+      "charge": 4.1,
+      "gravy": -1.54375,
+      "boman": 1.6581250000000003,
+      "passes_all_gates": true
+    },
+    {
+      "sequence": "AEKKLKKDRHLVGKGE",
+      "score": 0.7578876484083198,
+      "p_acp": 0.9119778275489807,
+      "p_sol": 0.89621901512146,
+      "p_agg": 0.07272960245609283,
+      "charge": 3.0999999999999996,
+      "gravy": -1.55625,
+      "boman": 1.5300000000000005,
+      "passes_all_gates": true
+    },
+    {
+      "sequence": "DKKADRDLRRETKM",
+      "score": 0.7300052994040176,
+      "p_acp": 0.8738968968391418,
+      "p_sol": 0.8774474263191223,
+      "p_agg": 0.04798298329114914,
+      "charge": 2.0,
+      "gravy": -1.8928571428571428,
+      "boman": 1.8221428571428575,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "EKKLHKCIKMDEKR",
+      "score": 0.7290102471998768,
+      "p_acp": 0.8761616349220276,
+      "p_sol": 0.8743237257003784,
+      "p_agg": 0.0483502522110939,
+      "charge": 3.0999999999999996,
+      "gravy": -1.3499999999999999,
+      "boman": 1.5914285714285714,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KWIKKRCKECADAKAD",
+      "score": 0.7055647398885717,
+      "p_acp": 0.940677285194397,
+      "p_sol": 0.8302718997001648,
+      "p_agg": 0.09660876542329788,
+      "charge": 3.0,
+      "gravy": -0.7124999999999999,
+      "boman": 1.5731249999999999,
+      "passes_all_gates": true
+    },
+    {
+      "sequence": "GHKVDAKRKAHRKA",
+      "score": 0.6825665109733575,
+      "p_acp": 0.8940033912658691,
+      "p_sol": 0.8432551622390747,
+      "p_agg": 0.09458684176206589,
+      "charge": 5.2,
+      "gravy": -1.1214285714285714,
+      "boman": 1.6164285714285713,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KWKCQKKISKGEK",
+      "score": 0.6547166379086264,
+      "p_acp": 0.9219149947166443,
+      "p_sol": 0.7898666262626648,
+      "p_agg": 0.10089847445487976,
+      "charge": 5.0,
+      "gravy": -1.9307692307692306,
+      "boman": 1.7784615384615388,
+      "passes_all_gates": true
+    },
+    {
+      "sequence": "KDEKKMQMKTCLWPKD",
+      "score": 0.6537483899134875,
+      "p_acp": 0.9083217978477478,
+      "p_sol": 0.8152287602424622,
+      "p_agg": 0.11714088916778564,
+      "charge": 2.0,
+      "gravy": -1.5187499999999998,
+      "boman": 1.5349999999999997,
+      "passes_all_gates": true
+    },
+    {
+      "sequence": "KWKARMKAHDEGWEKT",
+      "score": 0.6508197309783819,
+      "p_acp": 0.8967252373695374,
+      "p_sol": 0.8226640224456787,
+      "p_agg": 0.11777611076831818,
+      "charge": 2.0999999999999996,
+      "gravy": -1.0812499999999998,
+      "boman": 1.669375,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KERTTSDAMKHWKQAK",
+      "score": 0.6480718640022922,
+      "p_acp": 0.940361738204956,
+      "p_sol": 0.7783321738243103,
+      "p_agg": 0.11455164849758148,
+      "charge": 3.0999999999999996,
+      "gravy": -1.3875000000000002,
+      "boman": 1.69875,
+      "passes_all_gates": true
+    },
+    {
+      "sequence": "VAERGDQKEKKFLHR",
+      "score": 0.6449046484332672,
+      "p_acp": 0.8560225963592529,
+      "p_sol": 0.8413375020027161,
+      "p_agg": 0.10455270111560822,
+      "charge": 2.1,
+      "gravy": -1.22,
+      "boman": 1.502,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "FKEDRYIRAEKKAGH",
+      "score": 0.6422282707308334,
+      "p_acp": 0.8412801623344421,
+      "p_sol": 0.8247714638710022,
+      "p_agg": 0.07441747933626175,
+      "charge": 2.1,
+      "gravy": -0.92,
+      "boman": 1.588,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KGKLFKRINQPKEAEK",
+      "score": 0.6397042253520635,
+      "p_acp": 0.8132616281509399,
+      "p_sol": 0.8453875184059143,
+      "p_agg": 0.06954985857009888,
+      "charge": 4.0,
+      "gravy": -1.2500000000000004,
+      "boman": 1.573125,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "FMKQDKKDLRMPTG",
+      "score": 0.6274069343097575,
+      "p_acp": 0.8913455605506897,
+      "p_sol": 0.7844314575195312,
+      "p_agg": 0.10267822444438934,
+      "charge": 2.0,
+      "gravy": -1.5357142857142854,
+      "boman": 1.7342857142857142,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "LKKKEKLDGLPKKF",
+      "score": 0.6272519718027125,
+      "p_acp": 0.8739340305328369,
+      "p_sol": 0.8198451399803162,
+      "p_agg": 0.12454957515001297,
+      "charge": 4.0,
+      "gravy": -1.6642857142857141,
+      "boman": 1.865,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "HKCENKKTDKYKKF",
+      "score": 0.6205852394272756,
+      "p_acp": 0.8238310217857361,
+      "p_sol": 0.8104925155639648,
+      "p_agg": 0.07057512551546097,
+      "charge": 4.1,
+      "gravy": -2.221428571428571,
+      "boman": 1.5014285714285713,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "EAGKKEFRQRERFDR",
+      "score": 0.6204362352638745,
+      "p_acp": 0.7812165021896362,
+      "p_sol": 0.8334203958511353,
+      "p_agg": 0.04706863686442375,
+      "charge": 2.0,
+      "gravy": -1.5933333333333335,
+      "boman": 1.6753333333333336,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "DHKWKKKISDFWHQEK",
+      "score": 0.6106444890613981,
+      "p_acp": 0.9270448088645935,
+      "p_sol": 0.7752849459648132,
+      "p_agg": 0.1503767967224121,
+      "charge": 2.2,
+      "gravy": -1.36875,
+      "boman": 1.5625,
+      "passes_all_gates": true
+    },
+    {
+      "sequence": "DLGLFNKCHKKEKRAL",
+      "score": 0.6084586492415942,
+      "p_acp": 0.9095324873924255,
+      "p_sol": 0.756824791431427,
+      "p_agg": 0.11607075482606888,
+      "charge": 3.0999999999999996,
+      "gravy": -0.85625,
+      "boman": 1.57125,
+      "passes_all_gates": true
+    },
+    {
+      "sequence": "FKDKRMKHPMEKDTF",
+      "score": 0.6022722629360872,
+      "p_acp": 0.7517185807228088,
+      "p_sol": 0.8504061102867126,
+      "p_agg": 0.05786919221282005,
+      "charge": 2.1,
+      "gravy": -1.5466666666666666,
+      "boman": 1.5306666666666666,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "HDKAPRALHLRKKL",
+      "score": 0.5923096671110021,
+      "p_acp": 0.8988490700721741,
+      "p_sol": 0.7550868988037109,
+      "p_agg": 0.1272997260093689,
+      "charge": 4.2,
+      "gravy": -0.7642857142857142,
+      "boman": 1.6150000000000004,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "DRLHVMRKRSEKLF",
+      "score": 0.5632270966289052,
+      "p_acp": 0.9066374897956848,
+      "p_sol": 0.7367511987686157,
+      "p_agg": 0.15680307149887085,
+      "charge": 3.0999999999999996,
+      "gravy": -0.9357142857142858,
+      "boman": 1.5742857142857143,
+      "passes_all_gates": true
+    },
+    {
+      "sequence": "MKAVRKKYEDKME",
+      "score": 0.5500208380121537,
+      "p_acp": 0.676706075668335,
+      "p_sol": 0.8734943270683289,
+      "p_agg": 0.06949442625045776,
+      "charge": 2.0,
+      "gravy": -0.8230769230769232,
+      "boman": 1.6123076923076924,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "QKKIPKAMNLQGGD",
+      "score": 0.5471290532348974,
+      "p_acp": 0.8474825620651245,
+      "p_sol": 0.7934034466743469,
+      "p_agg": 0.18629886209964752,
+      "charge": 2.0,
+      "gravy": -0.9642857142857143,
+      "boman": 1.5021428571428574,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "AKIDTLARREKRKPM",
+      "score": 0.5466999288809129,
+      "p_acp": 0.7569615244865417,
+      "p_sol": 0.7975921630859375,
+      "p_agg": 0.0944877415895462,
+      "charge": 4.0,
+      "gravy": -1.02,
+      "boman": 1.7680000000000002,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KWQGQKKHFDAQKP",
+      "score": 0.5464088431134388,
+      "p_acp": 0.83336341381073,
+      "p_sol": 0.7658463716506958,
+      "p_agg": 0.14386622607707977,
+      "charge": 3.0999999999999996,
+      "gravy": -1.4571428571428573,
+      "boman": 1.6849999999999998,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KDLAKPFKAYDRARVM",
+      "score": 0.542149753959932,
+      "p_acp": 0.8682858943939209,
+      "p_sol": 0.7592208385467529,
+      "p_agg": 0.17758996784687042,
+      "charge": 3.0,
+      "gravy": -0.29375,
+      "boman": 1.6218750000000002,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KMRDRKTIDHRHAKN",
+      "score": 0.5216667282076606,
+      "p_acp": 0.6998081803321838,
+      "p_sol": 0.8132179975509644,
+      "p_agg": 0.08334240317344666,
+      "charge": 4.2,
+      "gravy": -1.5666666666666667,
+      "boman": 1.6113333333333333,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KGDLFSKKRRLHK",
+      "score": 0.5137037755814462,
+      "p_acp": 0.7964932322502136,
+      "p_sol": 0.7098984122276306,
+      "p_agg": 0.0914800614118576,
+      "charge": 5.1,
+      "gravy": -1.8846153846153846,
+      "boman": 1.9330769230769234,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "FTKLRKKSDKGMNI",
+      "score": 0.46750542189836936,
+      "p_acp": 0.9201667308807373,
+      "p_sol": 0.7009122967720032,
+      "p_agg": 0.27513614296913147,
+      "charge": 4.0,
+      "gravy": -1.4214285714285713,
+      "boman": 1.8414285714285714,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "NMMFSDKRDHFLKKI",
+      "score": 0.45475129309869256,
+      "p_acp": 0.7070394158363342,
+      "p_sol": 0.7569901347160339,
+      "p_agg": 0.1503499299287796,
+      "charge": 2.1,
+      "gravy": -0.41333333333333333,
+      "boman": 1.6573333333333338,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "RDMRIVKMPLFER",
+      "score": 0.43984205170984403,
+      "p_acp": 0.7598177790641785,
+      "p_sol": 0.7104052901268005,
+      "p_agg": 0.18514354526996613,
+      "charge": 2.0,
+      "gravy": -0.3384615384615385,
+      "boman": 1.5061538461538464,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "GFWATNLKLHFQEKR",
+      "score": 0.34836665853907256,
+      "p_acp": 0.773938000202179,
+      "p_sol": 0.6273469924926758,
+      "p_agg": 0.28249886631965637,
+      "charge": 2.1,
+      "gravy": -0.39333333333333337,
+      "boman": 1.7793333333333332,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "NLKRITKIPMMGSRL",
+      "score": 0.32187996568204014,
+      "p_acp": 0.7462239861488342,
+      "p_sol": 0.5728442072868347,
+      "p_agg": 0.2470117211341858,
+      "charge": 4.0,
+      "gravy": -0.6266666666666666,
+      "boman": 1.618,
+      "passes_all_gates": false
+    }
+  ],
+  "scramble_control_seed103": [
+    {
+      "sequence": "FDKQSEKKILCDKKAR",
+      "parent": "KLFKKICRQAEKDKDS",
+      "score": 0.6791401900293744,
+      "p_acp": 0.9230287671089172,
+      "p_sol": 0.8052419424057007,
+      "p_agg": 0.08627016097307205,
+      "charge": 3.0,
+      "gravy": -1.2499999999999998,
+      "boman": 1.6787500000000002,
+      "passes_all_gates": true
+    },
+    {
+      "sequence": "HKKKADGKLREAKKVD",
+      "parent": "AKDKEKVHRKDGLKKA",
+      "score": 0.752027595839655,
+      "p_acp": 0.9568800926208496,
+      "p_sol": 0.8617939949035645,
+      "p_agg": 0.08804628998041153,
+      "charge": 4.1,
+      "gravy": -1.5437500000000002,
+      "boman": 1.6581250000000003,
+      "passes_all_gates": true
+    },
+    {
+      "sequence": "AGKLEVEHKDRGKKKL",
+      "parent": "AEKKLKKDRHLVGKGE",
+      "score": 0.6891001992063646,
+      "p_acp": 0.8295742869377136,
+      "p_sol": 0.9013841152191162,
+      "p_agg": 0.07845363020896912,
+      "charge": 3.0999999999999996,
+      "gravy": -1.55625,
+      "boman": 1.5300000000000002,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "ICAKKCADKAKDWRKE",
+      "parent": "KWIKKRCKECADAKAD",
+      "score": 0.6568499469619484,
+      "p_acp": 0.8355214595794678,
+      "p_sol": 0.8425259590148926,
+      "p_agg": 0.06690627336502075,
+      "charge": 3.0,
+      "gravy": -0.7125,
+      "boman": 1.573125,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "IKQKGCSWKKEKK",
+      "parent": "KWKCQKKISKGEK",
+      "score": 0.6077515460649373,
+      "p_acp": 0.8793793320655823,
+      "p_sol": 0.7640424966812134,
+      "p_agg": 0.09545057266950607,
+      "charge": 5.0,
+      "gravy": -1.9307692307692308,
+      "boman": 1.7784615384615388,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KKMQTDMDPKKECKWL",
+      "parent": "KDEKKMQMKTCLWPKD",
+      "score": 0.5008776990198824,
+      "p_acp": 0.6868036985397339,
+      "p_sol": 0.7987163066864014,
+      "p_agg": 0.08692485839128494,
+      "charge": 2.0,
+      "gravy": -1.51875,
+      "boman": 1.5350000000000001,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "SARKETATMQDKKWHK",
+      "parent": "KERTTSDAMKHWKQAK",
+      "score": 0.6081927139570201,
+      "p_acp": 0.8882421851158142,
+      "p_sol": 0.7792631983757019,
+      "p_agg": 0.12133029848337173,
+      "charge": 3.0999999999999996,
+      "gravy": -1.3875000000000002,
+      "boman": 1.69875,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "HDIQWHDKEWFSKKKK",
+      "parent": "DHKWKKKISDFWHQEK",
+      "score": 0.5316935839351643,
+      "p_acp": 0.8131922483444214,
+      "p_sol": 0.7793605327606201,
+      "p_agg": 0.16106216609477997,
+      "charge": 2.2,
+      "gravy": -1.36875,
+      "boman": 1.5625000000000004,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "LKAGFCKLLKEDNHKR",
+      "parent": "DLGLFNKCHKKEKRAL",
+      "score": 0.5551218996055607,
+      "p_acp": 0.796173095703125,
+      "p_sol": 0.7742629647254944,
+      "p_agg": 0.09948204457759857,
+      "charge": 3.0999999999999996,
+      "gravy": -0.85625,
+      "boman": 1.57125,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "RLMERSLKDRFKHV",
+      "parent": "DRLHVMRKRSEKLF",
+      "score": 0.3343467578598971,
+      "p_acp": 0.5122691988945007,
+      "p_sol": 0.7275998592376709,
+      "p_agg": 0.10297144949436188,
+      "charge": 3.0999999999999996,
+      "gravy": -0.9357142857142858,
+      "boman": 1.574285714285714,
+      "passes_all_gates": false
+    }
+  ],
+  "random_panel_seed107": [
+    {
+      "sequence": "THRNDLHRSTWDQLA",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KFEKTSLYHNTVRN",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "FNDQSVHGNCSNCI",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "IYSKARPLNMNLPH",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "QIYDKDWIKDSFSGG",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "TMNKFYVDWIFGFHRD",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "QEGDCVACYDMHIEHQ",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "FEATVLCNLYYIRCL",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "RFRWFLYQCHWCK",
+      "in_kernel": true,
+      "score": 0.1606870673269177,
+      "p_acp": 0.8733763098716736,
+      "p_sol": 0.3862931728363037,
+      "p_agg": 0.523719847202301,
+      "charge": 3.0999999999999996,
+      "gravy": -0.16923076923076924,
+      "boman": 1.7300000000000002,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KIKGLRLFCFRHRN",
+      "in_kernel": true,
+      "score": 0.15654230076573863,
+      "p_acp": 0.4343179166316986,
+      "p_sol": 0.4915318787097931,
+      "p_agg": 0.2667158842086792,
+      "charge": 5.1,
+      "gravy": -0.6357142857142858,
+      "boman": 1.8328571428571425,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "LNEYRFVYPLHDAIC",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "HHKSLCASMQKFNVSQ",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "TSSKARWQGIYQFF",
+      "in_kernel": true,
+      "score": 0.09053573842206225,
+      "p_acp": 0.5605649948120117,
+      "p_sol": 0.3765711784362793,
+      "p_agg": 0.5711089372634888,
+      "charge": 2.0,
+      "gravy": -0.542857142857143,
+      "boman": 1.7514285714285713,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "YAWWLHMNLSWHKSKL",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "FQFFTINFLHFHFKK",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "SCEKAATISFCQTRK",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "CNVMDCAGPHWVRHEQ",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "RLGIQANSMYQPHGG",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "WDHQSTREAMQKDQM",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "PTCMLNNAMGYCH",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "DQRFKMKTKGEWW",
+      "in_kernel": true,
+      "score": 0.33989791231075156,
+      "p_acp": 0.6226072907447815,
+      "p_sol": 0.6488980054855347,
+      "p_agg": 0.15868650376796722,
+      "charge": 2.0,
+      "gravy": -1.3769230769230771,
+      "boman": 2.007692307692308,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "EPCMGCPDDTNQAP",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KAEGESFCDDMVCYG",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "CEHEFFEEHCAGYDAW",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "ESCPDMLLSPMQGALG",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "CWARNFLYPVPIKP",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "FAFSLDPGKSKMT",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "EHHISYWKMQGVHLY",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "IIFWCSQVSAHAD",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KFICFCWYVKEFH",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "VKQYCRAYLRMQNHWD",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "AVTGKGATDCFHFWQG",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "YSVQRHISCGMWVQ",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "WNEGYDKYLAAKSNRH",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "LHVPATYNFQTEHFWA",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "ISCRRMVEPFVHMQS",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "QGFGTDHICFSFM",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "RHGEVNKTDNTGTC",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "ILVAHCFDAASRFSRT",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "NFHSEPDDHRHAD",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "NTLKGFYSNLDEDCYF",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "FTRCDGHPYRAVL",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "LTILLHITYTLLHLH",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KNIRVWPWHDDPRKE",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "EMRCIGWTSWWWTYG",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "RTFRAQMGPRMRY",
+      "in_kernel": true,
+      "score": 0.2189122779292481,
+      "p_acp": 0.6517144441604614,
+      "p_sol": 0.4545338749885559,
+      "p_agg": 0.2609964609146118,
+      "charge": 4.0,
+      "gravy": -1.0153846153846156,
+      "boman": 1.8338461538461535,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "MFTSLEGISTSYNS",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "VDYWVDISHLVNTFP",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "FVGAICAQDKSEDSP",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "LDYLQIISWISMYC",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "VLDCIMERDTHRDWIN",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "NASMHGWEFYPDWD",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "RVRHMNWVFQTIG",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "LWDHWGTAKRAFNN",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "HLEWFHMFMNQRVCDF",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "GGADGHDGVCIYWF",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "RPGYEEKYHWDCTC",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "WDTAHQKQKVRGRC",
+      "in_kernel": true,
+      "score": 0.32474504819104727,
+      "p_acp": 0.5971570611000061,
+      "p_sol": 0.6867268085479736,
+      "p_agg": 0.20810069143772125,
+      "charge": 3.0999999999999996,
+      "gravy": -1.5214285714285711,
+      "boman": 1.5064285714285717,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "AWCKEIMNELYHFMD",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "LGWNTYVWQYPSCQ",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "CWCWEQQIANNHAP",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "EAIFKGTFGAHWWIP",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "SEQLNSGKDGLEFI",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "VMTTTFLGMIKRGDHH",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "PVSTYQYPRNIRAM",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "SNPSQEPEWGYEP",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "SEAGNQLTALINKQL",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "MWRDRLLPGQGQEL",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "ALWTLEIPHRVQNYK",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KTVGDMMAQSYTP",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "GNVGFGTGSRCNW",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "QNWNLQGIEIIGKV",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "MCDPQVDRECWQDRMC",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "VLAFMNHTAWFPIFM",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "DRPAIYKAHNAPAL",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "SICWWWRTSDHPP",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KSWMGNAAPHLWAHTF",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "NFMGEGMARKHKCVG",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "YGMPSHQWQRGQQSMG",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "GDSVYKPKTRLFFES",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KPTCDAGMNQEDSCN",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "QKEQDTSGQPHAMWDQ",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "RKYSRLDAMFKFN",
+      "in_kernel": true,
+      "score": 0.29132533461184695,
+      "p_acp": 0.6368759870529175,
+      "p_sol": 0.5844889879226685,
+      "p_agg": 0.21738702058792114,
+      "charge": 3.0,
+      "gravy": -0.4076923076923078,
+      "boman": 1.8007692307692307,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "CTGTVAYCWMSPDDE",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "TAYHHHHDIMPCTHCT",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "SMWDGTWLYYQNI",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KGIIYGLVTTGERMF",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "VKWFVSMDVCSQYRL",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "MLHRSERWGFTARNS",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "PVFYCKQLMMGCN",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "PTMCTHFDHIPAVK",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "WDYDTTEDVHHTWW",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "CMIANSRPMWKRFAYH",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "YNYGSRLQMPVERG",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "HRTYPCDPMYSNHSC",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "TTMDYFVCMSQCDLV",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "FPREDTPAMKIEGYC",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "YYNHVVPPSFHVYPSM",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "KTSCRWPPFQRHEFCN",
+      "in_kernel": false,
+      "passes_all_gates": false
+    },
+    {
+      "sequence": "PWLKDSMIEWRMLKQ",
+      "in_kernel": false,
+      "passes_all_gates": false
+    }
+  ]
+}

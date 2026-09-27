@@ -14,3 +14,9 @@ Branch: `paper-build`, paper directory only.
 ## Judge requirement amended, 2026-09-27 10:00 IST
 
 The owner said "NOT 10 ROUNDS OOF CHATGPT CHECK JUST ONE WHICH I PROVIDE OK?" (authenticated WhatsApp message `wamid.HBgMOTE4MTM0MDk4NTcxFQIAEhgWM0VCMDJCMTZGRTVEMkQwMTFBQzc4MQA=`, 10:00:07 IST). For this project, the paper branch therefore marks the counted judge gate **0 of 1, PENDING her personally provided verdict**. A round initiated by agents, even through her ChatGPT account, remains historical or supplementary and does not meet the gate. Historical ten-round language in the science ledgers is not erased by this note. A project-specific user-pasted verdict must be traced and evaluated before completion is recorded. Supplementary Gemini/LLM consults do not count. No scientific result, page count or font gate changes here.
+
+## Authorship-attribution cleanup, 2026-09-27 11:14 IST
+
+The owner requested removal of the assistant's attribution from the papers (WhatsApp `wamid.HBgMOTE4MTM0MDk4NTcxFQIAEhgWM0VCMEY5MzY4M0Q4OUYwNjg4ODZDNwA=`). Removed agent/program-style byline and credit text from the editable paper source and PDF display, without substituting an author. Udita's own byline in 09b was preserved, with only the Instinct pipeline parenthetical removed. Manuscript PDF author metadata is empty. Literature references to other studies' authors and technical uses of "author numbering" are not authorship credits for this paper.
+
+Licensed-TNR rebuild still unavailable here: the three existing paper PDFs (48-page source PDF, 50-page audit composite, 52-page updates composite) were redacted on the first page to remove the generated pipeline byline. This is a PDF edit, not a fresh typeset rebuild. First-page pixels and text extraction were checked; licensed TNR remains embedded on the original 48 pages, while appended pages in the composites remain Nimbus Roman.

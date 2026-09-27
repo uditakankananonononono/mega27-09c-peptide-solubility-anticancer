@@ -51,27 +51,43 @@ def wide_map(seqs, path):
         mm[i:i+2000] = np.stack(rows).astype('float32')
     mm.flush(); return mm
 
-print('featurizing dpc...', flush=True)
-Xtr = feats_dpc(tr_s, '/tmp/dsol_xtr.mmap')
-Xva_d = feats_dpc(va_s, '/tmp/dsol_xva_d.mmap')
-Xte_d = feats_dpc(te_s, '/tmp/dsol_xte_d.mmap')
+import os
+if os.path.exists('/tmp/dsol_p_et_te.npy'):
+    print('resume: ET stage already done, skipping', flush=True)
+else:
+    print('featurizing dpc...', flush=True)
+    Xtr = feats_dpc(tr_s, '/tmp/dsol_xtr.mmap')
+    Xva_d = feats_dpc(va_s, '/tmp/dsol_xva_d.mmap')
+    Xte_d = feats_dpc(te_s, '/tmp/dsol_xte_d.mmap')
 
-print('ET fit...', flush=True)
-et = ExtraTreesClassifier(n_estimators=400, random_state=SEED, n_jobs=2)
-et.fit(Xtr, ytr)
-p_et_va = et.predict_proba(Xva_d)[:, 1]
-p_et_te = et.predict_proba(Xte_d)[:, 1]
-print('ET val auc', round(roc_auc_score(yva, p_et_va), 4), flush=True)
-np.save('/tmp/dsol_p_et_te.npy', p_et_te)
-del Xtr, Xva_d, Xte_d, et
+    print('ET fit...', flush=True)
+    et = ExtraTreesClassifier(n_estimators=400, random_state=SEED, n_jobs=2)
+    et.fit(Xtr, ytr)
+    p_et_va = et.predict_proba(Xva_d)[:, 1]
+    p_et_te = et.predict_proba(Xte_d)[:, 1]
+    print('ET val auc', round(roc_auc_score(yva, p_et_va), 4), flush=True)
+    np.save('/tmp/dsol_p_et_te.npy', p_et_te)
+    np.save('/tmp/dsol_p_et_va.npy', p_et_va)
+    del Xtr, Xva_d, Xte_d, et
+p_et_va = np.load('/tmp/dsol_p_et_va.npy') if os.path.exists('/tmp/dsol_p_et_va.npy') else None
+p_et_te = np.load('/tmp/dsol_p_et_te.npy')
 
-print('wide+idx featurizing...', flush=True)
-Itr = idx_map(tr_s, '/tmp/dsol_itr.mmap')
-Wtr = wide_map(tr_s, '/tmp/dsol_wtr.mmap')
-Iva = idx_map(va_s, '/tmp/dsol_iva.mmap')
-Wva = wide_map(va_s, '/tmp/dsol_wva.mmap')
-Ite = idx_map(te_s, '/tmp/dsol_ite.mmap')
-Wte = wide_map(te_s, '/tmp/dsol_wte.mmap')
+if all(os.path.exists(p) for p in ['/tmp/dsol_itr.mmap','/tmp/dsol_wtr.mmap','/tmp/dsol_iva.mmap','/tmp/dsol_wva.mmap','/tmp/dsol_ite.mmap','/tmp/dsol_wte.mmap']):
+    print('resume: wide+idx memmaps exist, reusing', flush=True)
+    Itr = np.memmap('/tmp/dsol_itr.mmap', dtype='int16', mode='r', shape=(len(tr_s), MAXLEN))
+    Wtr = np.memmap('/tmp/dsol_wtr.mmap', dtype='float32', mode='r', shape=(len(tr_s), 438))
+    Iva = np.memmap('/tmp/dsol_iva.mmap', dtype='int16', mode='r', shape=(len(va_s), MAXLEN))
+    Wva = np.memmap('/tmp/dsol_wva.mmap', dtype='float32', mode='r', shape=(len(va_s), 438))
+    Ite = np.memmap('/tmp/dsol_ite.mmap', dtype='int16', mode='r', shape=(len(te_s), MAXLEN))
+    Wte = np.memmap('/tmp/dsol_wte.mmap', dtype='float32', mode='r', shape=(len(te_s), 438))
+else:
+    print('wide+idx featurizing...', flush=True)
+    Itr = idx_map(tr_s, '/tmp/dsol_itr.mmap')
+    Wtr = wide_map(tr_s, '/tmp/dsol_wtr.mmap')
+    Iva = idx_map(va_s, '/tmp/dsol_iva.mmap')
+    Wva = wide_map(va_s, '/tmp/dsol_wva.mmap')
+    Ite = idx_map(te_s, '/tmp/dsol_ite.mmap')
+    Wte = wide_map(te_s, '/tmp/dsol_wte.mmap')
 mu = Wtr[:].mean(0, keepdims=True); sd = Wtr[:].std(0, keepdims=True).clip(1e-6)
 np.save('/tmp/dsol_mu.npy', mu); np.save('/tmp/dsol_sd.npy', sd)
 
@@ -89,10 +105,17 @@ def batch(i, d):
     return xi, xd
 
 best_val, best_state, bad = -1.0, None, 0
-for ep in range(30):
+start_ep = 0
+if os.path.exists('/tmp/dsol_full_ckpt.pt'):
+    ck = torch.load('/tmp/dsol_full_ckpt.pt')
+    model.load_state_dict(ck['model']); opt.load_state_dict(ck['opt'])
+    best_val, best_state, bad = ck['best_val'], ck['best_state'], ck['bad']
+    start_ep = ck['epoch'] + 1
+    print('resume: full checkpoint, next epoch', start_ep, 'best', round(best_val, 4), flush=True)
+for ep in range(start_ep, 30):
     model.train(); perm = np.random.permutation(n)
-    for i in range(0, n, 64):
-        b = perm[i:i+64]
+    for i in range(0, n, 256):
+        b = perm[i:i+256]
         xi, xd = batch(Itr[b], Wtr[b])
         opt.zero_grad()
         lf(model(xi, xd), ytr_t[torch.from_numpy(b)]).backward(); opt.step()
@@ -110,7 +133,10 @@ for ep in range(30):
         best_state = {k: v.clone() for k, v in model.state_dict().items()}
     else:
         bad += 1
-        if bad >= 3: print('early stop', flush=True); break
+    torch.save(dict(model=model.state_dict(), opt=opt.state_dict(), epoch=ep,
+                    best_val=best_val, best_state=best_state, bad=bad),
+               '/tmp/dsol_full_ckpt.pt')
+    if bad >= 3: print('early stop', flush=True); break
 model.load_state_dict(best_state); model.eval()
 pt = []
 with torch.no_grad():

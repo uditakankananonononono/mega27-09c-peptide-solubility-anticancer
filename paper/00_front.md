@@ -1,6 +1,6 @@
 ---
 title: "Tri-Objective Peptide Intelligence: Benchmark-Headed Models for Anticancer Activity, Solubility and Aggregation, a Head-to-Head Win over FoldAmyloid on pep424, and a Multi-Task Discovery Screen"
-author: "MEGA-PROGRAM-27, Item 9 Part 3 --- automated research pipeline (pepx)"
+author: ""
 date: "September 25, 2026"
 geometry: margin=1in
 fontsize: 12pt

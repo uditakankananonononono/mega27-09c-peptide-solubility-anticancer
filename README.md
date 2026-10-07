@@ -8,7 +8,7 @@ Part of the MEGA-PROGRAM-27 computational-biology program (item 9, part 3).
 3. A reusable tool: `pepx` CLI + library for tri-objective peptide scoring.
 
 ## Rules of the house
-- Real open datasets only; every dataset logged in data/MANIFEST.md with source URL + checksum.
+- Real open datasets only; every dataset logged in data/MANIFEST.md with source URL (the manifest has no checksum column; checksums exist only where noted in the ledgers, and per-file coverage is incomplete, see DATASET_LEDGER.md).
 - Hermetic pytest suite; no network at test time.
 - CNN + GNN core architectures (PyTorch, CPU).
 - All claims verified against locked splits; honest negatives preserved in results/.
